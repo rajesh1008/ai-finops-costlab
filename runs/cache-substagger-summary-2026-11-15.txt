@@ -1,0 +1,5 @@
+gap 0 {'chains': 4, 'calls': 16, 'reads': 0, 'writes': 16, 'mean_cost_per_chain': 0.0236935, 'mean_latency_s': 0.43125}
+gap 0.1 {'chains': 4, 'calls': 16, 'reads': 8, 'writes': 8, 'mean_cost_per_chain': 0.01282175, 'mean_latency_s': 0.373125}
+gap 0.2 {'chains': 4, 'calls': 16, 'reads': 10, 'writes': 6, 'mean_cost_per_chain': 0.010153075000000001, 'mean_latency_s': 0.371875}
+gap 0.4 {'chains': 4, 'calls': 16, 'reads': 12, 'writes': 4, 'mean_cost_per_chain': 0.007419975, 'mean_latency_s': 0.34812499999999996}
+gap 0.8 {'chains': 4, 'calls': 16, 'reads': 12, 'writes': 4, 'mean_cost_per_chain': 0.00743995, 'mean_latency_s': 0.3412499999999999}

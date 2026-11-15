@@ -1,0 +1,12 @@
+20 chains, 10 with a write burst (window 0.25s)
+{'gap': 0, 'rep': 0, 'writes': 4, 'close_pairs': 3}
+{'gap': 0.1, 'rep': 0, 'writes': 2, 'close_pairs': 1}
+{'gap': 0.2, 'rep': 0, 'writes': 2, 'close_pairs': 1}
+{'gap': 0, 'rep': 1, 'writes': 4, 'close_pairs': 3}
+{'gap': 0.1, 'rep': 1, 'writes': 2, 'close_pairs': 1}
+{'gap': 0, 'rep': 2, 'writes': 4, 'close_pairs': 3}
+{'gap': 0.1, 'rep': 2, 'writes': 2, 'close_pairs': 1}
+{'gap': 0, 'rep': 3, 'writes': 4, 'close_pairs': 3}
+{'gap': 0.1, 'rep': 3, 'writes': 2, 'close_pairs': 1}
+{'gap': 0.2, 'rep': 3, 'writes': 2, 'close_pairs': 1}
+extra spend on repeat writes: $0.0974
