@@ -1,0 +1,6 @@
+sessions 16 errors 0 calls 216
+plain n 8 input/session 6938.1 output/session 574.4 cost/session $ 0.00981 correct of 8 per session [6, 6, 6, 6, 8, 7, 8, 8] mean 6.88
+  per-question correct counts: [4, 5, 8, 8, 8, 8, 6, 8]
+folded n 8 input/session 6140.0 output/session 872.1 cost/session $ 0.0105 correct of 8 per session [6, 5, 6, 4, 6, 7, 6, 5] mean 5.62
+  per-question correct counts: [1, 1, 8, 8, 6, 8, 5, 8]
+  summary output tokens: [253, 261, 255, 275, 267, 271, 262, 268] truncated: 0

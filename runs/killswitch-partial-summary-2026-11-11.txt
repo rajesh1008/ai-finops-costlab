@@ -1,0 +1,9 @@
+killswitch-partial-lab-2026-11-11.json
+h45 none: n=8 median steps=2.0 max steps=2 mean cost=$0.0020 max cost=$0.0022 reasons={'finished': 8}
+h45 breaker: n=8 median steps=2.0 max steps=2 mean cost=$0.0020 max cost=$0.0021 reasons={'finished': 8}
+h45 cap: n=8 median steps=2.0 max steps=2 mean cost=$0.0020 max cost=$0.0022 reasons={'finished': 8}
+h55 none: n=8 median steps=2.0 max steps=2 mean cost=$0.0002 max cost=$0.0002 reasons={'finished': 8}
+h55 breaker: n=8 median steps=2.0 max steps=2 mean cost=$0.0002 max cost=$0.0002 reasons={'finished': 8}
+h55 cap: n=8 median steps=2.0 max steps=2 mean cost=$0.0002 max cost=$0.0002 reasons={'finished': 8}
+human-only minutes to stop: 90 cost with 10-minute ramp: $2635
+breaker at gateway minutes to stop: 1.0 cost: $2

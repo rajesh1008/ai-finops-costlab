@@ -1,0 +1,9 @@
+killswitch-nudge-lab-2026-11-11.json
+h45 none: n=8 median steps=4.0 max steps=4 mean cost=$0.0046 max cost=$0.0046 reasons={'finished': 8}
+h45 breaker: n=8 median steps=3.0 max steps=3 mean cost=$0.0033 max cost=$0.0033 reasons={'breaker': 8}
+h45 cap: n=8 median steps=4.0 max steps=4 mean cost=$0.0046 max cost=$0.0046 reasons={'finished': 8}
+h55 none: n=8 median steps=4.0 max steps=4 mean cost=$0.0005 max cost=$0.0005 reasons={'finished': 8}
+h55 breaker: n=8 median steps=3.0 max steps=3 mean cost=$0.0003 max cost=$0.0004 reasons={'breaker': 8}
+h55 cap: n=8 median steps=4.0 max steps=4 mean cost=$0.0005 max cost=$0.0005 reasons={'finished': 8}
+human-only minutes to stop: 90 cost with 10-minute ramp: $2635
+breaker at gateway minutes to stop: 1.0 cost: $2

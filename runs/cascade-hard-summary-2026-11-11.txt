@@ -1,0 +1,20 @@
+errors: 0
+model  samples  correct    rate  avg in  avg out     $/call
+  H45       80        6    7.5%   107.0    150.1   0.000858
+  H55       80       62   77.5%   141.0    274.1   0.000151
+  S46       40       23   57.5%   107.0    249.4   0.004063
+ EXPR       40        1    2.5%   192.0    199.9   0.000119
+EXPR strict reading (whole reply must be an expression): evaluator failures 39 of 40
+EXPR lenient reading (last pure-arithmetic line, written after the fact): valid 38 of 40, correct 38 of 40, correct among valid 38/38
+POLICIES
+always H45: 10.0% $0.000859
+always H55: 75.0% $0.000151
+always S46: 57.5% $0.004063
+2x H45 agree else S46: 57.5% $0.005678 escalated 97.5%
+2x H55 agree else S46: 67.5% $0.002691 escalated 60.0%
+oracle H45 then S46 if wrong: 62.5% $0.004506 (bound)
+oracle H55 then S46 if wrong: 82.5% $0.001146 (bound)
+EXPR, S46 only if it does not evaluate: 57.5% $0.004076 escalated 97.5%
+H45: agreed on 1/40; both correct on 0/1
+H55: agreed on 16/40; both correct on 14/16
+EXPR lenient, S46 only when no expression found: 100.0% $0.000336 escalated 5.0%

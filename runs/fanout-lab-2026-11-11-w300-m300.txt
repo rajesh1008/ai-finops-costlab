@@ -1,0 +1,4 @@
+claude-haiku-4-5-20251001 S n 10 all-correct 10 docs_ok mean 6.00 in/run 1579 out/run 27 calls 1
+claude-haiku-4-5-20251001 F n 10 all-correct 10 docs_ok mean 6.00 in/run 2646 out/run 36 calls 7
+claude-haiku-5-5 S n 10 all-correct 10 docs_ok mean 6.00 in/run 2317 out/run 170 calls 1
+claude-haiku-5-5 F n 10 all-correct 10 docs_ok mean 6.00 in/run 3845 out/run 61 calls 7

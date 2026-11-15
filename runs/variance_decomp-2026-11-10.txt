@@ -1,0 +1,19 @@
+SYNTHETIC. Forecast made at month `at` by holding cost per task flat and growing users 7% and tasks per user 3% a month.
+
+made at month 8, target month 10: forecast $32,313, actual $62,409, miss -93.1% of forecast
+   users           -0.000 log points  (-0.0%)
+   tasks per user  +0.470 log points  (+60.0%)
+   cost per task   +0.203 log points  (+22.5%)
+   residual (noise) -0.014
+
+made at month 11, target month 14: forecast $94,029, actual $58,119, miss +38.2% of forecast
+   users           +0.011 log points  (+1.1%)
+   tasks per user  +0.000 log points  (+0.0%)
+   cost per task   -0.461 log points  (-36.9%)
+   residual (noise) -0.031
+
+made at month 14, target month 17: forecast $80,275, actual $76,274, miss +5.0% of forecast
+   users           -0.011 log points  (-1.1%)
+   tasks per user  +0.000 log points  (+0.0%)
+   cost per task   -0.030 log points  (-3.0%)
+   residual (noise) -0.010

@@ -1,0 +1,4 @@
+most expensive three: loop-1 $0.00435, loop-2 $0.00320, billing-2 $0.00218
+after blanking: sessions in table 8 (was 10); largest group None $0.00973 from 9 calls
+share of calls with no session id: 9/19 = 47.4%
+largest before $0.00435; after / before = 2.2x

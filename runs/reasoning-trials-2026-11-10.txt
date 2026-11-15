@@ -1,0 +1,22 @@
+no-thinking 1: correct=False billed_output=84
+no-thinking 2: correct=True billed_output=201
+no-thinking 3: correct=False billed_output=83
+no-thinking 4: correct=False billed_output=76
+no-thinking 5: correct=False billed_output=47
+no-thinking 6: correct=False billed_output=85
+no-thinking 7: correct=False billed_output=76
+no-thinking 8: correct=False billed_output=71
+no-thinking 9: correct=False billed_output=55
+no-thinking 10: correct=False billed_output=76
+SUMMARY no-thinking: correct 1/10 billed_output min=47 median=76 max=201 mean=85
+thinking-2048 1: correct=True billed_output=456
+thinking-2048 2: correct=True billed_output=450
+thinking-2048 3: correct=True billed_output=390
+thinking-2048 4: correct=True billed_output=300
+thinking-2048 5: correct=True billed_output=368
+thinking-2048 6: correct=True billed_output=452
+thinking-2048 7: correct=True billed_output=380
+thinking-2048 8: correct=True billed_output=395
+thinking-2048 9: correct=True billed_output=414
+thinking-2048 10: correct=True billed_output=399
+SUMMARY thinking-2048: correct 10/10 billed_output min=300 median=399 max=456 mean=400

@@ -1,0 +1,18 @@
+== batch share (ASSUMED monthly synchronous spend $40,000, batch factor 0.5 from the vendor page)
+batchable share   5%: blended $39,000  saving $1,000 (2.5%)
+batchable share  10%: blended $38,000  saving $2,000 (5.0%)
+batchable share  30%: blended $34,000  saving $6,000 (15.0%)
+batchable share  50%: blended $30,000  saving $10,000 (25.0%)
+
+== self-hosting, ASSUMED: one GPU at $3.49/hour sustaining 1,000 output tokens/s at the latency target; API $3.50 per million output tokens
+tokens/hour to match the API price: 1.00 million
+U* (break-even utilisation) = 0.277
+utilisation 100%: $  0.97 per million output tokens  (   1x the full-use figure)
+utilisation  50%: $  1.94 per million output tokens  (   2x the full-use figure)
+utilisation  25%: $  3.88 per million output tokens  (   4x the full-use figure)
+utilisation  10%: $  9.69 per million output tokens  (  10x the full-use figure)
+utilisation   5%: $ 19.39 per million output tokens  (  20x the full-use figure)
+
+== capacity for a peak (ASSUMED peak 3,500 tokens/s, one unit 1,000 tokens/s, run at 70% at peak)
+units 5, monthly $12,739
+if average demand is 600 tokens/s the fleet's average utilisation is 12.0%, effective $8.08 per million output tokens

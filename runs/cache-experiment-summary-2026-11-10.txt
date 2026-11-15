@@ -1,0 +1,7 @@
+cache-1 in 17 out 52 cache_read 0 cache_write 7530 est_usd 0.0096895
+cache-2 in 15 out 29 cache_read 7530 cache_write 0 est_usd 0.000913
+cache-3 in 18 out 34 cache_read 7530 cache_write 0 est_usd 0.000941
+cache-4 in 15 out 65 cache_read 7530 cache_write 0 est_usd 0.001093
+cache-5 in 13 out 50 cache_read 7530 cache_write 0 est_usd 0.001016
+total_est_usd 0.013653
+uncached_equivalent_usd 0.038878 actual_est_usd 0.013653 saving_pct 64.9

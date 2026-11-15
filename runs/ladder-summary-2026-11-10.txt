@@ -1,0 +1,45 @@
+Part 1: measured rungs (120 questions; templates A 40%, B 30%, C 30% by design)
+  full          mean cost $0.002846  correct 113/120 = 0.942 (95% Wilson 0.884 to 0.971)  abstained 0  by template A 47/50 B 38/38 C 28/32
+  reduced       mean cost $0.000066  correct 87/120 = 0.725 (95% Wilson 0.639 to 0.797)  abstained 0  by template A 47/50 B 38/38 C 2/32
+  deterministic mean cost $0.000000  correct 85/120 = 0.708 (95% Wilson 0.622 to 0.782)  abstained 35  by template A 47/50 B 38/38 C 0/32
+  full steps mean 2.45; cost ratio full/reduced (means) 42.9x
+  reduced rung wrong answers (not abstentions): 1 ; abstained ('cannot answer'): 32
+  full rung wrong: 7
+
+Part 2: SYNTHETIC day, 5,000 requests, Zipf over a universe of distinct questions that reuse the 120 measured outcomes; 13 of 160 clauses revised, so 4 of the 120 measured questions have a stale cached answer
+ (universe of 1500 distinct questions, Zipf s=0.9)
+ budget = 100% of the no-cache all-full cost
+   cliff        correct 0.939 wrong 0.061 off 0.000  spend $14.53 of budget $14.53  rung shares cache 0.00 full 1.00 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+   cliff_cache  correct 0.913 wrong 0.087 off 0.000  spend $3.04 of budget $14.53  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+   ladder_naive correct 0.855 wrong 0.079 off 0.066  spend $2.78 of budget $14.53  rung shares cache 0.79 full 0.19 reduced 0.02 deterministic 0.00 off 0.00  off in last fifth of day 0.06
+   ladder       correct 0.890 wrong 0.085 off 0.025  spend $3.00 of budget $14.53  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.02
+   ladder_prior correct 0.913 wrong 0.087 off 0.000  spend $3.04 of budget $14.53  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+ budget = 50% of the no-cache all-full cost
+   cliff        correct 0.470 wrong 0.030 off 0.499  spend $7.26 of budget $7.27  rung shares cache 0.00 full 0.50 reduced 0.00 deterministic 0.00 off 0.50  off in last fifth of day 1.00
+   cliff_cache  correct 0.913 wrong 0.087 off 0.000  spend $3.04 of budget $7.27  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+   ladder_naive correct 0.712 wrong 0.038 off 0.250  spend $0.92 of budget $7.27  rung shares cache 0.79 full 0.06 reduced 0.15 deterministic 0.00 off 0.00  off in last fifth of day 0.23
+   ladder       correct 0.777 wrong 0.053 off 0.170  spend $2.34 of budget $7.27  rung shares cache 0.79 full 0.16 reduced 0.05 deterministic 0.00 off 0.00  off in last fifth of day 0.16
+   ladder_prior correct 0.913 wrong 0.087 off 0.000  spend $3.04 of budget $7.27  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+ budget = 25% of the no-cache all-full cost
+   cliff        correct 0.235 wrong 0.015 off 0.750  spend $3.63 of budget $3.63  rung shares cache 0.00 full 0.25 reduced 0.00 deterministic 0.00 off 0.75  off in last fifth of day 1.00
+   cliff_cache  correct 0.913 wrong 0.087 off 0.000  spend $3.04 of budget $3.63  rung shares cache 0.79 full 0.21 reduced 0.00 deterministic 0.00 off 0.00  off in last fifth of day 0.00
+   ladder_naive correct 0.699 wrong 0.035 off 0.266  spend $0.41 of budget $3.63  rung shares cache 0.79 full 0.02 reduced 0.19 deterministic 0.00 off 0.00  off in last fifth of day 0.24
+   ladder       correct 0.727 wrong 0.041 off 0.232  spend $1.37 of budget $3.63  rung shares cache 0.79 full 0.09 reduced 0.12 deterministic 0.00 off 0.00  off in last fifth of day 0.21
+   ladder_prior correct 0.899 wrong 0.083 off 0.017  spend $2.78 of budget $3.63  rung shares cache 0.79 full 0.19 reduced 0.02 deterministic 0.00 off 0.00  off in last fifth of day 0.01
+ budget = 10% of the no-cache all-full cost
+   cliff        correct 0.094 wrong 0.006 off 0.900  spend $1.45 of budget $1.45  rung shares cache 0.00 full 0.10 reduced 0.00 deterministic 0.00 off 0.90  off in last fifth of day 1.00
+   cliff_cache  correct 0.729 wrong 0.072 off 0.199  spend $1.45 of budget $1.45  rung shares cache 0.70 full 0.10 reduced 0.00 deterministic 0.00 off 0.20  off in last fifth of day 0.26
+   ladder_naive correct 0.695 wrong 0.034 off 0.271  spend $0.19 of budget $1.45  rung shares cache 0.79 full 0.01 reduced 0.20 deterministic 0.00 off 0.00  off in last fifth of day 0.26
+   ladder       correct 0.704 wrong 0.036 off 0.261  spend $0.60 of budget $1.45  rung shares cache 0.79 full 0.04 reduced 0.18 deterministic 0.00 off 0.00  off in last fifth of day 0.24
+   ladder_prior correct 0.710 wrong 0.037 off 0.254  spend $0.82 of budget $1.45  rung shares cache 0.79 full 0.05 reduced 0.16 deterministic 0.00 off 0.00  off in last fifth of day 0.23
+
+Cache share of requests by universe size (ladder, 100% budget) and Zipf skew:
+   U=  500 s=0.6: cache share 0.900
+   U=  500 s=0.9: cache share 0.904
+   U=  500 s=1.2: cache share 0.922
+   U= 1500 s=0.6: cache share 0.736
+   U= 1500 s=0.9: cache share 0.787
+   U= 1500 s=1.2: cache share 0.869
+   U= 5000 s=0.6: cache share 0.479
+   U= 5000 s=0.9: cache share 0.641
+   U= 5000 s=1.2: cache share 0.822

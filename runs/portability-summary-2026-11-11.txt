@@ -1,0 +1,14 @@
+calls 360 errors 0
+model                       fmt       n  parsed  correct     CI(correct)     in   out   $/1000  p50 s  max stop
+claude-haiku-4-5-20251001   plain    60      60       38     0.51-0.74    243  33.0   0.4080   0.65         0
+claude-haiku-4-5-20251001   json     60      60       38     0.51-0.74    285  18.9   0.3797   0.53         0
+claude-haiku-4-5-20251001   xml      60      60       38     0.51-0.74    267  23.9   0.3865   0.56         0
+claude-haiku-5-5            plain    60      60       38     0.51-0.74    325  74.9   0.0700   0.92         1
+claude-haiku-5-5            json     60      38       38     0.51-0.74    374  87.3   0.0811   0.87        22
+claude-haiku-5-5            xml      60      38       38     0.51-0.74    357  92.7   0.0821   0.88        22
+
+failures (not parsed) by model and format, first reply shown:
+  claude-haiku-5-5 json: 22 unparsed; e.g. ''
+  claude-haiku-5-5 xml: 22 unparsed; e.g. ''
+
+failover probe n=10: failed-call wall time median 0.141s max 0.164s; fallback call median 0.806s; error text: NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-h

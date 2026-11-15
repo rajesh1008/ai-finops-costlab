@@ -1,0 +1,38 @@
+records 1800 models ['claude-haiku-4-5-20251001', 'claude-haiku-5-5']
+chain head 1016bdfd6b852aa5...  verify (True, None, 'ok')
+recomputed spend (unscaled) $0.3023, scaled x2000 $604.60; attributed $0.2835 = 93.8%; untagged by key team $0.0140, feature $0.0000, env $0.0049
+
+Reconciliation, tolerance 2% of the invoice line (floor one cent)
+S0 clean invoice                   lines  56 out of tolerance   0  gap $   -0.02 (-0.00% of invoice)  total-level check at 2%: PASS
+S1 12 records billed twice         lines  56 out of tolerance   8  gap $    2.82 ( 0.46% of invoice)  total-level check at 2%: PASS
+S2 input rate +25% from day 15 (all) lines  56 out of tolerance  28  gap $   48.26 ( 7.39% of invoice)  total-level check at 2%: FAIL
+S3 goodwill credit $5.00           lines  57 out of tolerance   1  gap $   -5.02 (-0.84% of invoice)  total-level check at 2%: PASS
+S4 5% of usage never on the meter  lines  56 out of tolerance  44  gap $   35.46 ( 5.87% of invoice)  total-level check at 2%: FAIL
+   S2 lines flagged: ['20251001', 'aiku-5-5'] days [15, 15, 16] ...
+   S3 flagged keys: [('credit', 0)]
+
+Tamper tests on the ledger (head hash from the manifest vs none)
+edit one token count mid-ledger       (False, 900, 'record changed')
+delete one record mid-ledger          (False, 900, 'prev link broken')
+truncate last 5, no head              (True, None, 'ok')
+truncate last 5, with head            (False, 1795, 'head differs from manifest (tail removed or added)')
+edit and re-hash one record only      (False, 4, 'prev link broken')
+
+Sampling arithmetic (attribute sampling, zero errors found)
+  to show error rate below 5% at 95%: n = 59
+  to show error rate below 2% at 95%: n = 149
+  to show error rate below 1% at 95%: n = 299
+  planted error rate 1%  sample  59: found at least one in  44.1% of trials (formula  44.7%)
+  planted error rate 1%  sample 149: found at least one in  76.2% of trials (formula  77.6%)
+  planted error rate 1%  sample 300: found at least one in  94.8% of trials (formula  95.1%)
+  planted error rate 2%  sample  59: found at least one in  69.5% of trials (formula  69.6%)
+  planted error rate 2%  sample 149: found at least one in  94.8% of trials (formula  95.1%)
+  planted error rate 2%  sample 300: found at least one in  99.8% of trials (formula  99.8%)
+  planted error rate 5%  sample  59: found at least one in  95.0% of trials (formula  95.2%)
+  planted error rate 5%  sample 149: found at least one in  99.9% of trials (formula 100.0%)
+  planted error rate 5%  sample 300: found at least one in 100.0% of trials (formula 100.0%)
+  full recomputation of all 1800 records finds every deterministic mismatch by construction
+
+manifest files: {'coverage.json': (183, '9efd179ee5f5'), 'ledger.jsonl': (502059, '31af07f3ddd8'), 'price-table.json': (418, 'd68252f85519'), 'reconciliation.json': (6775, 'be2298edcc35')}
+verify unchanged: []
+verify after editing one price: [('price-table.json', 'changed')]

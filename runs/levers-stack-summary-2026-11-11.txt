@@ -1,0 +1,16 @@
+A0: n=120 correct=94 cost/1000=$9.720 cost per correct=$0.01241 mean_in=9520 mean_cache_read=0 cache_write_total=0 errors=0
+A0c: n=120 correct=110 cost/1000=$1.261 cost per correct=$0.00138 mean_in=31 mean_cache_read=9409 cache_write_total=9488 errors=0
+A1: n=120 correct=88 cost/1000=$0.410 cost per correct=$0.00056 mean_in=257 mean_cache_read=0 cache_write_total=0 errors=0
+A2: n=120 correct=88 cost/1000=$0.053 cost per correct=$0.00007 mean_in=345 mean_cache_read=0 cache_write_total=0 errors=0
+saving vs A0: cache 0.870, context diet 0.958, model switch on top of diet 0.872, measured diet+model 0.995
+claimed if cache and diet both added: additive 1.828, multiplicative 0.995; measured best single 0.958
+claimed three-lever (cache, diet, model-on-diet) additive 2.700 multiplicative 0.999 vs measured diet+model 0.995
+   A0 template A: 29/50
+   A0 template B: 39/39
+   A0 template C: 26/31
+   A1 template A: 48/50
+   A1 template B: 39/39
+   A1 template C: 1/31
+   A2 template A: 48/50
+   A2 template B: 39/39
+   A2 template C: 1/31

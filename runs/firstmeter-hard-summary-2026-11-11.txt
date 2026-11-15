@@ -1,0 +1,24 @@
+h45 view U: right 84/120, wrong 36, unknown 0, errors 0, classifier cost $0.0269
+    sql_helper: {'sql_helper': 24, 'report_summariser': 5, 'metric_explainer': 1}
+    report_summariser: {'report_summariser': 30}
+    metric_explainer: {'metric_explainer': 30}
+    support_assistant: {'metric_explainer': 30}
+h45 view G: right 90/120, wrong 30, unknown 0, errors 0, classifier cost $0.0292
+    sql_helper: {'sql_helper': 30}
+    report_summariser: {'report_summariser': 30}
+    metric_explainer: {'metric_explainer': 30}
+    support_assistant: {'metric_explainer': 30}
+h55 view U: right 113/120, wrong 0, unknown 7, errors 0, classifier cost $0.0033
+    sql_helper: {'sql_helper': 30}
+    report_summariser: {'report_summariser': 30}
+    metric_explainer: {'metric_explainer': 30}
+    support_assistant: {'support_assistant': 23, 'unknown': 7}
+h55 view G: right 119/120, wrong 1, unknown 0, errors 0, classifier cost $0.0037
+    sql_helper: {'sql_helper': 30}
+    report_summariser: {'report_summariser': 30}
+    metric_explainer: {'metric_explainer': 30}
+    support_assistant: {'metric_explainer': 1, 'support_assistant': 29}
+h45 view U ASSUMED weights: misattributed share 0.545, unknown share 0.000
+h45 view G ASSUMED weights: misattributed share 0.530, unknown share 0.000
+h55 view U ASSUMED weights: misattributed share 0.000, unknown share 0.124
+h55 view G ASSUMED weights: misattributed share 0.018, unknown share 0.000

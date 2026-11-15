@@ -1,0 +1,27 @@
+SYNTHETIC month (seed 21). Median day $2.62; runaway on day 19 ($4.28, 1.64x median)
+Runaway session s7601: $1.7518 over 90 steps
+
+1. Static daily ceiling
+   ceiling $3.00: alert days [19]
+   ceiling $4.00: alert days [19]
+   ceiling $5.00: alert days none
+
+2. Trailing-median rule (7-day window)
+   exceed median by 25%: alert days [19]
+   exceed median by 50%: alert days [19]
+   exceed median by 64%: alert days none
+   exceed median by 75%: alert days none
+
+3. Gateway session cap (stops the session, runs while it is happening)
+   cap $0.05: stopped at step 9, spent $0.0556, avoided $1.6962 (96.8% of the session)
+   cap $0.10: stopped at step 15, spent $0.1090, avoided $1.6427 (93.8% of the session)
+   cap $0.25: stopped at step 28, spent $0.2631, avoided $1.4887 (85.0% of the session)
+   cap $0.50: stopped at step 43, spent $0.5059, avoided $1.2458 (71.1% of the session)
+   largest ordinary session $0.0309; a cap at or above that never stops an ordinary session
+
+4. Planned launch on day 22 (traffic x2.0 from then on, SYNTHETIC) against rule 2 at 50 percent
+   alert days [19, 22, 23, 24]; runaway day 19 included: True; days alerting for the launch: [22, 23, 24]
+   launch alert run: 3 of the 9 launch days alert (days [22, 23, 24])
+
+FinOps Foundation AI KPI, Anomaly Cost %: runaway extra spend over its day-19 baseline = $1.67 / $79.88 = 2.1%
+  whole session cost / month = 2.2% (page's bands: green <2%, yellow 2-7%, red >7%)

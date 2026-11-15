@@ -1,0 +1,32 @@
+calls 150, errors 0
+config      in tok  out med writes  reads  actual $/call (contract)   E1 list E2 contract E3 cache-aware E4 +meter out E5 +min length
+M1-80-on      3805        8      0      0                   3.2683k    4.3050      3.6593         1.0069        0.6159         3.2683
+M1-80-off     3805        8      0      0                   3.2683k    4.3050      3.6593         3.6593        3.2683         3.2683
+M1-160-on     7565        8      1     14                   1.1847k    8.0650      6.8552         1.5715        1.1805         1.1805
+M1-160-off    7565        8      0      0                   6.4642k    8.0650      6.8552         6.8552        6.4643         6.4643
+M2-80-on      5104        7      1     14                   0.0814k    0.5604      0.4763         0.1202        0.0811         0.0811
+M2-80-off     5104        7      0      0                   0.4367k    0.5604      0.4763         0.4763        0.4372         0.4372
+M2-160-on    10144        7      1     14                   0.1571k    1.0644      0.9047         0.1959        0.1568         0.1568
+M2-160-off   10144        7      0      0                   0.8651k    1.0644      0.9047         0.9047        0.8656         0.8656
+M3-160-on    10144       40      1     14                   0.1685k    1.0644      0.9047         0.1959        0.1568         0.1568
+M3-160-off   10144       41      0      0                   0.8791k    1.0644      0.9047         0.9047        0.8656         0.8656
+
+Estimator error against actual, percent (E1 list price, no cache, 100 output tokens; E2 contract price; E3 contract and cache-aware; E4 as E3 with the output length from the meter; E5 as E4 plus the minimum-cacheable-length check)
+  M1-80-on   E1   +31.7  E2   +12.0  E3   -69.2  E4   -81.2  E5    +0.0
+  M1-80-off  E1   +31.7  E2   +12.0  E3   +12.0  E4    +0.0  E5    +0.0
+  M1-160-on  E1  +580.8  E2  +478.6  E3   +32.6  E4    -0.4  E5    -0.4
+  M1-160-off E1   +24.8  E2    +6.0  E3    +6.0  E4    +0.0  E5    +0.0
+  M2-80-on   E1  +588.2  E2  +485.0  E3   +47.6  E4    -0.4  E5    -0.4
+  M2-80-off  E1   +28.3  E2    +9.1  E3    +9.1  E4    +0.1  E5    +0.1
+  M2-160-on  E1  +577.5  E2  +475.9  E3   +24.7  E4    -0.2  E5    -0.2
+  M2-160-off E1   +23.0  E2    +4.6  E3    +4.6  E4    +0.1  E5    +0.1
+  M3-160-on  E1  +531.9  E2  +437.1  E3   +16.3  E4    -6.9  E5    -6.9
+  M3-160-off E1   +21.1  E2    +2.9  E3    +2.9  E4    -1.5  E5    -1.5
+
+PR flags (rise of more than 20 percent in cost per call against baseline M1-160-on, the production config)
+  truth: M1-80-on FLAG (+176%), M1-80-off FLAG (+176%), M1-160-off FLAG (+446%), M2-80-on ok (-93%), M2-80-off ok (-63%), M2-160-on ok (-87%), M2-160-off ok (-27%), M3-160-on ok (-86%), M3-160-off ok (-26%)
+  E1: caught 0, missed 3, false alarms 0, correctly passed 6
+  E2: caught 0, missed 3, false alarms 0, correctly passed 6
+  E3: caught 2, missed 1, false alarms 0, correctly passed 6
+  E4: caught 2, missed 1, false alarms 0, correctly passed 6
+  E5: caught 3, missed 0, false alarms 0, correctly passed 6

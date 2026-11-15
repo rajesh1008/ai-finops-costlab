@@ -1,0 +1,28 @@
+items 450 (recorded 300, corrupted 150); gold-correct 202; mean cost of generating one incumbent answer $0.000414 (haiku-4-5, one call)
+
+Part 1: judge verdict against the exact scorer (positive = answer is correct)
+  ctx_h5 : agree 0.995 of 443 (7 no verdict); catches wrong answers (TNR) 241/241 = 1.000; passes right answers (TPR) 200/202 = 0.990; mean cost $0.000030/judgement; mean output 7.8 tokens; cost / generation cost 0.07
+  ref_h5 : agree 0.913 of 438 (12 no verdict); catches wrong answers (TNR) 248/248 = 1.000; passes right answers (TPR) 152/190 = 0.800; mean cost $0.000023/judgement; mean output 8.1 tokens; cost / generation cost 0.06
+  cot_h5 : agree 0.984 of 450 (0 no verdict); catches wrong answers (TNR) 244/248 = 0.984; passes right answers (TPR) 199/202 = 0.985; mean cost $0.000080/judgement; mean output 102.1 tokens; cost / generation cost 0.19
+  think_h5: agree 0.984 of 450 (0 no verdict); catches wrong answers (TNR) 246/248 = 0.992; passes right answers (TPR) 197/202 = 0.975; mean cost $0.000054/judgement; mean output 56.6 tokens; cost / generation cost 0.13
+  ctx_h4 : agree 0.958 of 450 (0 no verdict); catches wrong answers (TNR) 231/248 = 0.931; passes right answers (TPR) 200/202 = 0.990; mean cost $0.000218/judgement; mean output 6.1 tokens; cost / generation cost 0.53
+  wrong answers split: recorded wrong (almost all are 'cannot answer' declines) vs SYNTHETIC corruptions; share the judge calls INCORRECT
+  ctx_h5  : recorded-wrong caught 92/92; corruptions caught 149/149
+  ref_h5  : recorded-wrong caught 99/99; corruptions caught 149/149
+  cot_h5  : recorded-wrong caught 95/99; corruptions caught 149/149
+  think_h5: recorded-wrong caught 97/99; corruptions caught 149/149
+  ctx_h4  : recorded-wrong caught 82/99; corruptions caught 149/149
+  judge disagreement with scorer on right answers, by question type (ref_h5): {'A': 0, 'B': 37}
+
+Part 3: estimating the incumbent's accuracy on the 450 items (true value by scorer = 0.449) using the ctx_h5 judge on all items and m gold labels, 2,000 resamples
+  naive judge mean (all 443 usable): 0.451 (bias -0.005)
+  m= 20 gold labels: gold-only CI width 0.426 (coverage 0.93); judge+gold (PPI) CI width 0.107 (coverage 1.00, mean error +0.0007)
+  m= 50 gold labels: gold-only CI width 0.274 (coverage 0.95); judge+gold (PPI) CI width 0.104 (coverage 1.00, mean error -0.0003)
+  m=100 gold labels: gold-only CI width 0.194 (coverage 0.97); judge+gold (PPI) CI width 0.109 (coverage 1.00, mean error +0.0002)
+
+Part 4: SYNTHETIC monthly evaluation bill (ILLUSTRATIVE volumes; measured per-call costs above)
+  production inference at 3,000 requests/day, incumbent: $37.30/month
+  verdict-only judge, haiku-5-5: regression suite 300 items x 20 releases = $0.18; same x3 repeats = $0.54; online 5% sample = $0.14; online 100% = $2.70 (0.07 x production inference)
+  verdict-only judge, haiku-5-5, thinking left on: regression suite 300 items x 20 releases = $0.33; same x3 repeats = $0.98; online 5% sample = $0.25; online 100% = $4.90 (0.13 x production inference)
+  explain-then-verdict judge, haiku-5-5: regression suite 300 items x 20 releases = $0.48; same x3 repeats = $1.43; online 5% sample = $0.36; online 100% = $7.17 (0.19 x production inference)
+  verdict-only judge, haiku-4-5: regression suite 300 items x 20 releases = $1.31; same x3 repeats = $3.92; online 5% sample = $0.98; online 100% = $19.61 (0.53 x production inference)

@@ -1,0 +1,120 @@
+{"model": "claude-haiku-4-5-20251001", "id": 0, "fmt": "iso", "text": "2026-08-16", "truth": "2026-08-16", "rule_format": true, "answer": "2026-08-16", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 1, "fmt": "d_month_y", "text": "8 July 2026", "truth": "2026-07-08", "rule_format": true, "answer": "2026-07-08", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 2, "fmt": "month_d_y", "text": "January 14, 2026", "truth": "2026-01-14", "rule_format": true, "answer": "2026-01-14", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 3, "fmt": "d_mon_y", "text": "21-Apr-2026", "truth": "2026-04-21", "rule_format": true, "answer": "2026-04-21", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 4, "fmt": "slash_dmy", "text": "05/01/2025", "truth": "2025-01-05", "rule_format": true, "answer": "2025-01-05", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 5, "fmt": "compact", "text": "20260622", "truth": "2026-06-22", "rule_format": false, "answer": "2026-06-22", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 6, "fmt": "ord_words", "text": "the twentieth of December, 2025", "truth": "2025-12-20", "rule_format": false, "answer": "2025-12-20", "in": 64, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 7, "fmt": "short_year", "text": "26th Jan '26", "truth": "2026-01-26", "rule_format": false, "answer": "2026-01-26", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 8, "fmt": "dots_dmy", "text": "5.10.2025", "truth": "2025-10-05", "rule_format": false, "answer": "2025-10-05", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 9, "fmt": "y_slash", "text": "2025/3/26", "truth": "2025-03-26", "rule_format": false, "answer": "2025-03-26", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 10, "fmt": "iso", "text": "2025-08-15", "truth": "2025-08-15", "rule_format": true, "answer": "2025-08-15", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 11, "fmt": "d_month_y", "text": "26 April 2026", "truth": "2026-04-26", "rule_format": true, "answer": "2026-04-26", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 12, "fmt": "month_d_y", "text": "June 9, 2026", "truth": "2026-06-09", "rule_format": true, "answer": "2026-06-09", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 13, "fmt": "d_mon_y", "text": "12-Feb-2026", "truth": "2026-02-12", "rule_format": true, "answer": "2026-02-12", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 14, "fmt": "slash_dmy", "text": "09/07/2026", "truth": "2026-07-09", "rule_format": true, "answer": "2026-07-09", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 15, "fmt": "compact", "text": "20251010", "truth": "2025-10-10", "rule_format": false, "answer": "2025-10-10", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 16, "fmt": "ord_words", "text": "the third of May, 2025", "truth": "2025-05-03", "rule_format": false, "answer": "2025-05-03", "in": 64, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 17, "fmt": "short_year", "text": "12th Sep '25", "truth": "2025-09-12", "rule_format": false, "answer": "2025-09-12", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 18, "fmt": "dots_dmy", "text": "3.8.2025", "truth": "2025-08-03", "rule_format": false, "answer": "2025-08-03", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 19, "fmt": "y_slash", "text": "2026/5/11", "truth": "2026-05-11", "rule_format": false, "answer": "2026-05-11", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 20, "fmt": "iso", "text": "2026-08-03", "truth": "2026-08-03", "rule_format": true, "answer": "2026-08-03", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 21, "fmt": "d_month_y", "text": "16 December 2025", "truth": "2025-12-16", "rule_format": true, "answer": "2025-12-16", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 22, "fmt": "month_d_y", "text": "August 27, 2025", "truth": "2025-08-27", "rule_format": true, "answer": "2025-08-27", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 23, "fmt": "d_mon_y", "text": "27-Jan-2026", "truth": "2026-01-27", "rule_format": true, "answer": "2026-01-27", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 24, "fmt": "slash_dmy", "text": "02/12/2026", "truth": "2026-12-02", "rule_format": true, "answer": "2026-12-02", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 25, "fmt": "compact", "text": "20261003", "truth": "2026-10-03", "rule_format": false, "answer": "2026-10-03", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 26, "fmt": "ord_words", "text": "the first of November, 2026", "truth": "2026-11-01", "rule_format": false, "answer": "2026-11-01", "in": 64, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 27, "fmt": "short_year", "text": "8th Dec '25", "truth": "2025-12-08", "rule_format": false, "answer": "2025-12-08", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 28, "fmt": "dots_dmy", "text": "1.6.2026", "truth": "2026-06-01", "rule_format": false, "answer": "2026-06-01", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 29, "fmt": "y_slash", "text": "2025/11/21", "truth": "2025-11-21", "rule_format": false, "answer": "2025-11-21", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 30, "fmt": "iso", "text": "2026-10-11", "truth": "2026-10-11", "rule_format": true, "answer": "2026-10-11", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 31, "fmt": "d_month_y", "text": "22 September 2026", "truth": "2026-09-22", "rule_format": true, "answer": "2026-09-22", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 32, "fmt": "month_d_y", "text": "April 11, 2025", "truth": "2025-04-11", "rule_format": true, "answer": "2025-04-11", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 33, "fmt": "d_mon_y", "text": "03-Dec-2025", "truth": "2025-12-03", "rule_format": true, "answer": "2025-12-03", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 34, "fmt": "slash_dmy", "text": "01/04/2025", "truth": "2025-04-01", "rule_format": true, "answer": "2025-04-01", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 35, "fmt": "compact", "text": "20261102", "truth": "2026-11-02", "rule_format": false, "answer": "2026-11-02", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 36, "fmt": "ord_words", "text": "the twenty-second of December, 2025", "truth": "2025-12-22", "rule_format": false, "answer": "2025-12-22", "in": 66, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 37, "fmt": "short_year", "text": "5th Jul '25", "truth": "2025-07-05", "rule_format": false, "answer": "2025-07-05", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 38, "fmt": "dots_dmy", "text": "3.4.2026", "truth": "2026-04-03", "rule_format": false, "answer": "2026-04-03", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 39, "fmt": "y_slash", "text": "2025/4/17", "truth": "2025-04-17", "rule_format": false, "answer": "2025-04-17", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 40, "fmt": "iso", "text": "2025-02-04", "truth": "2025-02-04", "rule_format": true, "answer": "2025-02-04", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 41, "fmt": "d_month_y", "text": "13 May 2025", "truth": "2025-05-13", "rule_format": true, "answer": "2025-05-13", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 42, "fmt": "month_d_y", "text": "January 13, 2026", "truth": "2026-01-13", "rule_format": true, "answer": "2026-01-13", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 43, "fmt": "d_mon_y", "text": "15-Dec-2026", "truth": "2026-12-15", "rule_format": true, "answer": "2026-12-15", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 44, "fmt": "slash_dmy", "text": "01/05/2026", "truth": "2026-05-01", "rule_format": true, "answer": "2026-05-01", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 45, "fmt": "compact", "text": "20250123", "truth": "2025-01-23", "rule_format": false, "answer": "2025-01-23", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 46, "fmt": "ord_words", "text": "the twenty-second of July, 2025", "truth": "2025-07-22", "rule_format": false, "answer": "2025-07-22", "in": 66, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 47, "fmt": "short_year", "text": "13th Sep '26", "truth": "2026-09-13", "rule_format": false, "answer": "2026-09-13", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 48, "fmt": "dots_dmy", "text": "2.4.2025", "truth": "2025-04-02", "rule_format": false, "answer": "2025-04-02", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 49, "fmt": "y_slash", "text": "2026/11/4", "truth": "2026-11-04", "rule_format": false, "answer": "2026-11-04", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 50, "fmt": "iso", "text": "2026-02-15", "truth": "2026-02-15", "rule_format": true, "answer": "2026-02-15", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 51, "fmt": "d_month_y", "text": "27 March 2026", "truth": "2026-03-27", "rule_format": true, "answer": "2026-03-27", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 52, "fmt": "month_d_y", "text": "April 5, 2026", "truth": "2026-04-05", "rule_format": true, "answer": "2026-04-05", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 53, "fmt": "d_mon_y", "text": "14-Jul-2025", "truth": "2025-07-14", "rule_format": true, "answer": "2025-07-14", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 54, "fmt": "slash_dmy", "text": "03/07/2025", "truth": "2025-07-03", "rule_format": true, "answer": "2025-07-03", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 55, "fmt": "compact", "text": "20261116", "truth": "2026-11-16", "rule_format": false, "answer": "2026-11-16", "in": 60, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 56, "fmt": "ord_words", "text": "the seventh of July, 2025", "truth": "2025-07-07", "rule_format": false, "answer": "2025-07-07", "in": 64, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 57, "fmt": "short_year", "text": "16th Jan '26", "truth": "2026-01-16", "rule_format": false, "answer": "2026-01-16", "in": 62, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 58, "fmt": "dots_dmy", "text": "5.10.2026", "truth": "2026-10-05", "rule_format": false, "answer": "2026-10-05", "in": 63, "out": 10}
+{"model": "claude-haiku-4-5-20251001", "id": 59, "fmt": "y_slash", "text": "2025/2/25", "truth": "2025-02-25", "rule_format": false, "answer": "2025-02-25", "in": 63, "out": 10}
+{"model": "claude-haiku-5-5", "id": 0, "fmt": "iso", "text": "2026-08-16", "truth": "2026-08-16", "rule_format": true, "answer": "2026-08-16", "in": 78, "out": 46}
+{"model": "claude-haiku-5-5", "id": 1, "fmt": "d_month_y", "text": "8 July 2026", "truth": "2026-07-08", "rule_format": true, "answer": "2026-07-08", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 2, "fmt": "month_d_y", "text": "January 14, 2026", "truth": "2026-01-14", "rule_format": true, "answer": "2026-01-14", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 3, "fmt": "d_mon_y", "text": "21-Apr-2026", "truth": "2026-04-21", "rule_format": true, "answer": "2026-04-21", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 4, "fmt": "slash_dmy", "text": "05/01/2025", "truth": "2025-01-05", "rule_format": true, "answer": "2025-01-05", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 5, "fmt": "compact", "text": "20260622", "truth": "2026-06-22", "rule_format": false, "answer": "2026-06-22", "in": 75, "out": 80}
+{"model": "claude-haiku-5-5", "id": 6, "fmt": "ord_words", "text": "the twentieth of December, 2025", "truth": "2025-12-20", "rule_format": false, "answer": "2025-12-20", "in": 82, "out": 8}
+{"model": "claude-haiku-5-5", "id": 7, "fmt": "short_year", "text": "26th Jan '26", "truth": "2026-01-26", "rule_format": false, "answer": "2026-01-26", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 8, "fmt": "dots_dmy", "text": "5.10.2025", "truth": "2025-10-05", "rule_format": false, "answer": "2025-10-05", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 9, "fmt": "y_slash", "text": "2025/3/26", "truth": "2025-03-26", "rule_format": false, "answer": "2025-03-26", "in": 78, "out": 46}
+{"model": "claude-haiku-5-5", "id": 10, "fmt": "iso", "text": "2025-08-15", "truth": "2025-08-15", "rule_format": true, "answer": "2025-08-15", "in": 78, "out": 60}
+{"model": "claude-haiku-5-5", "id": 11, "fmt": "d_month_y", "text": "26 April 2026", "truth": "2026-04-26", "rule_format": true, "answer": "2026-04-26", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 12, "fmt": "month_d_y", "text": "June 9, 2026", "truth": "2026-06-09", "rule_format": true, "answer": "2026-06-09", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 13, "fmt": "d_mon_y", "text": "12-Feb-2026", "truth": "2026-02-12", "rule_format": true, "answer": "2026-02-12", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 14, "fmt": "slash_dmy", "text": "09/07/2026", "truth": "2026-07-09", "rule_format": true, "answer": "2026-07-09", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 15, "fmt": "compact", "text": "20251010", "truth": "2025-10-10", "rule_format": false, "answer": "2025-10-10", "in": 75, "out": 82}
+{"model": "claude-haiku-5-5", "id": 16, "fmt": "ord_words", "text": "the third of May, 2025", "truth": "2025-05-03", "rule_format": false, "answer": "2025-05-03", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 17, "fmt": "short_year", "text": "12th Sep '25", "truth": "2025-09-12", "rule_format": false, "answer": "2025-09-12", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 18, "fmt": "dots_dmy", "text": "3.8.2025", "truth": "2025-08-03", "rule_format": false, "answer": "2025-08-03", "in": 78, "out": 41}
+{"model": "claude-haiku-5-5", "id": 19, "fmt": "y_slash", "text": "2026/5/11", "truth": "2026-05-11", "rule_format": false, "answer": "2026-05-11", "in": 78, "out": 186}
+{"model": "claude-haiku-5-5", "id": 20, "fmt": "iso", "text": "2026-08-03", "truth": "2026-08-03", "rule_format": true, "answer": "2026-08-03", "in": 78, "out": 129}
+{"model": "claude-haiku-5-5", "id": 21, "fmt": "d_month_y", "text": "16 December 2025", "truth": "2025-12-16", "rule_format": true, "answer": "2025-12-16", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 22, "fmt": "month_d_y", "text": "August 27, 2025", "truth": "2025-08-27", "rule_format": true, "answer": "2025-08-27", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 23, "fmt": "d_mon_y", "text": "27-Jan-2026", "truth": "2026-01-27", "rule_format": true, "answer": "2026-01-27", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 24, "fmt": "slash_dmy", "text": "02/12/2026", "truth": "2026-12-02", "rule_format": true, "answer": "2026-12-02", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 25, "fmt": "compact", "text": "20261003", "truth": "2026-10-03", "rule_format": false, "answer": "2026-10-03", "in": 75, "out": 111}
+{"model": "claude-haiku-5-5", "id": 26, "fmt": "ord_words", "text": "the first of November, 2026", "truth": "2026-11-01", "rule_format": false, "answer": "2026-11-01", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 27, "fmt": "short_year", "text": "8th Dec '25", "truth": "2025-12-08", "rule_format": false, "answer": "2025-12-08", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 28, "fmt": "dots_dmy", "text": "1.6.2026", "truth": "2026-06-01", "rule_format": false, "answer": "2026-06-01", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 29, "fmt": "y_slash", "text": "2025/11/21", "truth": "2025-11-21", "rule_format": false, "answer": "2025-11-21", "in": 78, "out": 74}
+{"model": "claude-haiku-5-5", "id": 30, "fmt": "iso", "text": "2026-10-11", "truth": "2026-10-11", "rule_format": true, "answer": "2026-10-11", "in": 78, "out": 105}
+{"model": "claude-haiku-5-5", "id": 31, "fmt": "d_month_y", "text": "22 September 2026", "truth": "2026-09-22", "rule_format": true, "answer": "2026-09-22", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 32, "fmt": "month_d_y", "text": "April 11, 2025", "truth": "2025-04-11", "rule_format": true, "answer": "2025-04-11", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 33, "fmt": "d_mon_y", "text": "03-Dec-2025", "truth": "2025-12-03", "rule_format": true, "answer": "2025-12-03", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 34, "fmt": "slash_dmy", "text": "01/04/2025", "truth": "2025-04-01", "rule_format": true, "answer": "2025-04-01", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 35, "fmt": "compact", "text": "20261102", "truth": "2026-11-02", "rule_format": false, "answer": "2026-11-02", "in": 75, "out": 96}
+{"model": "claude-haiku-5-5", "id": 36, "fmt": "ord_words", "text": "the twenty-second of December, 2025", "truth": "2025-12-22", "rule_format": false, "answer": "2025-12-22", "in": 83, "out": 8}
+{"model": "claude-haiku-5-5", "id": 37, "fmt": "short_year", "text": "5th Jul '25", "truth": "2025-07-05", "rule_format": false, "answer": "2025-07-05", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 38, "fmt": "dots_dmy", "text": "3.4.2026", "truth": "2026-04-03", "rule_format": false, "answer": "2026-04-03", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 39, "fmt": "y_slash", "text": "2025/4/17", "truth": "2025-04-17", "rule_format": false, "answer": "2025-04-17", "in": 78, "out": 106}
+{"model": "claude-haiku-5-5", "id": 40, "fmt": "iso", "text": "2025-02-04", "truth": "2025-02-04", "rule_format": true, "answer": "2025-02-04", "in": 78, "out": 107}
+{"model": "claude-haiku-5-5", "id": 41, "fmt": "d_month_y", "text": "13 May 2025", "truth": "2025-05-13", "rule_format": true, "answer": "2025-05-13", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 42, "fmt": "month_d_y", "text": "January 13, 2026", "truth": "2026-01-13", "rule_format": true, "answer": "2026-01-13", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 43, "fmt": "d_mon_y", "text": "15-Dec-2026", "truth": "2026-12-15", "rule_format": true, "answer": "2026-12-15", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 44, "fmt": "slash_dmy", "text": "01/05/2026", "truth": "2026-05-01", "rule_format": true, "answer": "2026-05-01", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 45, "fmt": "compact", "text": "20250123", "truth": "2025-01-23", "rule_format": false, "answer": "2025-01-23", "in": 75, "out": 77}
+{"model": "claude-haiku-5-5", "id": 46, "fmt": "ord_words", "text": "the twenty-second of July, 2025", "truth": "2025-07-22", "rule_format": false, "answer": "2025-07-22", "in": 83, "out": 8}
+{"model": "claude-haiku-5-5", "id": 47, "fmt": "short_year", "text": "13th Sep '26", "truth": "2026-09-13", "rule_format": false, "answer": "2026-09-13", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 48, "fmt": "dots_dmy", "text": "2.4.2025", "truth": "2025-04-02", "rule_format": false, "answer": "2025-04-02", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 49, "fmt": "y_slash", "text": "2026/11/4", "truth": "2026-11-04", "rule_format": false, "answer": "2026-04-11", "in": 78, "out": 388}
+{"model": "claude-haiku-5-5", "id": 50, "fmt": "iso", "text": "2026-02-15", "truth": "2026-02-15", "rule_format": true, "answer": "2026-02-15", "in": 78, "out": 46}
+{"model": "claude-haiku-5-5", "id": 51, "fmt": "d_month_y", "text": "27 March 2026", "truth": "2026-03-27", "rule_format": true, "answer": "2026-03-27", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 52, "fmt": "month_d_y", "text": "April 5, 2026", "truth": "2026-04-05", "rule_format": true, "answer": "2026-04-05", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 53, "fmt": "d_mon_y", "text": "14-Jul-2025", "truth": "2025-07-14", "rule_format": true, "answer": "2025-07-14", "in": 80, "out": 8}
+{"model": "claude-haiku-5-5", "id": 54, "fmt": "slash_dmy", "text": "03/07/2025", "truth": "2025-07-03", "rule_format": true, "answer": "2025-07-03", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 55, "fmt": "compact", "text": "20261116", "truth": "2026-11-16", "rule_format": false, "answer": "2026-11-16", "in": 75, "out": 101}
+{"model": "claude-haiku-5-5", "id": 56, "fmt": "ord_words", "text": "the seventh of July, 2025", "truth": "2025-07-07", "rule_format": false, "answer": "2025-07-07", "in": 81, "out": 8}
+{"model": "claude-haiku-5-5", "id": 57, "fmt": "short_year", "text": "16th Jan '26", "truth": "2026-01-16", "rule_format": false, "answer": "2026-01-16", "in": 79, "out": 8}
+{"model": "claude-haiku-5-5", "id": 58, "fmt": "dots_dmy", "text": "5.10.2026", "truth": "2026-10-05", "rule_format": false, "answer": "2026-10-05", "in": 78, "out": 8}
+{"model": "claude-haiku-5-5", "id": 59, "fmt": "y_slash", "text": "2025/2/25", "truth": "2025-02-25", "rule_format": false, "answer": "2025-02-25", "in": 78, "out": 104}

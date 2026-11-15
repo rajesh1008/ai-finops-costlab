@@ -1,0 +1,17 @@
+SYNTHETIC year, seed 10, runaway days: [86, 191, 235, 298, 315, 316]
+mean of last 7 days, +20%              alerts 129 false 123 caught 6/6
+median same weekday x4, +20%           alerts  10 false   4 caught 6/6
+same weekday, +20% and over $500       alerts   9 false   3 caught 6/6
+same weekday, +10%                     alerts  48 false  42 caught 6/6
+
+SYNTHETIC year, seed 10, runaway multiplier 1.25
+mean of last 7 days, +20%              alerts 135 false 129 caught 6/6
+median same weekday x4, +20%           alerts   9 false   4 caught 5/6
+same weekday, +20% and over $500       alerts   8 false   3 caught 5/6
+same weekday, +10%                     alerts  48 false  42 caught 6/6
+
+SYNTHETIC year, seed 10, runaway multiplier 1.15
+mean of last 7 days, +20%              alerts 136 false 130 caught 6/6
+median same weekday x4, +20%           alerts   7 false   4 caught 3/6
+same weekday, +20% and over $500       alerts   6 false   3 caught 3/6
+same weekday, +10%                     alerts  47 false  42 caught 5/6

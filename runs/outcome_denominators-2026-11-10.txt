@@ -1,0 +1,8 @@
+assumptions: n=10000, accept=0.82, recontact|accept=0.19, seed=4
+emitted 10000  accepted 8119  benefited 6598
+cost per emitted response   $2.5350
+cost per accepted response  $3.1223
+cost per benefited response $3.8421
+the first number understates the third by 34.0%
+
+contract check, unsigned draft: missing evidence_source, exclusions, owner, signed_on, value_tier

@@ -1,0 +1,5 @@
+saved portability-fix-2026-11-11.json errors 0
+json nothink    n=60 parsed 58 correct 38 mean out 22.1 max_tokens stops 0 $/1000 0.0484
+json think600   n=60 parsed 60 correct 38 mean out 115.0 max_tokens stops 0 $/1000 0.0949
+xml  nothink    n=60 parsed 38 correct 37 mean out 51.5 max_tokens stops 0 $/1000 0.0614
+xml  think600   n=60 parsed 59 correct 38 mean out 168.4 max_tokens stops 1 $/1000 0.1199

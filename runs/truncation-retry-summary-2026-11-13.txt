@@ -1,0 +1,13 @@
+calls 96 errors 0
+claude-haiku-4-5-20251001 cap 50 n 8 cut 8 mean_out 50.0
+claude-haiku-4-5-20251001 cap 100 n 8 cut 8 mean_out 100.0
+claude-haiku-4-5-20251001 cap 200 n 8 cut 8 mean_out 200.0
+claude-haiku-4-5-20251001 cap 400 n 8 cut 8 mean_out 400.0
+claude-haiku-5-5 cap 50 n 8 cut 8 mean_out 50.0
+claude-haiku-5-5 cap 100 n 8 cut 8 mean_out 100.0
+claude-haiku-5-5 cap 200 n 8 cut 8 mean_out 200.0
+claude-haiku-5-5 cap 400 n 8 cut 8 mean_out 400.0
+claude-haiku-4-5-20251001 cap 100 first cut 8 of 8 retry cut among first-cut 8
+claude-haiku-4-5-20251001 cap 200 first cut 8 of 8 retry cut among first-cut 8
+claude-haiku-5-5 cap 100 first cut 8 of 8 retry cut among first-cut 8
+claude-haiku-5-5 cap 200 first cut 8 of 8 retry cut among first-cut 8

@@ -1,0 +1,9 @@
+errors: 0
+claude-haiku-4-5-20251001    none         n= 20 mean_out=   93.9 correct=20/20 not_end_turn=0
+claude-haiku-4-5-20251001    brief        n= 20 mean_out=   53.5 correct=20/20 not_end_turn=0
+claude-haiku-4-5-20251001    one_line     n= 20 mean_out=   34.5 correct=19/20 not_end_turn=0
+claude-haiku-4-5-20251001    answer_only  n= 20 mean_out=    6.6 correct=16/20 not_end_turn=0
+claude-haiku-5-5             none         n= 20 mean_out=  102.8 correct=20/20 not_end_turn=0
+claude-haiku-5-5             brief        n= 20 mean_out=   63.2 correct=20/20 not_end_turn=0
+claude-haiku-5-5             one_line     n= 20 mean_out=   50.1 correct=20/20 not_end_turn=0
+claude-haiku-5-5             answer_only  n= 20 mean_out=   38.7 correct=20/20 not_end_turn=0

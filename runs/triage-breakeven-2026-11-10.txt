@@ -1,0 +1,17 @@
+per-call cost at placeholder rates, 4 output tokens:
+  input     45 tokens: $0.000065
+  input    600 tokens: $0.000620
+  input   3000 tokens: $0.003020
+  input  12000 tokens: $0.012020
+
+months to repay a one-off $4,000 rule build plus $300 a month upkeep (ASSUMED), rules catch 64% of traffic
+input tokens  tickets/month  saving/month  net/month  months to repay
+          45        100,000             4       -296            never
+          45      1,000,000            42       -258            never
+          45     10,000,000           416        116             34.5
+        3000        100,000           193       -107            never
+        3000      1,000,000         1,933      1,633              2.4
+        3000     10,000,000        19,328     19,028              0.2
+       12000        100,000           769        469              8.5
+       12000      1,000,000         7,693      7,393              0.5
+       12000     10,000,000        76,928     76,628              0.1

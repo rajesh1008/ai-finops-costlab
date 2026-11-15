@@ -1,0 +1,16 @@
+210 0 total 475 write 0
+230 0 total 468 write 0
+250 0 total 507 write 0
+270 0 total 586 write 570
+290 0 total 631 write 615
+210 1 total 463 write 0
+230 1 total 486 write 0
+250 1 total 539 write 523
+270 1 total 604 write 588
+290 1 total 642 write 626
+210 2 total 445 write 0
+230 2 total 522 write 0
+250 2 total 572 write 556
+270 2 total 565 write 549
+290 2 total 629 write 613
+{"claude-haiku-5-5": {"smallest_cached": 539, "largest_uncached": 522, "cells_all_cached": [270, 290], "cells_mixed": [250], "cells_none_cached": [210, 230], "n": 15, "errors": 0}}

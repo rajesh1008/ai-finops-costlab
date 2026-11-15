@@ -1,0 +1,19 @@
+SINGLE-MODEL RESULTS (30 problems, one sample counted per sample; avg tokens are measured)
+model  samples  correct    rate  avg in  avg out     $/call
+  H45       60        5    8.3%    65.0     82.7   0.000478
+  H55       60       60  100.0%    81.0    196.5   0.000106
+  S46       30       21   70.0%    65.0    141.6   0.002319
+
+POLICIES (per problem)
+policy                              accuracy   $/problem  escalated
+always H45                              6.7%    0.000475          -
+always H55                            100.0%    0.000106          -
+always S46                             70.0%    0.002319          -
+2x H45 agree else S46                  50.0%    0.002541      66.7%
+2x H55 agree else S46                 100.0%    0.000213       0.0%
+oracle H45 then S46 if wrong           73.3%    0.002679    (bound)
+oracle H55 then S46 if wrong          100.0%    0.000106    (bound)
+
+When the two cheap samples agree, how often are they right?
+  H45: agreed on 10/30; both correct on 0/10
+  H55: agreed on 30/30; both correct on 30/30

@@ -1,0 +1,61 @@
+requests 2850; actual spend over the log $0.3273 at placeholder rates; untagged purpose 79
+pre-flight count_tokens equals billed input tokens: 600 of 600 calls; where different, difference range 0 to 0
+
+== worst-case estimate (input + max_tokens at output rate) against actual cost ==
+quality (untagged) claude-haiku-4-5 max   24  n    7  worst/actual median  1.45x  p90  1.46x  max   1.46x
+quality (untagged) claude-haiku-5-5 max   24  n   28  worst/actual median  1.30x  p90  1.40x  max   1.43x
+quality (untagged) claude-haiku-5-5 max  300  n   15  worst/actual median  2.22x  p90  2.67x  max   2.77x
+quality (untagged) claude-haiku-5-5 max  700  n   12  worst/actual median  9.75x  p90 13.03x  max  13.20x
+quality judge      claude-haiku-4-5 max   24  n  443  worst/actual median  1.45x  p90  1.47x  max   1.49x
+quality judge      claude-haiku-5-5 max   24  n  433  worst/actual median  1.28x  p90  1.30x  max   1.31x
+quality judge      claude-haiku-5-5 max  300  n  435  worst/actual median  2.34x  p90  2.67x  max   2.98x
+quality judge      claude-haiku-5-5 max  700  n  438  worst/actual median 12.83x  p90 13.20x  max  13.46x
+quality judge_ref  claude-haiku-5-5 max   24  n  439  worst/actual median  1.37x  p90  1.40x  max   1.43x
+support (untagged) claude-haiku-4-5 max  120  n    8  worst/actual median  2.00x  p90  2.20x  max   2.20x
+support (untagged) claude-haiku-5-5 max  120  n    9  worst/actual median  1.24x  p90  1.78x  max   1.78x
+support answer     claude-haiku-4-5 max  120  n  292  worst/actual median  2.09x  p90  2.22x  max   2.43x
+support answer     claude-haiku-5-5 max  120  n  291  worst/actual median  1.39x  p90  1.93x  max   1.97x
+
+== price ceiling sweep: requests the ceiling would refuse (worst-case estimate) and the share of actual spend they carried ==
+ceiling $0.0003: refuses  1128 ( 39.6%), carried $0.2324 ( 71.0% of spend)
+ceiling $0.0005: refuses   300 ( 10.5%), carried $0.1243 ( 38.0% of spend)
+ceiling $0.0008: refuses   300 ( 10.5%), carried $0.1243 ( 38.0% of spend)
+ceiling $0.0012: refuses     0 (  0.0%), carried $0.0000 (  0.0% of spend)
+ceiling $0.0020: refuses     0 (  0.0%), carried $0.0000 (  0.0% of spend)
+ceiling $0.0040: refuses     0 (  0.0%), carried $0.0000 (  0.0% of spend)
+
+== policy v1 in shadow, then enforcing ==
+mode shadow: blocked 0 of 2850
+   R1_allowlist   fires     0  blocks     0
+   R2_tags        fires    79  blocks     0
+   R3_ceiling     fires     0  blocks     0
+   R4_legacy      fires   750  blocks     0
+   R5_tokens      fires   450  blocks     0
+mode enforce: blocked 1252 of 2850
+   R1_allowlist   fires     0  blocks     0
+   R2_tags        fires    79  blocks    79
+   R3_ceiling     fires     0  blocks     0
+   R4_legacy      fires   750  blocks   750
+   R5_tokens      fires   450  blocks   450
+   blocked requests carried $0.2496 of $0.3273 (76.3%)
+   R4_legacy: $0.2224 over 750 requests
+   R2_tags: $0.0082 over 79 requests
+   R5_tokens: $0.0245 over 450 requests
+   blocked by exactly one rule: 1225; by two or more: 27
+
+== exception queue under the enforcing policy: groups a reviewer would see ==
+  support answer     claude-haiku-4-5 R4_legacy                      292 requests $0.1210
+  quality judge      claude-haiku-4-5 R4_legacy                      443 requests $0.0966
+  quality judge      claude-haiku-5-5 R5_tokens                      438 requests $0.0238
+  support (untagged) claude-haiku-4-5 R2_tags, R4_legacy               8 requests $0.0033
+  quality (untagged) claude-haiku-5-5 R2_tags                         43 requests $0.0020
+  quality (untagged) claude-haiku-4-5 R2_tags, R4_legacy               7 requests $0.0015
+  quality (untagged) claude-haiku-5-5 R2_tags, R5_tokens              12 requests $0.0007
+  support (untagged) claude-haiku-5-5 R2_tags                          9 requests $0.0007
+with two dated exemptions (R4 for support/answer, R5 for quality/judge): blocked 522 of 2850
+example refusal text: Model claude-haiku-4-5-20251001 is scheduled for retirement and is closed to new purposes. Use the named successor. [rule R4_legacy]
+
+== team month cap, requests in recorded order, cap judged on worst-case of the incoming request plus spend so far ==
+cap $0.05 per team: blocked 2062, spend admitted $0.0999, spend refused $0.2274; first-block position matters: support $0.0499 quality $0.0500
+cap $0.20 per team: blocked 0, spend admitted $0.3273, spend refused $0.0000; first-block position matters: support $0.1451 quality $0.1822
+cap $0.50 per team: blocked 0, spend admitted $0.3273, spend refused $0.0000; first-block position matters: support $0.1451 quality $0.1822

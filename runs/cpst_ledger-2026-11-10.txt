@@ -1,0 +1,25 @@
+SYNTHETIC 5,000 tasks, seed 11, retry cap 2. Assumed: easy p=0.85, hard p=0.35, 25% hard, human $0.80/min, 4 min on failure.
+success rate 0.791 (3954 of 5000)
+A  cost of successful tasks only / successes ('mean cost of a done task'): $0.0313
+B  CPST, machine cost only (failures in numerator, human excluded):       $0.0619
+C  CPST, human review of failures included:                                $0.9085
+   per attempted task (the naive per-task number):             $0.7184
+   share of all cost spent on tasks that failed (human included):          96.6%
+   A understates C by 96.6%
+
+By kind (human included)
+  easy  tasks  3687 success 0.907 CPST $0.3520 per attempted $0.3193
+  hard  tasks  1313 success 0.465 CPST $3.9587 per attempted $1.8392
+
+Retry-cap sweep (human included). correlated = a retry on a hard task is half as likely to succeed
+cap  correlated  success  CPST_human  CPST_machine_only  failed_cost_share_machine
+  1  False       0.723   $1.2692     $0.0456            44.1%
+  2  False       0.874   $0.5174     $0.0560            36.0%
+  3  False       0.923   $0.3305     $0.0621            30.6%
+  4  False       0.949   $0.2399     $0.0680            24.2%
+  6  False       0.980   $0.1383     $0.0717            13.3%
+  1  True        0.723   $1.2692     $0.0456            44.1%
+  2  True        0.791   $0.9085     $0.0619            49.5%
+  3  True        0.848   $0.6455     $0.0701            47.9%
+  4  True        0.883   $0.5066     $0.0809            44.5%
+  6  True        0.929   $0.3329     $0.0891            36.5%

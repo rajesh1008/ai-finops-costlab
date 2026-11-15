@@ -1,0 +1,7 @@
+cap none  : runs 80 correct 40 = 0.500 (95% 0.39-0.61) spend $1.123 (1.00x of none) killed 0 cost per correct $0.02808
+cap 0.003 : runs 80 correct 4 = 0.050 (95% 0.02-0.12) spend $0.339 (0.30x of none) killed 76 cost per correct $0.08468
+cap 0.006 : runs 80 correct 17 = 0.212 (95% 0.14-0.31) spend $0.522 (0.46x of none) killed 45 cost per correct $0.03070
+cap 0.012 : runs 80 correct 45 = 0.562 (95% 0.45-0.67) spend $0.759 (0.68x of none) killed 9 cost per correct $0.01687
+cap 0.020 : runs 80 correct 44 = 0.550 (95% 0.44-0.65) spend $0.853 (0.76x of none) killed 9 cost per correct $0.01938
+  3 hops correct: none 18/40, 0.003 2/40, 0.006 11/40, 0.012 22/40, 0.020 19/40
+  5 hops correct: none 22/40, 0.003 2/40, 0.006 6/40, 0.012 23/40, 0.020 25/40

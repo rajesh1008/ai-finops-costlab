@@ -1,0 +1,3 @@
+{'product': 'support-agent', 'team': 'support-automation', 'environment': 'production', 'feature': 'draft-reply', 'tenant': 't-0412'}
+{'product': 'unregistered', 'team': None, 'environment': None, 'feature': 'batch'}
+rejected: caller tried to set non-allowed tags: ['product']

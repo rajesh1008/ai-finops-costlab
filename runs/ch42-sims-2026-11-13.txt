@@ -1,0 +1,25 @@
+== ch22 truncation lab totals
+calls 96 cut 96 out tokens 16800 in tokens 3024
+== ch13 percentile budgeting
+month-6 spend p10 125413 p50 141488 p80 152930 p90 158947
+== ch14 simpson
+A blended per outcome 0.056
+B blended per outcome 0.197
+== ch17 router
+cheap 0.029000000000000005 strong 0.027500000000000007 breakF 0.13846153846153847
+== ch18 cache breakeven
+1.25 n reads to beat uncached 0.2777777777777778
+2.0 n reads to beat uncached 1.1111111111111112
+1h vs 5m: 5m with 3 reads/hr after expiry
+== ch19 history growth
+full history total input 328000
+summarise every 10 turns 112000 0.659
+== ch24 agent run
+input tokens total 288000 last 25800
+uncached $ 0.984
+cached $ 0.2954 ratio 0.3
+== ch25 fanout
+tokens no cache 129000
+uncached 0.387 cached 0.132
+== ch26 kill-switch latency
+60 min 2400 5min 200 15min 600

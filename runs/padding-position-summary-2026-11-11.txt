@@ -1,0 +1,11 @@
+model n_filler meanIn correct/30 costPer1000calls
+('claude-haiku-4-5', 20) 916 30 / 30 0.94 usd per correct 0.00094
+('claude-haiku-4-5', 80) 3496 30 / 30 3.52 usd per correct 0.00352
+('claude-haiku-4-5', 320) 13816 30 / 30 13.84 usd per correct 0.01384
+('claude-haiku-4-5', 960) 41336 30 / 30 41.36 usd per correct 0.04136
+('claude-haiku-5-5', 20) 1188 30 / 30 0.12 usd per correct 0.00012
+('claude-haiku-5-5', 80) 4548 30 / 30 0.46 usd per correct 0.00046
+('claude-haiku-5-5', 320) 17988 30 / 30 1.8 usd per correct 0.0018
+('claude-haiku-5-5', 960) 53828 30 / 30 5.38 usd per correct 0.00538
+by position
+wrong examples []

@@ -1,0 +1,112 @@
+claude-haiku-4-5-20251001 300 0 total 431 write 0 read 0
+claude-haiku-4-5-20251001 500 0 total 692 write 0 read 0
+claude-haiku-4-5-20251001 800 0 total 1124 write 0 read 0
+claude-haiku-4-5-20251001 1100 0 total 1577 write 0 read 0
+claude-haiku-4-5-20251001 1500 0 total 1967 write 0 read 0
+claude-haiku-4-5-20251001 2100 0 total 2855 write 0 read 0
+claude-haiku-4-5-20251001 3000 0 total 4050 write 0 read 0
+claude-haiku-4-5-20251001 4200 0 total 5610 write 5597 read 0
+claude-haiku-4-5-20251001 5000 0 total 6656 write 6643 read 0
+claude-haiku-4-5-20251001 300 1 total 445 write 0 read 0
+claude-haiku-4-5-20251001 500 1 total 685 write 0 read 0
+claude-haiku-4-5-20251001 800 1 total 1115 write 0 read 0
+claude-haiku-4-5-20251001 1100 1 total 1516 write 0 read 0
+claude-haiku-4-5-20251001 1500 1 total 2089 write 0 read 0
+claude-haiku-4-5-20251001 2100 1 total 2862 write 0 read 0
+claude-haiku-4-5-20251001 3000 1 total 4081 write 0 read 0
+claude-haiku-4-5-20251001 4200 1 total 5661 write 5648 read 0
+claude-haiku-4-5-20251001 5000 1 total 6754 write 6741 read 0
+claude-haiku-4-5-20251001 300 2 total 425 write 0 read 0
+claude-haiku-4-5-20251001 500 2 total 698 write 0 read 0
+claude-haiku-4-5-20251001 800 2 total 1096 write 0 read 0
+claude-haiku-4-5-20251001 1100 2 total 1527 write 0 read 0
+claude-haiku-4-5-20251001 1500 2 total 2017 write 0 read 0
+claude-haiku-4-5-20251001 2100 2 total 2843 write 0 read 0
+claude-haiku-4-5-20251001 3000 2 total 4076 write 0 read 0
+claude-haiku-4-5-20251001 4200 2 total 5621 write 5608 read 0
+claude-haiku-4-5-20251001 5000 2 total 6679 write 6666 read 0
+claude-haiku-5-5 20 0 total 84 write 0 read 0
+claude-haiku-5-5 50 0 total 150 write 0 read 0
+claude-haiku-5-5 100 0 total 261 write 0 read 0
+claude-haiku-5-5 200 0 total 456 write 0 read 0
+claude-haiku-5-5 300 0 total 653 write 637 read 0
+claude-haiku-5-5 500 0 total 1019 write 1003 read 0
+claude-haiku-5-5 800 0 total 1675 write 1659 read 0
+claude-haiku-5-5 1100 0 total 2259 write 2243 read 0
+claude-haiku-5-5 1500 0 total 3101 write 3085 read 0
+claude-haiku-5-5 2100 0 total 4309 write 4293 read 0
+claude-haiku-5-5 3000 0 total 6301 write 6285 read 0
+claude-haiku-5-5 4200 0 total 8659 write 8643 read 0
+claude-haiku-5-5 5000 0 total 10314 write 10298 read 0
+claude-haiku-5-5 20 1 total 84 write 0 read 0
+claude-haiku-5-5 50 1 total 145 write 0 read 0
+claude-haiku-5-5 100 1 total 252 write 0 read 0
+claude-haiku-5-5 200 1 total 463 write 0 read 0
+claude-haiku-5-5 300 1 total 679 write 663 read 0
+claude-haiku-5-5 500 1 total 1089 write 1073 read 0
+claude-haiku-5-5 800 1 total 1713 write 1697 read 0
+claude-haiku-5-5 1100 1 total 2296 write 2280 read 0
+claude-haiku-5-5 1500 1 total 3154 write 3138 read 0
+claude-haiku-5-5 2100 1 total 4273 write 4257 read 0
+claude-haiku-5-5 3000 1 total 6141 write 6125 read 0
+claude-haiku-5-5 4200 1 total 8482 write 8466 read 0
+claude-haiku-5-5 5000 1 total 10272 write 10256 read 0
+claude-haiku-5-5 20 2 total 87 write 0 read 0
+claude-haiku-5-5 50 2 total 148 write 0 read 0
+claude-haiku-5-5 100 2 total 247 write 0 read 0
+claude-haiku-5-5 200 2 total 442 write 0 read 0
+claude-haiku-5-5 300 2 total 668 write 652 read 0
+claude-haiku-5-5 500 2 total 1108 write 1092 read 0
+claude-haiku-5-5 800 2 total 1685 write 1669 read 0
+claude-haiku-5-5 1100 2 total 2295 write 2279 read 0
+claude-haiku-5-5 1500 2 total 3105 write 3089 read 0
+claude-haiku-5-5 2100 2 total 4282 write 4266 read 0
+claude-haiku-5-5 3000 2 total 6090 write 6074 read 0
+claude-haiku-5-5 4200 2 total 8579 write 8563 read 0
+claude-haiku-5-5 5000 2 total 10224 write 10208 read 0
+{
+ "claude-haiku-4-5-20251001": {
+  "smallest_cached": 5610,
+  "largest_uncached": 4081,
+  "cells_all_cached": [
+   4200,
+   5000
+  ],
+  "cells_mixed": [],
+  "cells_none_cached": [
+   300,
+   500,
+   800,
+   1100,
+   1500,
+   2100,
+   3000
+  ],
+  "n": 27,
+  "errors": 0
+ },
+ "claude-haiku-5-5": {
+  "smallest_cached": 653,
+  "largest_uncached": 463,
+  "cells_all_cached": [
+   300,
+   500,
+   800,
+   1100,
+   1500,
+   2100,
+   3000,
+   4200,
+   5000
+  ],
+  "cells_mixed": [],
+  "cells_none_cached": [
+   20,
+   50,
+   100,
+   200
+  ],
+  "n": 39,
+  "errors": 0
+ }
+}

@@ -1,0 +1,5 @@
+layout  calls  in    write   read   est_usd  read_share  write_without_read
+layout-A  6  45369      0      0  0.04691  0.00      False
+layout-B  6     93   7546  37730  0.01468  0.83      False
+layout-C  6     93  45420      0  0.05845  0.00      True
+layout-D  6     18  45351      0  0.05829  0.00      True

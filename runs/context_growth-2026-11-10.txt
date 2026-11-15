@@ -1,0 +1,8 @@
+ steps   no cache     cached  per-step x vs 1 step (no cache)
+     1     0.0010     0.0005                       1.0x total, 1.0x per step
+     2     0.0023     0.0013                       2.3x total, 1.1x per step
+     4     0.0059     0.0032                       5.8x total, 1.4x per step
+     8     0.0165     0.0072                      16.3x total, 2.0x per step
+    20     0.0773     0.0221                      76.3x total, 3.8x per step
+    50     0.4182     0.0782                     412.8x total, 8.3x per step
+   163     4.1260     0.5320                    4073.1x total, 25.0x per step

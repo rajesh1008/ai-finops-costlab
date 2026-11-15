@@ -1,0 +1,14 @@
+--- clean: 155 daily rollups, tolerance 2%
+amazon-bedrock:input_tokens      meter $    21,000  invoice $    21,000  gap  0.00%  ok
+anthropic:input_tokens           meter $    12,600  invoice $    12,600  gap -0.00%  ok
+anthropic:output_tokens          meter $    12,750  invoice $    12,750  gap  0.00%  ok
+google-vertex:output_tokens      meter $    18,000  invoice $    18,000  gap  0.00%  ok
+openai:input_tokens              meter $    11,750  invoice $    11,750  gap  0.00%  ok
+total                            meter $    76,100  invoice $    76,100  gap  0.00%
+--- lambda-key: 155 daily rollups, tolerance 2%
+amazon-bedrock:input_tokens      meter $    21,000  invoice $    21,000  gap  0.00%  ok
+anthropic:input_tokens           meter $    11,718  invoice $    12,600  gap  7.00%  OUT OF TOLERANCE
+anthropic:output_tokens          meter $    12,750  invoice $    12,750  gap  0.00%  ok
+google-vertex:output_tokens      meter $    18,000  invoice $    18,000  gap  0.00%  ok
+openai:input_tokens              meter $    11,750  invoice $    11,750  gap  0.00%  ok
+total                            meter $    75,218  invoice $    76,100  gap  1.16%

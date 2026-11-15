@@ -1,0 +1,8 @@
+annualised spend $2,160,000 = 1.54% of ARR
+unowned part annualised $1,296,000 = 0.93% of ARR
+
+same ratio if spend grows by a fixed rate each month for 12 months (ARR flat; ASSUMED rates):
+  growth   0% a month: year total $   2,160,000 =  1.54% of ARR; month 12 run-rate $   180,000
+  growth   5% a month: year total $   2,865,083 =  2.05% of ARR; month 12 run-rate $   307,861
+  growth  10% a month: year total $   3,849,171 =  2.75% of ARR; month 12 run-rate $   513,561
+  growth  20% a month: year total $   7,124,490 =  5.09% of ARR; month 12 run-rate $ 1,337,415

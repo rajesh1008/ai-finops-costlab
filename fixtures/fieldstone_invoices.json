@@ -1,0 +1,97 @@
+{
+  "note": "Illustrative Fieldstone Analytics invoices for October 2026. Not market benchmarks. Currency USD.",
+  "period": "2026-10",
+  "baseline_note": "Totals are constructed so the month sums to the book's illustrative 180000 USD with about 62 percent unattributed.",
+  "lines": [
+    {
+      "vendor": "anthropic",
+      "description": "input tokens claude-sonnet",
+      "model": "claude-sonnet",
+      "quantity": 420000000,
+      "unit": "input_tokens",
+      "amount_usd": 12600,
+      "product_tag": "support-agent"
+    },
+    {
+      "vendor": "anthropic",
+      "description": "output tokens claude-sonnet",
+      "model": "claude-sonnet",
+      "quantity": 85000000,
+      "unit": "output_tokens",
+      "amount_usd": 12750,
+      "product_tag": "support-agent"
+    },
+    {
+      "vendor": "openai",
+      "description": "input and output mixed gpt-4o and gpt-4o-mini",
+      "model": null,
+      "quantity": 1,
+      "unit": "mixed",
+      "amount_usd": 43400,
+      "product_tag": null
+    },
+    {
+      "vendor": "amazon-bedrock",
+      "description": "invocation tokens",
+      "model": "anthropic.claude",
+      "quantity": 210000000,
+      "unit": "input_tokens",
+      "amount_usd": 21000,
+      "product_tag": "nl-query"
+    },
+    {
+      "vendor": "google-vertex",
+      "description": "generate content",
+      "model": "gemini",
+      "quantity": 180000000,
+      "unit": "output_tokens",
+      "amount_usd": 18000,
+      "product_tag": null
+    },
+    {
+      "vendor": "aws",
+      "description": "GPU inference endpoint hours",
+      "model": null,
+      "quantity": 720,
+      "unit": "hours",
+      "amount_usd": 16000,
+      "product_tag": null
+    },
+    {
+      "vendor": "observability-vendor",
+      "description": "trace and log retention",
+      "model": null,
+      "quantity": 12,
+      "unit": "tb_months",
+      "amount_usd": 5400,
+      "product_tag": null
+    },
+    {
+      "vendor": "eval-vendor",
+      "description": "judge model evaluations",
+      "model": "judge",
+      "quantity": 14000000,
+      "unit": "tokens",
+      "amount_usd": 25200,
+      "product_tag": null
+    },
+    {
+      "vendor": "openai",
+      "description": "embeddings",
+      "model": "text-embedding",
+      "quantity": 900000000,
+      "unit": "input_tokens",
+      "amount_usd": 11750,
+      "product_tag": "knowledge-assistant"
+    },
+    {
+      "vendor": "azure",
+      "description": "Azure OpenAI provisioned throughput",
+      "model": "gpt-4o",
+      "quantity": 1,
+      "unit": "ptu_month",
+      "amount_usd": 13900,
+      "product_tag": "report-pipeline"
+    }
+  ]
+}

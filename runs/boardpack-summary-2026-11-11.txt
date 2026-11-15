@@ -1,0 +1,51 @@
+calls 600 errors 0
+M1 claude-haiku-4-5-20251001: in median 254 out median 31 | list blended $/Mtok 2.000 | cost per call $0.000416 | correct 138 decline 61 wrong 1 of 200
+   inference per correct answer $0.000603 | loaded cost per closed ticket $1.8844 (inference 0.000416, platform 0.0040, human 1.8600, rework 0.0200)
+   loaded cost per closed ticket 95% bootstrap range $1.4744 to $2.2744
+   template A: n 83 correct 80 decline 3 wrong 0 loaded $0.2213
+   template B: n 54 correct 54 decline 0 wrong 0 loaded $0.0044
+   template C: n 63 correct 4 decline 58 wrong 1 loaded $5.6870
+M2 claude-haiku-5-5: in median 340 out median 33 | list blended $/Mtok 0.200 | cost per call $0.000053 | correct 137 decline 62 wrong 1 of 200
+   inference per correct answer $0.000078 | loaded cost per closed ticket $1.9141 (inference 0.000053, platform 0.0040, human 1.8900, rework 0.0200)
+   loaded cost per closed ticket 95% bootstrap range $1.5041 to $2.3041
+   template A: n 83 correct 80 decline 3 wrong 0 loaded $0.2209
+   template B: n 54 correct 54 decline 0 wrong 0 loaded $0.0041
+   template C: n 63 correct 3 decline 59 wrong 1 loaded $5.7818
+M2x claude-haiku-5-5: in median 526 out median 36 | list blended $/Mtok 0.200 | cost per call $0.000071 | correct 191 decline 7 wrong 2 of 200
+   inference per correct answer $0.000074 | loaded cost per closed ticket $0.3141 (inference 0.000071, platform 0.0040, human 0.2700, rework 0.0400)
+   loaded cost per closed ticket 95% bootstrap range $0.1241 to $0.5341
+   template A: n 83 correct 82 decline 1 wrong 0 loaded $0.0764
+   template B: n 54 correct 54 decline 0 wrong 0 loaded $0.0041
+   template C: n 63 correct 55 decline 6 wrong 2 loaded $0.8930
+
+Same change, four board metrics (M1 -> M2):
+  list price per token: 10.0x lower
+  inference cost per call: 7.78x lower
+  inference cost per correct answer: 7.73x lower
+  loaded cost per closed ticket: 0.98x (higher for M2)
+
+Margin per closed ticket at ASSUMED revenue $4.00, human $6.00, rework $4.00, platform $0.004 per call:
+  M1: margin 52.9%
+  M2: margin 52.1%
+  M2x: margin 92.1%
+
+Four-quarter pack, ASSUMED volumes (tickets per quarter), M1 in Q1, M2 in Q2 and Q3, M2 with expanded retrieval (M2x) in Q4:
+  Q1 M1: tickets 150,000 loaded cost per ticket $1.8844 margin 52.9% total cost $282,662 decision fix
+  Q2 M2: tickets 210,000 loaded cost per ticket $1.9141 margin 52.1% total cost $401,951 decision fix
+  Q3 M2: tickets 300,000 loaded cost per ticket $1.9141 margin 52.1% total cost $574,216 decision fix
+  Q4 M2x: tickets 360,000 loaded cost per ticket $0.3141 margin 92.1% total cost $113,066 decision scale
+  baseline cost per ticket without AI (ASSUMED all-human): $6.00
+  Q1 net contribution vs all-human, measured unit cost times assumed volume: $617,338
+  Q2 net contribution vs all-human, measured unit cost times assumed volume: $858,049
+  Q3 net contribution vs all-human, measured unit cost times assumed volume: $1,225,784
+  Q4 net contribution vs all-human, measured unit cost times assumed volume: $2,046,934
+
+Sensitivity of loaded cost per ticket to the ASSUMED human cost and rework cost (M2):
+  human $3: rework $0 / $4 / $12 -> $0.949 / $0.969 / $1.009
+  human $6: rework $0 / $4 / $12 -> $1.894 / $1.914 / $1.954
+  human $12: rework $0 / $4 / $12 -> $3.784 / $3.804 / $3.844
+
+Break-even failure share: the share of tickets that must end in a person's hands (any cost) for the AI path to match all-human at $6.00:
+  M1: mean inference $0.000416; break-even handoff share 99.9% (measured handoff share 31.0%)
+  M2: mean inference $0.000053; break-even handoff share 99.9% (measured handoff share 31.5%)
+  M2x: mean inference $0.000071; break-even handoff share 99.9% (measured handoff share 4.5%)

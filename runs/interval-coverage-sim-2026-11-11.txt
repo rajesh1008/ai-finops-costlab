@@ -1,0 +1,8 @@
+GSD assumed 1.34: 95th percentile / median = 1.618; at GSD 2.0: 3.127
+n | rule a (raw normal) coverage, width/median | rule b (log normal) | rule c (log t, prediction)
+n=3 GSD=1.34: a 71.2% w=0.89 | b 70.9% w=0.92 | c 89.9% w=2.26
+n=5 GSD=1.34: a 80.1% w=0.94 | b 79.3% w=0.96 | c 90.0% w=1.43
+n=10 GSD=1.34: a 86.1% w=0.99 | b 85.2% w=0.98 | c 90.3% w=1.17
+n=20 GSD=1.34: a 89.0% w=1.00 | b 87.5% w=0.99 | c 90.1% w=1.07
+n=30 GSD=1.34: a 89.9% w=1.01 | b 88.1% w=0.99 | c 89.8% w=1.05
+n=5 GSD=2.0: a 81.6% w=2.72 | b 79.3% w=2.93 | c 90.0% w=5.39

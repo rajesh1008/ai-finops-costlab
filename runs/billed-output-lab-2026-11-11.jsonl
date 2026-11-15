@@ -1,0 +1,72 @@
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 0, "rep": 0, "in": 42, "out": 5, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 0, "rep": 1, "in": 42, "out": 5, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 0, "rep": 2, "in": 42, "out": 4, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 1, "rep": 0, "in": 42, "out": 4, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 1, "rep": 1, "in": 42, "out": 4, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "classify", "p": 1, "rep": 2, "in": 42, "out": 4, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 0, "rep": 0, "in": 38, "out": 8, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 0, "rep": 1, "in": 38, "out": 8, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 0, "rep": 2, "in": 38, "out": 8, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 1, "rep": 0, "in": 36, "out": 5, "text_chars": 4, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 1, "rep": 1, "in": 36, "out": 5, "text_chars": 4, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "extract", "p": 1, "rep": 2, "in": 36, "out": 5, "text_chars": 4, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 0, "rep": 0, "in": 65, "out": 80, "text_chars": 108, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 0, "rep": 1, "in": 65, "out": 68, "text_chars": 110, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 0, "rep": 2, "in": 65, "out": 76, "text_chars": 99, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 1, "rep": 0, "in": 45, "out": 51, "text_chars": 93, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 1, "rep": 1, "in": 45, "out": 57, "text_chars": 115, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "arith", "p": 1, "rep": 2, "in": 45, "out": 53, "text_chars": 80, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 0, "rep": 0, "in": 24, "out": 86, "text_chars": 433, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 0, "rep": 1, "in": 24, "out": 70, "text_chars": 347, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 0, "rep": 2, "in": 24, "out": 80, "text_chars": 405, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 1, "rep": 0, "in": 24, "out": 90, "text_chars": 452, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 1, "rep": 1, "in": 24, "out": 102, "text_chars": 527, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "short_explain", "p": 1, "rep": 2, "in": 24, "out": 82, "text_chars": 447, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 0, "rep": 0, "in": 35, "out": 122, "text_chars": 548, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 0, "rep": 1, "in": 35, "out": 127, "text_chars": 489, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 0, "rep": 2, "in": 35, "out": 120, "text_chars": 520, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 1, "rep": 0, "in": 40, "out": 118, "text_chars": 504, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 1, "rep": 1, "in": 40, "out": 119, "text_chars": 475, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "judgement", "p": 1, "rep": 2, "in": 40, "out": 125, "text_chars": 502, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 0, "rep": 0, "in": 58, "out": 41, "text_chars": 160, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 0, "rep": 1, "in": 58, "out": 39, "text_chars": 158, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 0, "rep": 2, "in": 58, "out": 26, "text_chars": 126, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 1, "rep": 0, "in": 54, "out": 36, "text_chars": 159, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 1, "rep": 1, "in": 54, "out": 33, "text_chars": 147, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-4-5-20251001", "kind": "summary", "p": 1, "rep": 2, "in": 54, "out": 37, "text_chars": 159, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 0, "rep": 0, "in": 55, "out": 5, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 0, "rep": 1, "in": 55, "out": 5, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 0, "rep": 2, "in": 55, "out": 5, "text_chars": 7, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 1, "rep": 0, "in": 56, "out": 5, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 1, "rep": 1, "in": 56, "out": 5, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "classify", "p": 1, "rep": 2, "in": 56, "out": 5, "text_chars": 3, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 0, "rep": 0, "in": 48, "out": 7, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 0, "rep": 1, "in": 48, "out": 7, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 0, "rep": 2, "in": 48, "out": 7, "text_chars": 9, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 1, "rep": 0, "in": 46, "out": 77, "text_chars": 4, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 1, "rep": 1, "in": 46, "out": 84, "text_chars": 4, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "extract", "p": 1, "rep": 2, "in": 46, "out": 83, "text_chars": 4, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 0, "rep": 0, "in": 74, "out": 170, "text_chars": 137, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 0, "rep": 1, "in": 74, "out": 180, "text_chars": 160, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 0, "rep": 2, "in": 74, "out": 168, "text_chars": 133, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 1, "rep": 0, "in": 65, "out": 233, "text_chars": 104, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 1, "rep": 1, "in": 65, "out": 268, "text_chars": 89, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "arith", "p": 1, "rep": 2, "in": 65, "out": 259, "text_chars": 112, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 0, "rep": 0, "in": 34, "out": 130, "text_chars": 427, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 0, "rep": 1, "in": 34, "out": 110, "text_chars": 385, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 0, "rep": 2, "in": 34, "out": 121, "text_chars": 395, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 1, "rep": 0, "in": 30, "out": 116, "text_chars": 422, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 1, "rep": 1, "in": 30, "out": 106, "text_chars": 353, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "short_explain", "p": 1, "rep": 2, "in": 30, "out": 119, "text_chars": 417, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 0, "rep": 0, "in": 42, "out": 316, "text_chars": 466, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 0, "rep": 1, "in": 42, "out": 299, "text_chars": 477, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 0, "rep": 2, "in": 42, "out": 298, "text_chars": 436, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 1, "rep": 0, "in": 54, "out": 294, "text_chars": 396, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 1, "rep": 1, "in": 54, "out": 478, "text_chars": 436, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "judgement", "p": 1, "rep": 2, "in": 54, "out": 632, "text_chars": 414, "types": ["thinking", "text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 0, "rep": 0, "in": 77, "out": 56, "text_chars": 160, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 0, "rep": 1, "in": 77, "out": 56, "text_chars": 160, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 0, "rep": 2, "in": 77, "out": 56, "text_chars": 160, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 1, "rep": 0, "in": 77, "out": 56, "text_chars": 158, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 1, "rep": 1, "in": 77, "out": 56, "text_chars": 154, "types": ["text"], "stop": "end_turn"}
+{"model": "claude-haiku-5-5", "kind": "summary", "p": 1, "rep": 2, "in": 77, "out": 57, "text_chars": 163, "types": ["text"], "stop": "end_turn"}

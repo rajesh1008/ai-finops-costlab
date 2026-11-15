@@ -1,0 +1,9 @@
+errors: 0 of 96
+claude-haiku-4-5-20251001 cap 50 n 12 mean_out 33.7 truncated 0.5 no_visible 0.0
+claude-haiku-4-5-20251001 cap 150 n 12 mean_out 59.4 truncated 0.0 no_visible 0.0
+claude-haiku-4-5-20251001 cap 400 n 12 mean_out 54.8 truncated 0.0 no_visible 0.0
+claude-haiku-4-5-20251001 cap 2000 n 12 mean_out 51.8 truncated 0.0 no_visible 0.0
+claude-haiku-5-5 cap 50 n 12 mean_out 38.9 truncated 0.75 no_visible 0.333
+claude-haiku-5-5 cap 150 n 12 mean_out 89.6 truncated 0.333 no_visible 0.25
+claude-haiku-5-5 cap 400 n 12 mean_out 124.6 truncated 0.0 no_visible 0.0
+claude-haiku-5-5 cap 2000 n 12 mean_out 131.2 truncated 0.0 no_visible 0.0

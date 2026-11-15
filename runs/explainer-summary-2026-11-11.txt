@@ -1,0 +1,23 @@
+calls 192 errors 0
+h45 form T: n 48  right 16  wrong 28  unknown 4  unparsed 0  usd 0.0264 per call 0.000549
+h45 form D: n 48  right 48  wrong 0  unknown 0  unparsed 0  usd 0.0317 per call 0.000661
+h55 form T: n 48  right 14  wrong 30  unknown 4  unparsed 0  usd 0.0042 per call 0.000087
+h55 form D: n 48  right 48  wrong 0  unknown 0  unparsed 0  usd 0.0047 per call 0.000097
+
+By true driver, form D, both models (right of 16)
+  volume           right 16 of 16   by model h45 8/8, h55 8/8
+  price            right 16 of 16   by model h45 8/8, h55 8/8
+  cache            right 16 of 16   by model h45 8/8, h55 8/8
+  tokens_per_call  right 16 of 16   by model h45 8/8, h55 8/8
+  mix              right 16 of 16   by model h45 8/8, h55 8/8
+  untagged         right 16 of 16   by model h45 8/8, h55 8/8
+
+By true driver, form T (spend and calls only), both models
+  volume           answers {'volume': 16}
+  price            answers {'tokens_per_call': 16}
+  cache            answers {'tokens_per_call': 15, 'price': 1}
+  tokens_per_call  answers {'tokens_per_call': 14, 'unknown': 2}
+  mix              answers {'tokens_per_call': 14, 'unknown': 1, 'price': 1}
+  untagged         answers {'volume': 11, 'unknown': 5}
+
+Confusions in form D (true -> said), wrong only

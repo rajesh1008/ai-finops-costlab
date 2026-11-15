@@ -1,0 +1,15 @@
+Anthropic API smoke test
+Date (Asia/Calcutta): 9 November 2026, about 23:56 IST
+Key source: ANTHROPIC_API_KEY environment variable
+Key never printed or committed.
+
+Result: SUCCESS
+Model requested: claude-haiku-4-5-20251001
+Model returned: claude-haiku-4-5-20251001
+Reply text: costlab-ok
+Input tokens: 15
+Output tokens: 7
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 0
+stop_reason: end_turn
+Spend: trivial (short Haiku call). No extra paid calls after this verification.

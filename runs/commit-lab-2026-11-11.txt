@@ -1,0 +1,34 @@
+== A. Size of the commit against three growth paths (12 months, discount 15 percent, usage at list starts 60,000/month) ==
+growth 0.00 commit 0.6x flat-year  list $   731,675  paid $   621,924  vs list  85.0%  shortfall $        0
+growth 0.00 commit 0.8x flat-year  list $   731,675  paid $   621,924  vs list  85.0%  shortfall $        0
+growth 0.00 commit 1.0x flat-year  list $   731,675  paid $   621,924  vs list  85.0%  shortfall $        0
+growth 0.00 commit 1.2x flat-year  list $   731,675  paid $   734,400  vs list 100.4%  shortfall $  112,476
+growth 0.05 commit 0.6x flat-year  list $   973,713  paid $   827,656  vs list  85.0%  shortfall $        0
+growth 0.05 commit 0.8x flat-year  list $   973,713  paid $   827,656  vs list  85.0%  shortfall $        0
+growth 0.05 commit 1.0x flat-year  list $   973,713  paid $   827,656  vs list  85.0%  shortfall $        0
+growth 0.05 commit 1.2x flat-year  list $   973,713  paid $   827,656  vs list  85.0%  shortfall $        0
+growth 0.10 commit 0.6x flat-year  list $ 1,311,727  paid $ 1,114,968  vs list  85.0%  shortfall $        0
+growth 0.10 commit 0.8x flat-year  list $ 1,311,727  paid $ 1,114,968  vs list  85.0%  shortfall $        0
+growth 0.10 commit 1.0x flat-year  list $ 1,311,727  paid $ 1,114,968  vs list  85.0%  shortfall $        0
+growth 0.10 commit 1.2x flat-year  list $ 1,311,727  paid $ 1,114,968  vs list  85.0%  shortfall $        0
+
+== B. The price you did not get: from month 5 the work moves to the newer model; the commit is in old-price dollars ==
+no move                            usage at new list $   973,713  discounted $   827,656  commit $612,000  paid $   827,656  shortfall $        0  paid per $ of work at old-list-equivalent 0.850
+per-task ratio measured 0.167      usage at new list $   373,229  discounted $   317,244  commit $612,000  paid $   612,000  shortfall $  294,756  paid per $ of work at old-list-equivalent 0.629
+list ratio 0.10                    usage at new list $   324,973  discounted $   276,227  commit $612,000  paid $   612,000  shortfall $  335,773  paid per $ of work at old-list-equivalent 0.629
+   same work, nothing wasted by the product team; the invoice still reads the commit: paid $612,000 against $373,229 at plain list on the newer model = 164% of list
+
+== C. Monthly use-it-or-lose-it floor against full-period commit, same shock ==
+full period commit                                     paid $   612,000  used $   317,244  shortfall $  294,756
+monthly floor 85 percent of month-1                    paid $   545,070  used $   317,244  shortfall $  227,825
+
+== D. Provisioned capacity: break-even and traffic shape (SYNTHETIC demand, ASSUMED prices) ==
+capacity price 1.67x on-demand per token at full use -> break-even utilisation 167%
+capacity price 1.27x on-demand per token at full use -> break-even utilisation 127%
+capacity price 0.70x on-demand per token at full use -> break-even utilisation 70%
+capacity price 0.50x on-demand per token at full use -> break-even utilisation 50%
+demand: peak 1,227, mean 336 units/minute; mean over peak 27.4%
+capacity at 1.00x on-demand rate: best capacity     0 ( 0.0% of peak)  total 100.0% of all-on-demand  utilisation   nan%
+capacity at 0.70x on-demand rate: best capacity   100 ( 8.2% of peak)  total  93.7% of all-on-demand  utilisation  91.1%
+capacity at 0.50x on-demand rate: best capacity   125 (10.2% of peak)  total  87.6% of all-on-demand  utilisation  83.4%
+   capacity sized to peak at 0.70x rate: 255.8% of all-on-demand, utilisation 27.4%

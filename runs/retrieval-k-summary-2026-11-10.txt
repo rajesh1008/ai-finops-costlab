@@ -1,0 +1,7 @@
+k   recall@k  answered_exactly  mean_in_tokens  cost_per_1000_queries  cost_per_correct_answer  cut_off_at_max_tokens
+  1    0.100             0.100             108  $              0.1506  $0.001506  0 of 40
+  2    0.975             0.975             155  $              0.2213  $0.000227  0 of 40
+  4    1.000             1.000             249  $              0.3152  $0.000315  0 of 40
+  8    1.000             1.000             437  $              0.4919  $0.000492  0 of 40
+ 16    1.000             0.950             813  $              0.8877  $0.000934  0 of 40
+all      -               0.400            7581  $              8.3284  $0.020821  13 of 40

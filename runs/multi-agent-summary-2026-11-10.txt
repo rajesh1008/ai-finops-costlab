@@ -1,0 +1,11 @@
+single agent all: runs 60 correct 1.000 mean cost $0.00442 p90 $0.00577 max $0.00583 mean calls 2.00 mean input tokens 2338
+  single agent, 2 combinations: runs 30 correct 1.000 mean cost $0.00328 p90 $0.00334 max $0.00338 mean calls 2.00 mean input tokens 1886
+  single agent, 6 combinations: runs 30 correct 1.000 mean cost $0.00556 p90 $0.00579 max $0.00583 mean calls 2.00 mean input tokens 2790
+supervisor+workers all: runs 60 correct 1.000 mean cost $0.00948 p90 $0.01244 max $0.01384 mean calls 7.05 mean input tokens 5417
+  supervisor+workers, 2 combinations: runs 30 correct 1.000 mean cost $0.00657 p90 $0.00720 max $0.00788 mean calls 6.03 mean input tokens 4134
+  supervisor+workers, 6 combinations: runs 30 correct 1.000 mean cost $0.01238 p90 $0.01258 max $0.01384 mean calls 8.07 mean input tokens 6700
+status M: submitted=60
+2 combinations: multi-agent costs 2.01x the single agent; supervisor share of M cost 0.229; workers per run 2.00
+6 combinations: multi-agent costs 2.23x the single agent; supervisor share of M cost 0.189; workers per run 3.07
+paired cost ratio M/S over 60 pairs: median 2.13 min 1.88 max 2.78
+cost per correct answer: single $0.00442, multi $0.00948

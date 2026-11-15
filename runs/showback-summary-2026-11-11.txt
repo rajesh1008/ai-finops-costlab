@@ -1,0 +1,49 @@
+calls cached arm 36, uncached arm 36; calls per team {'support': 13, 'data': 6, 'product': 17}
+cache writes 1 (tokens 7530), reads 35
+prefix tokens written 7530; billed write call $0.009473; mean billed read call $0.000814; mean uncached call $0.007591
+
+Allocation of one measured run (cost per thousand calls in brackets)
+  caller pays           data: $0.00488 ($0.814/k) product: $0.01384 ($0.814/k) support: $0.01924 ($1.480/k)  total $0.03796
+  amortised per call    data: $0.00633 ($1.055/k) product: $0.01793 ($1.055/k) support: $0.01371 ($1.055/k)  total $0.03796
+  uncached (requested)  data: $0.04555 ($7.591/k) product: $0.12905 ($7.591/k) support: $0.09868 ($7.591/k)  total $0.27328
+  company bill cached $0.03796 vs uncached $0.27328 (saving 86.1%); platform keeps $0.23531 under the requested-price rule
+
+Selfish-choice check (a team keeps the cache only if its own bill is lower with it)
+  caller pays data: cache ON  ($0.00488 vs $0.04555); product: cache ON  ($0.01384 vs $0.12905); support: cache ON  ($0.01924 vs $0.09868)
+  amortised   data: cache ON  ($0.00633 vs $0.04555); product: cache ON  ($0.01793 vs $0.12905); support: cache ON  ($0.01371 vs $0.09868)
+
+Scaled day, ASSUMED volumes: support 1,000, product 30,000, data 9,000 calls; support's first call after each idle gap writes
+  writes/day   1: caller-pays support $    0.82 ($  0.823/k) vs product $ 0.814/k; amortised all $ 0.814/k; company cached $   32.57 vs uncached $  303.64
+  writes/day   6: caller-pays support $    0.87 ($  0.866/k) vs product $ 0.814/k; amortised all $ 0.815/k; company cached $   32.61 vs uncached $  303.64
+  writes/day  40: caller-pays support $    1.16 ($  1.160/k) vs product $ 0.814/k; amortised all $ 0.823/k; company cached $   32.91 vs uncached $  303.64
+  writes/day 200: caller-pays support $    2.55 ($  2.546/k) vs product $ 0.814/k; amortised all $ 0.857/k; company cached $   34.29 vs uncached $  303.64
+
+Expected billed cost per call by arrival rate if the team's own calls are the only ones keeping the prefix warm (5-minute lifetime, ASSUMED rates)
+     1 calls an hour: P(write) 0.920  expected $0.008781 per call, uncached $0.007591  ratio  1.16
+     2 calls an hour: P(write) 0.846  expected $0.008144 per call, uncached $0.007591  ratio  1.07
+     3 calls an hour: P(write) 0.779  expected $0.007558 per call, uncached $0.007591  ratio  1.00
+     6 calls an hour: P(write) 0.607  expected $0.006066 per call, uncached $0.007591  ratio  0.80
+    12 calls an hour: P(write) 0.368  expected $0.004000 per call, uncached $0.007591  ratio  0.53
+    30 calls an hour: P(write) 0.082  expected $0.001525 per call, uncached $0.007591  ratio  0.20
+   120 calls an hour: P(write) 0.000  expected $0.000814 per call, uncached $0.007591  ratio  0.11
+  the cache stops paying for a lone team when P(write) exceeds 0.783, i.e. below about 2.94 calls an hour
+
+Misallocation on a SYNTHETIC month (total $215,500); share of dollars charged to the wrong team
+  headcount split             32.3%
+  one key per team group      22.2%   (shared keys split equally among their users)
+  tags at 70% coverage: pool pro rata  0.0%, pool split equally  7.5%
+  tags at 90% coverage: pool pro rata  0.0%, pool split equally  2.5%
+  tags at 96% coverage: pool pro rata  0.0%, pool split equally  1.0%
+
+MODELLED quarter, ASSUMED responses: monthly spend, showback with a ready lever cuts the waste share by half over 13 weeks
+  support-agent    $ 52,000  waste share 18.0%  cut $  4,680
+  handbook         $ 21,000  waste share 12.0%  cut $  1,260
+  extraction       $ 33,000  waste share 20.0%  cut $  3,300
+  search           $ 61,000  waste share  0.0%  cut $      0
+  reports          $ 18,000  waste share 10.0%  cut $    900
+  sales-email      $  6,500  waste share  0.0%  cut $      0
+  platform-evals   $ 24,000  waste share  2.0%  cut $    240
+  total $215,500 -> $205,120 (4.8% lower); products that moved: 4 of 7
+  chargeback model, blunt cut 10% of bill, share of the cut falling on experiments   0% -> experiment spend lost $0 of a $25,860 experiment budget (0%)
+  chargeback model, blunt cut 10% of bill, share of the cut falling on experiments  50% -> experiment spend lost $10,775 of a $25,860 experiment budget (42%)
+  chargeback model, blunt cut 10% of bill, share of the cut falling on experiments 100% -> experiment spend lost $21,550 of a $25,860 experiment budget (83%)

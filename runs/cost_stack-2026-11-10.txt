@@ -1,0 +1,8 @@
+model              $0.002350    1.0%
+retrieval_context  $0.002000    0.8%
+query_embedding    $0.000001    0.0%
+vector_store       $0.000800    0.3%
+judge_sample       $0.000225    0.1%
+human_review       $0.240000   97.8%
+total              $0.245376
+token-and-store lines only: $0.005376  (2.2% of total)

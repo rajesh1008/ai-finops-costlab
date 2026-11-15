@@ -1,0 +1,19 @@
+3050 0 total 4178 write 4165
+3100 0 total 4148 write 4135
+3200 0 total 4278 write 4265
+3300 0 total 4467 write 4454
+3500 0 total 4746 write 4733
+3800 0 total 5112 write 5099
+3050 1 total 4071 write 0
+3100 1 total 4092 write 0
+3200 1 total 4252 write 4239
+3300 1 total 4436 write 4423
+3500 1 total 4628 write 4615
+3800 1 total 5116 write 5103
+3050 2 total 4061 write 0
+3100 2 total 4201 write 4188
+3200 2 total 4312 write 4299
+3300 2 total 4422 write 4409
+3500 2 total 4736 write 4723
+3800 2 total 5028 write 5015
+{"claude-haiku-4-5-20251001": {"smallest_cached": 4148, "largest_uncached": 4092, "cells_all_cached": [3200, 3300, 3500, 3800], "cells_mixed": [3050, 3100], "cells_none_cached": [], "n": 18, "errors": 0}}

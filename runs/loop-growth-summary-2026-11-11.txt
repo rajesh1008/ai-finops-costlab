@@ -1,0 +1,8 @@
+h45: runs 8, steps median 20.0 (min 20, max 20), ended with a text answer 0, segment identity holds on all runs: True
+   input tokens call 1 mean 683, last call mean 3345, mean growth per call 140 tokens; input share of all tokens 0.961; share of tokens that is input after call 1 0.945
+   cost per run at placeholder rates: mean $0.04843, max $0.04999
+   one 20-step run: tokens at step 5 5216, step 10 13866, step 20 41441; step-20 call alone 3374; ratio of last-10 steps to first-10 steps 1.99
+h55: runs 8, steps median 20.0 (min 20, max 20), ended with a text answer 0, segment identity holds on all runs: True
+   input tokens call 1 mean 540, last call mean 3326, mean growth per call 147 tokens; input share of all tokens 0.959; share of tokens that is input after call 1 0.946
+   cost per run at placeholder rates: mean $0.00471, max $0.00474
+   one 20-step run: tokens at step 5 4690, step 10 13005, step 20 40510; step-20 call alone 3403; ratio of last-10 steps to first-10 steps 2.11

@@ -1,0 +1,10 @@
+{"model": "claude-haiku-4-5-20251001", "cell": "warm", "input": 330, "write": 7273, "read": 0}
+{"model": "claude-haiku-4-5-20251001", "cell": "same", "input": 330, "write": 0, "read": 7273}
+{"model": "claude-haiku-4-5-20251001", "cell": "user_changed", "input": 331, "write": 0, "read": 7273}
+{"model": "claude-haiku-4-5-20251001", "cell": "system_changed", "input": 330, "write": 7276, "read": 0}
+{"model": "claude-haiku-4-5-20251001", "cell": "tool_changed", "input": 330, "write": 7277, "read": 0}
+{"model": "claude-haiku-5-5", "cell": "warm", "input": 86, "write": 11073, "read": 0}
+{"model": "claude-haiku-5-5", "cell": "same", "input": 86, "write": 0, "read": 11073}
+{"model": "claude-haiku-5-5", "cell": "user_changed", "input": 87, "write": 0, "read": 11073}
+{"model": "claude-haiku-5-5", "cell": "system_changed", "input": 86, "write": 4924, "read": 6155}
+{"model": "claude-haiku-5-5", "cell": "tool_changed", "input": 86, "write": 11079, "read": 0}

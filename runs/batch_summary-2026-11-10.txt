@@ -1,0 +1,25 @@
+{
+ "billing": {
+  "model": "claude-haiku-5-5",
+  "seconds_to_end": 164.8,
+  "succeeded": 30,
+  "of": 30,
+  "sync_estimate_usd": 0.00316,
+  "batch_estimate_usd": 0.00158,
+  "cache_read_tokens": 0,
+  "cache_write_tokens": 0,
+  "requests_with_read": 0,
+  "correct": 30
+ },
+ "handbook": {
+  "model": "claude-haiku-4-5-20251001",
+  "seconds_to_end": 103.5,
+  "succeeded": 20,
+  "of": 20,
+  "sync_estimate_usd": 0.03422,
+  "batch_estimate_usd": 0.01711,
+  "cache_read_tokens": 143355,
+  "cache_write_tokens": 7545,
+  "requests_with_read": 19
+ }
+}

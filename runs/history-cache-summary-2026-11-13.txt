@@ -1,0 +1,9 @@
+sessions 12 errors 0 calls 120
+none n 4 cost/session $ 0.08153 min 0.08126 max 0.08197 | mean per session: uncached in 80548 cache read 0 cache write 0
+  mean cost by turn $: [0.00598, 0.00647, 0.00695, 0.00744, 0.00791, 0.00839, 0.00888, 0.00935, 0.00984, 0.01033]
+static n 4 cost/session $ 0.03788 min 0.03753 max 0.03867 | mean per session: uncached in 25902 cache read 48328 cache write 5370
+  mean cost by turn $: [0.00722, 0.00152, 0.00199, 0.00247, 0.00294, 0.00341, 0.00388, 0.00434, 0.00482, 0.00529]
+moving n 4 cost/session $ 0.02065 min 0.02047 max 0.02083 | mean per session: uncached in 30 cache read 70149 cache write 10187
+  mean cost by turn $: [0.00744, 0.00128, 0.00133, 0.00137, 0.00141, 0.00147, 0.00152, 0.00156, 0.00161, 0.00166]
+turn-1 total prompt tokens (in+cr+cw), by arm: {'none': [5898, 5864, 5912, 5855], 'static': [5858, 5856, 5830, 5803], 'moving': [5914, 5894, 5921, 5817]}
+turn-10 total prompt tokens, by arm: {'none': [10269, 10217], 'static': [10067, 10090], 'moving': [10221, 10201]}

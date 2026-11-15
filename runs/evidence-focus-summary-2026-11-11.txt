@@ -1,0 +1,4 @@
+ledger records 1800 -> FOCUS-shaped rows 3600 (2.00 per record); tokens in rows 712651 against ledger tokens 712651
+columns used: ChargePeriodStart, ConsumedQuantity, ConsumedUnit, CredentialId, ServiceProviderName, SkuMeter, SkuPriceDetails, x_Feature, x_Product, x_RecordId, x_Tenant
+pack fields without a FOCUS column in this mapping (carried as x_ extensions): prev, h, price_table_version, price_effective_date, recomputed_cost_usd, attribution_complete, invoice_line_id, exception_id, env
+bytes: plain records 241,060; FOCUS-shaped rows 1,453,967 (6.03x)

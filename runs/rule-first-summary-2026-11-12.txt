@@ -1,0 +1,28 @@
+claude-haiku-4-5-20251001 {
+ "n": 60,
+ "rule_handles": 30,
+ "rule_correct_of_handled": 24,
+ "model_only_correct": 60,
+ "hybrid_correct": 54,
+ "model_only_cost": 0.0067659999999999994,
+ "hybrid_cost": 0.003376,
+ "model_wrong_on_rule_handled": 0,
+ "rule_wrong_formats": [
+  "slash_dmy"
+ ],
+ "mean_out_tokens": 10.0
+}
+claude-haiku-5-5 {
+ "n": 60,
+ "rule_handles": 30,
+ "rule_correct_of_handled": 24,
+ "model_only_correct": 59,
+ "hybrid_correct": 53,
+ "model_only_cost": 0.016264,
+ "hybrid_cost": 0.010487,
+ "model_wrong_on_rule_handled": 0,
+ "rule_wrong_formats": [
+  "slash_dmy"
+ ],
+ "mean_out_tokens": 38.55
+}

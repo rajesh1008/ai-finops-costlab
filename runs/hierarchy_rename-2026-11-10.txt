@@ -1,0 +1,25 @@
+as-of the date of spend:
+  Data Products        $   10,839
+  Insights Platform    $   10,161
+by today's owner (history rewritten):
+  Data Products        $   21,000
+integrity: no gaps, no overlaps
+after a sloppy edit: ['overlapping assignments for nl-query on 2026-10-10', 'overlapping assignments for nl-query on 2026-10-11'] ...
+
+shared prompt-cache service, $3,000, split by metered share of calls:
+  support-agent           61.0%  $   1,830
+  knowledge-assistant     27.0%  $     810
+  nl-query                12.0%  $     360
+
+support-agent, $25,350, team T7 renamed on 16 October (same owner):
+  grouped by label in the cost data:
+    Customer Resolution    $   13,084
+    Support Automation     $   12,266
+  grouped by team id, label looked up for the report date:
+    T7 (Customer Resolution)  $   25,350
+
+shared cache, $3,000 for October. Method A (support-agent only) before 20 October; method B (metered share) from 20 October:
+  support-agent          $   2,303
+  knowledge-assistant    $     406
+  nl-query               $     290
+  total $3,000  (19 days under A, 12 under B; calls from 20 October are assumed)

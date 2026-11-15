@@ -1,0 +1,20 @@
+v1 records 24; v2 records 24; FOCUS-shaped rows 53
+  Input/Read       rows   4 tokens   30,120
+  Input/Uncached   rows  24 tokens   13,256
+  Input/Write      rows   1 tokens    7,530
+  Output/Uncached  rows  24 tokens    1,536
+every record's rows sum to its token total: True
+
+Example record rows (cache-lab write call):
+  Input tokens 17 {"ModelId": "claude-haiku-4-5-20251001", "TokenCacheAction": "Uncached", "TokenDirection": "Input"}
+  Input tokens (write) 7530 {"ModelId": "claude-haiku-4-5-20251001", "TokenCacheAction": "Write", "TokenDirection": "Input"}
+  Output tokens 52 {"ModelId": "claude-haiku-4-5-20251001", "TokenCacheAction": "Uncached", "TokenDirection": "Output"}
+
+--- Injection A: a producer renames input_tokens to prompt_tokens, no version bump ---
+lenient v1 model accepts it: input_tokens = 0 (true value 613)
+strict v2 model: (False, 'int_type on input_tokens')
+if every record arrived renamed the lenient total input would read 0 against 13,256
+
+--- Injection B: a producer folds cache tokens into input AND reports them separately ---
+provider total 7,574; rows sum 15,104; check passes: False
+tokens counted twice 7,530

@@ -1,0 +1,9 @@
+n 1000
+mean 0.6483
+median 0.3844
+p90 1.4444
+p99 4.4436
+max 13.3959
+total 648.3068
+top1_share 0.0986
+top5_share 0.2718

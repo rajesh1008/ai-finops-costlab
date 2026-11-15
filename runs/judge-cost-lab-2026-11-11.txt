@@ -1,0 +1,2 @@
+claude-haiku-4-5-20251001 n 60 right 30 wrong-accepted 0 right-rejected 30 other 0 mean in 104 out 138 thinking 0
+claude-haiku-5-5 n 60 right 55 wrong-accepted 0 right-rejected 0 other 5 mean in 138 out 193 thinking 60

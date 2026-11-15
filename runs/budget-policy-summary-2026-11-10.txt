@@ -1,0 +1,12 @@
+none : runs 80 correct 40/80 = 0.500 spend $1.1234 (1.00x of none) mean $0.01404 p90 $0.04832 max $0.05064 mean steps 6.39 cost per correct $0.02808  status {'submitted': 71, 'cap': 9}
+        3 hops: correct 18/40 mean $0.01098 max $0.04961
+        5 hops: correct 22/40 mean $0.01710 max $0.05064
+hard : runs 80 correct 45/80 = 0.562 spend $0.7593 (0.68x of none) mean $0.00949 p90 $0.01369 max $0.01455 mean steps 5.24 cost per correct $0.01687  status {'submitted': 70, 'killed': 9, 'no_tool': 1}
+        3 hops: correct 22/40 mean $0.00778 max $0.01328
+        5 hops: correct 23/40 mean $0.01120 max $0.01455
+aware: runs 80 correct 42/80 = 0.525 spend $0.7930 (0.71x of none) mean $0.00991 p90 $0.01451 max $0.01599 mean steps 5.24 cost per correct $0.01888  status {'submitted': 74, 'no_tool': 3, 'killed': 3}
+        3 hops: correct 21/40 mean $0.00815 max $0.01500
+        5 hops: correct 21/40 mean $0.01168 max $0.01599
+paired (same question and repeat; sampling differs between arms): correct under none but wrong under hard 12; under aware 16; wrong under none but right under aware 18
+hard: killed 9 runs, spend on killed runs $0.1186
+aware: killed 3 runs, spend on killed runs $0.0420

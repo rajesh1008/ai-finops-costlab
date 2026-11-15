@@ -1,0 +1,12 @@
+calls 36 errors 0 unparsed 0
+plain n 12 correct 12 mean_conf 96.25
+policy n 24 correct 18 mean_conf 88.41666666666667
+wrong confs [75, 75, 75, 85, 92, 92]
+right conf min/mean 78 92.76666666666667
+threshold 50: escalate 0/36; wrong kept 6; wrong escalated 0
+threshold 70: escalate 0/36; wrong kept 6; wrong escalated 0
+threshold 80: escalate 4/36; wrong kept 3; wrong escalated 3
+threshold 85: escalate 4/36; wrong kept 3; wrong escalated 3
+threshold 90: escalate 10/36; wrong kept 2; wrong escalated 4
+threshold 95: escalate 17/36; wrong kept 0; wrong escalated 6
+mean in/out 153.58333333333334 7.75

@@ -1,0 +1,15 @@
+{"model": "claude-haiku-5-5", "target": 210, "rep": 0, "input": 475, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 230, "rep": 0, "input": 468, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 250, "rep": 0, "input": 507, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 270, "rep": 0, "input": 16, "write": 570, "read": 0}
+{"model": "claude-haiku-5-5", "target": 290, "rep": 0, "input": 16, "write": 615, "read": 0}
+{"model": "claude-haiku-5-5", "target": 210, "rep": 1, "input": 463, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 230, "rep": 1, "input": 486, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 250, "rep": 1, "input": 16, "write": 523, "read": 0}
+{"model": "claude-haiku-5-5", "target": 270, "rep": 1, "input": 16, "write": 588, "read": 0}
+{"model": "claude-haiku-5-5", "target": 290, "rep": 1, "input": 16, "write": 626, "read": 0}
+{"model": "claude-haiku-5-5", "target": 210, "rep": 2, "input": 445, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 230, "rep": 2, "input": 522, "write": 0, "read": 0}
+{"model": "claude-haiku-5-5", "target": 250, "rep": 2, "input": 16, "write": 556, "read": 0}
+{"model": "claude-haiku-5-5", "target": 270, "rep": 2, "input": 16, "write": 549, "read": 0}
+{"model": "claude-haiku-5-5", "target": 290, "rep": 2, "input": 16, "write": 613, "read": 0}

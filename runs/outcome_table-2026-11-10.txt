@@ -1,0 +1,11 @@
+product                    cost   outcomes  $/outcome  signed count measured person  known
+support-agent            25,350     41,000      0.618  False  yes   True     True   no   [tagged invoice lines]
+nl-query                 21,000     60,000      0.350  False  yes   True     True   no   [tagged invoice line]
+knowledge-assistant      11,750     90,000      0.131  False  yes   False    True   no   [tagged line (embeddings only)]
+report-pipeline          13,900     12,000      1.158  False  yes   True     True   no   [tagged line (provisioned capacity)]
+contract-extraction       9,000      8,500      1.059  False  yes   False    False  no   [assumed]
+data-prep-assistant       4,000     15,000      0.267  False  yes   False    False  no   [assumed]
+alert-explainer           1,500     30,000      0.050  False  yes   False    False  no   [assumed]
+
+known by the four-part rule: 0 of 7  (the scoreboard says 2 of 7)
+naive $/outcome ranks the products using counts nobody signed; read the column as arithmetic, not as a finding

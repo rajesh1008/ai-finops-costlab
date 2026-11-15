@@ -1,0 +1,6 @@
+triples 390 from chapters ['ch01', 'ch02', 'ch03'] ... ch44
+median words: strong 87.0, weak 7.0; strong longer in 390 of 390
+longer                 full 390/390 (100%)   first sentence only 303/390 (78%)
+more digits            full 230/390 (59%)   first sentence only 25/390 (6%)
+overlap with question  full 212/390 (54%)   first sentence only 125/390 (32%)
+conditional words      full 261/390 (67%)   first sentence only 78/390 (20%)

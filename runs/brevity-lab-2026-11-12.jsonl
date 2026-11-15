@@ -1,0 +1,160 @@
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 0, "rep": 0, "input": 55, "out": 128, "stop": "end_turn", "ok": true, "tail": " $0.0045\n\n**Total cost:**\n- $0.0034 + $0.0045 = **$0.00790**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 0, "rep": 1, "input": 55, "out": 129, "stop": "end_turn", "ok": true, "tail": ".00450\n\n**Total cost:**\n- $0.00340 + $0.00450 = **$0.00790**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 1, "rep": 0, "input": 19, "out": 35, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 416.50\n\n(2,450 \u00d7 0.17 = 416.50)"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 1, "rep": 1, "input": 19, "out": 31, "stop": "end_turn", "ok": true, "tail": "To find 17% of 2,450:\n\n2,450 \u00d7 0.17 = **416.5**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 2, "rep": 0, "input": 46, "out": 121, "stop": "end_turn", "ok": true, "tail": "hed tokens = $0.30 \u00d7 2 = **$0.60**\n\nThe answer is **$0.60**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 2, "rep": 1, "input": 46, "out": 125, "stop": "end_turn", "ok": true, "tail": "ed tokens:\n- $0.30 \u00d7 2 = **$0.60**\n\nThe answer is **$0.60**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 3, "rep": 0, "input": 43, "out": 89, "stop": "end_turn", "ok": true, "tail": "{ per day}$$\n\nThe average spend per working day is **$800**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 3, "rep": 1, "input": 43, "out": 89, "stop": "end_turn", "ok": true, "tail": "age} = 800$$\n\nThe average spend per working day is **$800**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 4, "rep": 0, "input": 36, "out": 65, "stop": "end_turn", "ok": true, "tail": "n:**\nOutput price = $0.80 \u00d7 5 = **$4.00 per million tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 4, "rep": 1, "input": 36, "out": 65, "stop": "end_turn", "ok": true, "tail": "n:**\nOutput price = $0.80 \u00d7 5 = **$4.00 per million tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 5, "rep": 0, "input": 35, "out": 83, "stop": "end_turn", "ok": true, "tail": "= $1,260 \u2212 $630 = **$630**\n\nThe discounted bill is **$630**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 5, "rep": 1, "input": 35, "out": 84, "stop": "end_turn", "ok": true, "tail": "= $1,260 - $630 = **$630**\n\nThe discounted bill is **$630**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 6, "rep": 0, "input": 33, "out": 52, "stop": "end_turn", "ok": true, "tail": "\u00d7 $0.0045 = $5.40\n\n**For 30 days:** $5.40 \u00d7 30 = **$162.00**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 6, "rep": 1, "input": 33, "out": 51, "stop": "end_turn", "ok": true, "tail": " $0.0045 = $5.40\n\n**30-day total:** $5.40 \u00d7 30 = **$162.00**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 7, "rep": 0, "input": 30, "out": 27, "stop": "end_turn", "ok": true, "tail": " Input Tokens\n\n12,000 tokens \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 7, "rep": 1, "input": 30, "out": 27, "stop": "end_turn", "ok": true, "tail": " Input Tokens\n\n12,000 tokens \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 8, "rep": 0, "input": 28, "out": 96, "stop": "end_turn", "ok": true, "tail": "0\n- 0.25 \u00d7 100\n- **25%**\n\nThe spending increased by **25%**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 8, "rep": 1, "input": 28, "out": 101, "stop": "end_turn", "ok": true, "tail": "tage = 0.25 \u00d7 100 = **25%**\n\nThe spend increased by **25%**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 9, "rep": 0, "input": 55, "out": 247, "stop": "end_turn", "ok": true, "tail": "(2,500 + 22,500)\nSum = 4.5 \u00d7 25,000\nSum = **112,500 tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "none", "q": 9, "rep": 1, "input": 55, "out": 233, "stop": "end_turn", "ok": true, "tail": "c{9 \\times 25,000}{2} = 112,500$$\n\n**Total: 112,500 tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 0, "rep": 0, "input": 58, "out": 82, "stop": "end_turn", "ok": true, "tail": "00,000 = $0.00450\n\nTotal: $0.00340 + $0.00450 = **$0.00790**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 0, "rep": 1, "input": 58, "out": 90, "stop": "end_turn", "ok": true, "tail": "0) = $0.00450\n\n**Total:** $0.00340 + $0.00450 = **$0.00790**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 1, "rep": 0, "input": 22, "out": 17, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 416.5"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 1, "rep": 1, "input": 22, "out": 17, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 416.5"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 2, "rep": 0, "input": 49, "out": 69, "stop": "end_turn", "ok": true, "tail": "rice for 2 million cached tokens read:\n2 \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 2, "rep": 1, "input": 49, "out": 69, "stop": "end_turn", "ok": true, "tail": "rice for 2 million cached tokens read:\n2 \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 3, "rep": 0, "input": 46, "out": 30, "stop": "end_turn", "ok": true, "tail": " \u00f7 23 = $800\n\nThe average spend per working day is **$800**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 3, "rep": 1, "input": 46, "out": 30, "stop": "end_turn", "ok": true, "tail": " \u00f7 23 = $800\n\nThe average spend per working day is **$800**."}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 4, "rep": 0, "input": 39, "out": 46, "stop": "end_turn", "ok": true, "tail": "0 per million\nOutput cost: $0.80 \u00d7 5 = **$4.00 per million**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 4, "rep": 1, "input": 39, "out": 56, "stop": "end_turn", "ok": true, "tail": ".80 per million\n- Output cost: $0.80 \u00d7 5 = $4.00 per million"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 5, "rep": 0, "input": 38, "out": 36, "stop": "end_turn", "ok": true, "tail": "d Bill Calculation\n\n50% of $1,260 = $1,260 \u00d7 0.50 = **$630**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 5, "rep": 1, "input": 38, "out": 44, "stop": "end_turn", "ok": true, "tail": "260 = $1,260 \u00d7 0.50 = $630\n\n**The discounted bill is $630.**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 6, "rep": 0, "input": 36, "out": 24, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 \u00d7 30 = **$162**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 6, "rep": 1, "input": 36, "out": 24, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 \u00d7 30 = **$162**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 7, "rep": 0, "input": 33, "out": 21, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 7, "rep": 1, "input": 33, "out": 21, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 8, "rep": 0, "input": 31, "out": 49, "stop": "end_turn", "ok": true, "tail": "00 - $52,000) / $52,000 = $13,000 / $52,000 = 0.25 = **25%**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 8, "rep": 1, "input": 31, "out": 35, "stop": "end_turn", "ok": true, "tail": "tage Increase\n\n($65,000 - $52,000) / $52,000 \u00d7 100 = **25%**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 9, "rep": 0, "input": 58, "out": 167, "stop": "end_turn", "ok": true, "tail": "500 + 15,000 + 17,500 + 20,000 + 22,500 = **112,500 tokens**"}
+{"model": "claude-haiku-4-5-20251001", "variant": "brief", "q": 9, "rep": 1, "input": 58, "out": 143, "stop": "end_turn", "ok": true, "tail": "ithmetic sequence: sum = 9 \u00d7 (2,500 + 22,500) / 2 = 112,500)"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 0, "rep": 0, "input": 63, "out": 60, "stop": "end_turn", "ok": true, "tail": "00) + (900 \u00d7 5.00 / 1,000,000) = 0.00340 + 0.00450 = 0.00790"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 0, "rep": 1, "input": 63, "out": 9, "stop": "end_turn", "ok": false, "tail": "0.00004100"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 1, "rep": 0, "input": 27, "out": 19, "stop": "end_turn", "ok": true, "tail": "17 percent of 2,450 is 416.5."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 1, "rep": 1, "input": 27, "out": 19, "stop": "end_turn", "ok": true, "tail": "17 percent of 2,450 is 416.50."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 2, "rep": 0, "input": 54, "out": 7, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 2, "rep": 1, "input": 54, "out": 7, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 3, "rep": 0, "input": 51, "out": 28, "stop": "end_turn", "ok": true, "tail": "$18,400 \u00f7 23 = $800 per working day (to the nearest dollar)."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 3, "rep": 1, "input": 51, "out": 18, "stop": "end_turn", "ok": true, "tail": "$18,400 \u00f7 23 = $800"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 4, "rep": 0, "input": 44, "out": 14, "stop": "end_turn", "ok": true, "tail": "The output price per million is $4.00."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 4, "rep": 1, "input": 44, "out": 14, "stop": "end_turn", "ok": true, "tail": "The output price per million is $4.00."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 5, "rep": 0, "input": 43, "out": 11, "stop": "end_turn", "ok": true, "tail": "The discounted bill is $630."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 5, "rep": 1, "input": 43, "out": 11, "stop": "end_turn", "ok": true, "tail": "The discounted bill is $630."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 6, "rep": 0, "input": 41, "out": 24, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 \u00d7 30 = $162.00"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 6, "rep": 1, "input": 41, "out": 24, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 \u00d7 30 = $162.00"}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 7, "rep": 0, "input": 38, "out": 23, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = 480,000 input tokens in total."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 7, "rep": 1, "input": 38, "out": 23, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = 480,000 input tokens in total."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 8, "rep": 0, "input": 36, "out": 51, "stop": "end_turn", "ok": true, "tail": "5,000 - $52,000 = $13,000; $13,000 \u00f7 $52,000 = 0.25 or 25%)."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 8, "rep": 1, "input": 36, "out": 34, "stop": "end_turn", "ok": true, "tail": "percentage increase is 25% ($13,000 \u00f7 $52,000 = 0.25 \u00d7 100)."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 9, "rep": 0, "input": 63, "out": 147, "stop": "end_turn", "ok": true, "tail": "12,500 + 15,000 + 17,500 + 20,000 + 22,500 = 112,500 tokens."}
+{"model": "claude-haiku-4-5-20251001", "variant": "one_line", "q": 9, "rep": 1, "input": 63, "out": 147, "stop": "end_turn", "ok": true, "tail": "12,500 + 15,000 + 17,500 + 20,000 + 22,500 = 112,500 tokens."}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 0, "rep": 0, "input": 65, "out": 8, "stop": "end_turn", "ok": false, "tail": "0.00769"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 0, "rep": 1, "input": 65, "out": 8, "stop": "end_turn", "ok": false, "tail": "0.00839"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 1, "rep": 0, "input": 29, "out": 7, "stop": "end_turn", "ok": true, "tail": "416.50"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 1, "rep": 1, "input": 29, "out": 7, "stop": "end_turn", "ok": true, "tail": "416.5"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 2, "rep": 0, "input": 56, "out": 7, "stop": "end_turn", "ok": true, "tail": "0.60"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 2, "rep": 1, "input": 56, "out": 7, "stop": "end_turn", "ok": true, "tail": "0.60"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 3, "rep": 0, "input": 53, "out": 5, "stop": "end_turn", "ok": true, "tail": "$800"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 3, "rep": 1, "input": 53, "out": 5, "stop": "end_turn", "ok": true, "tail": "$800"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 4, "rep": 0, "input": 46, "out": 7, "stop": "end_turn", "ok": true, "tail": "$4.00"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 4, "rep": 1, "input": 46, "out": 7, "stop": "end_turn", "ok": true, "tail": "$4.00"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 5, "rep": 0, "input": 45, "out": 5, "stop": "end_turn", "ok": true, "tail": "$630"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 5, "rep": 1, "input": 45, "out": 5, "stop": "end_turn", "ok": true, "tail": "$630"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 6, "rep": 0, "input": 43, "out": 7, "stop": "end_turn", "ok": false, "tail": "$1,620"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 6, "rep": 1, "input": 43, "out": 7, "stop": "end_turn", "ok": false, "tail": "$1,620"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 7, "rep": 0, "input": 40, "out": 7, "stop": "end_turn", "ok": true, "tail": "480,000"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 7, "rep": 1, "input": 40, "out": 7, "stop": "end_turn", "ok": true, "tail": "480,000"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 8, "rep": 0, "input": 38, "out": 6, "stop": "end_turn", "ok": true, "tail": "25%"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 8, "rep": 1, "input": 38, "out": 6, "stop": "end_turn", "ok": true, "tail": "25%"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 9, "rep": 0, "input": 65, "out": 7, "stop": "end_turn", "ok": true, "tail": "112,500"}
+{"model": "claude-haiku-4-5-20251001", "variant": "answer_only", "q": 9, "rep": 1, "input": 65, "out": 7, "stop": "end_turn", "ok": true, "tail": "112,500"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 0, "rep": 0, "input": 66, "out": 172, "stop": "end_turn", "ok": true, "tail": "1,000,000 = $0.00450\n- Total: $0.00340 + $0.00450 = $0.00790"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 0, "rep": 1, "input": 66, "out": 172, "stop": "end_turn", "ok": true, "tail": "1,000,000 = $0.00450\n- Total: $0.00340 + $0.00450 = $0.00790"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 1, "rep": 0, "input": 21, "out": 28, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 0.17 \u00d7 2,450 = **416.5**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 1, "rep": 1, "input": 21, "out": 28, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 0.17 \u00d7 2,450 = **416.5**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 2, "rep": 0, "input": 57, "out": 84, "stop": "end_turn", "ok": true, "tail": "ens\n- Cost of 2 million cached tokens: 2 \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 2, "rep": 1, "input": 57, "out": 62, "stop": "end_turn", "ok": true, "tail": " tokens.\n\nFor 2 million cached tokens: 2 \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 3, "rep": 0, "input": 51, "out": 48, "stop": "end_turn", "ok": true, "tail": "t's check: 23 \u00d7 800 = 18,400. Yes.\n\n**$800 per working day**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 3, "rep": 1, "input": 51, "out": 43, "stop": "end_turn", "ok": true, "tail": "23 \u00d7 800 = 18,400).\n\n**Average spend per working day: $800**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 4, "rep": 0, "input": 45, "out": 47, "stop": "end_turn", "ok": true, "tail": "e output price is:\n\n5 \u00d7 $0.80 = **$4.00 per million tokens**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 4, "rep": 1, "input": 45, "out": 42, "stop": "end_turn", "ok": true, "tail": "tokens, so:\n\n$0.80 \u00d7 5 = **$4.00 per million output tokens**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 5, "rep": 0, "input": 47, "out": 37, "stop": "end_turn", "ok": true, "tail": "is $630, so the discounted bill is $1,260 \u2212 $630 = **$630**."}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 5, "rep": 1, "input": 47, "out": 65, "stop": "end_turn", "ok": true, "tail": "0 = $630 discount\n\nDiscounted bill: $1,260 \u2212 $630 = **$630**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 6, "rep": 0, "input": 37, "out": 42, "stop": "end_turn", "ok": true, "tail": " \u00d7 30 days = 36,000 requests\n\n36,000 \u00d7 $0.0045 = **$162.00**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 6, "rep": 1, "input": 37, "out": 40, "stop": "end_turn", "ok": true, "tail": "day \u00d7 30 days = 36,000 requests\n\n36,000 \u00d7 $0.0045 = **$162**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 7, "rep": 0, "input": 38, "out": 87, "stop": "end_turn", "ok": true, "tail": "*480,000 input tokens** in total (12,000 tokens \u00d7 40 sends)."}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 7, "rep": 1, "input": 38, "out": 59, "stop": "end_turn", "ok": true, "tail": "okens** in total.\n\n12,000 tokens \u00d7 40 sends = 480,000 tokens"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 8, "rep": 0, "input": 33, "out": 126, "stop": "end_turn", "ok": true, "tail": ",000 = 0.25\n3. Convert to a percentage: 0.25 \u00d7 100 = **25%**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 8, "rep": 1, "input": 33, "out": 126, "stop": "end_turn", "ok": true, "tail": ",000 = 0.25\n3. Convert to a percentage: 0.25 \u00d7 100 = **25%**"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 9, "rep": 0, "input": 68, "out": 284, "stop": "end_turn", "ok": true, "tail": "he total is:\n\n2,500 \u00d7 (1 + 2 + \u2026 + 9) = 2,500 \u00d7 45 = 112,500"}
+{"model": "claude-haiku-5-5", "variant": "none", "q": 9, "rep": 1, "input": 68, "out": 464, "stop": "end_turn", "ok": true, "tail": " sum is 9/2 \u00d7 (2,500 + 22,500) = 9/2 \u00d7 25,000 = **112,500**."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 0, "rep": 0, "input": 71, "out": 153, "stop": "end_turn", "ok": true, "tail": "Output: 900 \u00d7 $5.00 / 1,000,000 = $0.00450\n- Total: $0.00790"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 0, "rep": 1, "input": 71, "out": 150, "stop": "end_turn", "ok": true, "tail": "Output: 900 \u00d7 $5.00 / 1,000,000 = $0.00450\n- Total: $0.00790"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 1, "rep": 0, "input": 26, "out": 28, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 0.17 \u00d7 2,450 = **416.5**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 1, "rep": 1, "input": 26, "out": 28, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 0.17 \u00d7 2,450 = **416.5**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 2, "rep": 0, "input": 62, "out": 49, "stop": "end_turn", "ok": true, "tail": "30 per million tokens.\n\n2 million tokens \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 2, "rep": 1, "input": 62, "out": 49, "stop": "end_turn", "ok": true, "tail": "30 per million tokens.\n\n2 million tokens \u00d7 $0.30 = **$0.60**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 3, "rep": 0, "input": 56, "out": 22, "stop": "end_turn", "ok": true, "tail": "18,400 / 23 = 800\n\n**$800 per working day**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 3, "rep": 1, "input": 56, "out": 22, "stop": "end_turn", "ok": true, "tail": "18,400 / 23 = 800\n\n**$800 per working day**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 4, "rep": 0, "input": 50, "out": 29, "stop": "end_turn", "ok": true, "tail": "Output price = 5 \u00d7 $0.80 = **$4.00 per million tokens**."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 4, "rep": 1, "input": 50, "out": 29, "stop": "end_turn", "ok": true, "tail": "Output price = 5 \u00d7 $0.80 = **$4.00 per million tokens**."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 5, "rep": 0, "input": 52, "out": 27, "stop": "end_turn", "ok": true, "tail": "50% of $1,260 is $630, so the discounted bill is **$630**."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 5, "rep": 1, "input": 52, "out": 27, "stop": "end_turn", "ok": true, "tail": "50% of $1,260 is $630, so the discounted bill is **$630**."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 6, "rep": 0, "input": 42, "out": 38, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 = $5.40 per day\n$5.40 \u00d7 30 = **$162.00**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 6, "rep": 1, "input": 42, "out": 38, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 = $5.40 per day\n$5.40 \u00d7 30 = **$162.00**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 7, "rep": 0, "input": 43, "out": 21, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 7, "rep": 1, "input": 43, "out": 21, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = **480,000 input tokens**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 8, "rep": 0, "input": 38, "out": 53, "stop": "end_turn", "ok": true, "tail": "000\n\nPercentage increase = $13,000 \u00f7 $52,000 \u00d7 100 = **25%**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 8, "rep": 1, "input": 38, "out": 54, "stop": "end_turn", "ok": true, "tail": "0\n\nPercentage increase = ($13,000 \u00f7 $52,000) \u00d7 100 = **25%**"}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 9, "rep": 0, "input": 73, "out": 202, "stop": "end_turn", "ok": true, "tail": "r 9 steps is 2,500 \u00d7 (1 + 2 + \u2026 + 9) = 2,500 \u00d7 45 = 112,500."}
+{"model": "claude-haiku-5-5", "variant": "brief", "q": 9, "rep": 1, "input": 73, "out": 224, "stop": "end_turn", "ok": true, "tail": "the total is 2,500 \u00d7 (1 + 2 + \u2026 + 9) = 2,500 \u00d7 45 = 112,500."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 0, "rep": 0, "input": 77, "out": 66, "stop": "end_turn", "ok": true, "tail": "**$0.00790**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 0, "rep": 1, "input": 77, "out": 70, "stop": "end_turn", "ok": true, "tail": "**$0.00790**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 1, "rep": 0, "input": 32, "out": 16, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 is 416.5."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 1, "rep": 1, "input": 32, "out": 15, "stop": "end_turn", "ok": true, "tail": "17% of 2,450 = 416.5"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 2, "rep": 0, "input": 68, "out": 47, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 2, "rep": 1, "input": 68, "out": 48, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 3, "rep": 0, "input": 62, "out": 38, "stop": "end_turn", "ok": true, "tail": "**$800**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 3, "rep": 1, "input": 62, "out": 35, "stop": "end_turn", "ok": true, "tail": "$800 per working day."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 4, "rep": 0, "input": 56, "out": 25, "stop": "end_turn", "ok": true, "tail": "Output price: $4.00 per million tokens (5 \u00d7 $0.80)."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 4, "rep": 1, "input": 56, "out": 27, "stop": "end_turn", "ok": true, "tail": "Output price is 5 \u00d7 $0.80 = $4.00 per million tokens."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 5, "rep": 0, "input": 58, "out": 4, "stop": "end_turn", "ok": true, "tail": "$630"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 5, "rep": 1, "input": 58, "out": 27, "stop": "end_turn", "ok": true, "tail": "50% of $1,260 is $630 off, so the discounted bill is $630."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 6, "rep": 0, "input": 48, "out": 34, "stop": "end_turn", "ok": true, "tail": "1,200 \u00d7 $0.0045 = $5.40 per day; \u00d7 30 days = **$162.00**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 6, "rep": 1, "input": 48, "out": 77, "stop": "end_turn", "ok": true, "tail": "000 requests; 36,000 \u00d7 $0.0045 = $162.00\n\n**Total: $162.00**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 7, "rep": 0, "input": 49, "out": 21, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = 480,000 input tokens."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 7, "rep": 1, "input": 49, "out": 20, "stop": "end_turn", "ok": true, "tail": "12,000 \u00d7 40 = 480,000 input tokens"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 8, "rep": 0, "input": 44, "out": 25, "stop": "end_turn", "ok": true, "tail": "Increase: $13,000 \u00f7 $52,000 = 25%."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 8, "rep": 1, "input": 44, "out": 51, "stop": "end_turn", "ok": true, "tail": "0 \u2212 52,000) / 52,000 \u00d7 100 = 13,000 / 52,000 \u00d7 100 = **25%**"}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 9, "rep": 0, "input": 79, "out": 152, "stop": "end_turn", "ok": true, "tail": "ut tokens in total** (2,500 \u00d7 (1 + 2 + \u2026 + 9) = 2,500 \u00d7 45)."}
+{"model": "claude-haiku-5-5", "variant": "one_line", "q": 9, "rep": 1, "input": 79, "out": 205, "stop": "end_turn", "ok": true, "tail": "tal input tokens: 112,500** (2,500 \u00d7 (1+2+\u2026+9) = 2,500 \u00d7 45)"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 0, "rep": 0, "input": 81, "out": 79, "stop": "end_turn", "ok": true, "tail": "0.00790"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 0, "rep": 1, "input": 81, "out": 79, "stop": "end_turn", "ok": true, "tail": "0.00790"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 1, "rep": 0, "input": 36, "out": 5, "stop": "end_turn", "ok": true, "tail": "416.5"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 1, "rep": 1, "input": 36, "out": 5, "stop": "end_turn", "ok": true, "tail": "416.5"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 2, "rep": 0, "input": 72, "out": 48, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 2, "rep": 1, "input": 72, "out": 48, "stop": "end_turn", "ok": true, "tail": "$0.60"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 3, "rep": 0, "input": 66, "out": 31, "stop": "end_turn", "ok": true, "tail": "800"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 3, "rep": 1, "input": 66, "out": 39, "stop": "end_turn", "ok": true, "tail": "$800"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 4, "rep": 0, "input": 60, "out": 5, "stop": "end_turn", "ok": true, "tail": "4.00"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 4, "rep": 1, "input": 60, "out": 5, "stop": "end_turn", "ok": true, "tail": "4.00"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 5, "rep": 0, "input": 62, "out": 3, "stop": "end_turn", "ok": true, "tail": "630"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 5, "rep": 1, "input": 62, "out": 3, "stop": "end_turn", "ok": true, "tail": "630"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 6, "rep": 0, "input": 52, "out": 34, "stop": "end_turn", "ok": true, "tail": "1200 \u00d7 0.0045 = 5.40 per day. \u00d7 30 = 162.\n\n$162.00"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 6, "rep": 1, "input": 52, "out": 34, "stop": "end_turn", "ok": true, "tail": "1200 \u00d7 0.0045 = 5.40 per day. \u00d7 30 = 162.\n\n$162.00"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 7, "rep": 0, "input": 53, "out": 4, "stop": "end_turn", "ok": true, "tail": "480000"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 7, "rep": 1, "input": 53, "out": 4, "stop": "end_turn", "ok": true, "tail": "480000"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 8, "rep": 0, "input": 48, "out": 36, "stop": "end_turn", "ok": true, "tail": "25%"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 8, "rep": 1, "input": 48, "out": 4, "stop": "end_turn", "ok": true, "tail": "25%"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 9, "rep": 0, "input": 83, "out": 134, "stop": "end_turn", "ok": true, "tail": "112,500"}
+{"model": "claude-haiku-5-5", "variant": "answer_only", "q": 9, "rep": 1, "input": 83, "out": 174, "stop": "end_turn", "ok": true, "tail": "**112,500**"}

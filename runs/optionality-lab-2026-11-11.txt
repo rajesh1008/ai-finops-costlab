@@ -1,0 +1,28 @@
+parity run in the portability lab: 360 calls, $0.0844 at placeholder rates; 60 questions x 3 contracts x 2 models
+scaled to a 500-case suite on 4 prompts x 2 vendors x 4 contracts, 10 refreshes a year, at 20 times the per-call cost of these small prompts:
+  160,000 calls x $0.00469 = $751 a year of API spend for parity testing
+
+break-even annual spend (spend at which expected value of optionality equals its standing cost):
+ standing cost  p(event)  saving    break-even spend
+        60,000      0.15    0.20           4,000,000
+        60,000      0.15    0.40           2,000,000
+        60,000      0.30    0.20           2,000,000
+        60,000      0.30    0.40           1,000,000
+        60,000      0.60    0.20           1,000,000
+        60,000      0.60    0.40             500,000
+       150,000      0.15    0.20          10,000,000
+       150,000      0.15    0.40           5,000,000
+       150,000      0.30    0.20           5,000,000
+       150,000      0.30    0.40           2,500,000
+       150,000      0.60    0.20           2,500,000
+       150,000      0.60    0.40           1,250,000
+       400,000      0.15    0.20          26,666,667
+       400,000      0.15    0.40          13,333,333
+       400,000      0.30    0.20          13,333,333
+       400,000      0.30    0.40           6,666,667
+       400,000      0.60    0.20           6,666,667
+       400,000      0.60    0.40           3,333,333
+
+Fieldstone assumption: annual AI spend $3.0 million, standing cost $150,000, p 0.30, saving 0.30:
+  value $135,000 against cost $150,000
+  at $0.5 million spend, same terms: value $22,500

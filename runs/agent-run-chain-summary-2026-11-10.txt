@@ -1,0 +1,23 @@
+runs 120 (api errors excluded: 0); status counts: cap=13, no_tool=1, submitted=106
+correct 81/120 = 0.675
+cost per run: mean $0.01396 p50 $0.00892 p90 $0.04807 max $0.05052 min $0.00280
+spread across all runs: max/min 18.1x, p90/p50 5.39x, mean/median 1.56x
+steps per run: 2:4, 3:31, 4:14, 5:25, 6:12, 7:6, 8:2, 9:6, 10:5, 12:1, 14:1, 16:13
+input tokens share of total tokens 0.949; input share of dollars 0.788
+mean share of billed input that re-reads the previous step: 0.752
+correct runs n=81: mean $0.00894 mean steps 4.78
+wrong   runs n=39: mean $0.02436 mean steps 9.31
+repeat spread (same question, 3 runs): median max/min 1.26x, p90 2.00x, worst 2.60x
+question-mean cost: cheapest $0.00383 dearest $0.04942 ratio 12.9x
+single-call RAG at k=4 (Chapter 23, one combination): $0.00032; agent mean is 43.6x, agent p90 is 150.2x
+per-step input tokens (mean over runs that reached the step): s1=711, s2=975, s3=1261, s4=1522, s5=1789, s6=2046, s7=2304, s8=2569, s9=2830, s10=3091, s11=3352, s12=3614, s13=3876, s14=4142, s15=4400, s16=4666
+cap $0.00892: runs cut 60, of which would have been correct 34; spend $0.8767 vs $1.6747 (47.7% saved)
+cap $0.02005: runs cut 24, of which would have been correct 7; spend $1.2435 vs $1.6747 (25.7% saved)
+cap $0.04902: runs cut 6, of which would have been correct 0; spend $1.6710 vs $1.6747 (0.2% saved)
+1 hops: runs 30 correct 1.000 mean steps 2.90 mean cost $0.00435 p90 $0.00473 max $0.00490
+3 hops: runs 30 correct 0.400 mean steps 6.77 mean cost $0.01578 p90 $0.04891 max $0.04960
+5 hops: runs 30 correct 0.500 mean steps 7.97 mean cost $0.01855 p90 $0.04861 max $0.05052
+8 hops: runs 30 correct 0.800 mean steps 7.37 mean cost $0.01714 p90 $0.02707 max $0.04977
+cost per correct answer: $0.02068
+by step count: 2 steps n=4 mean $0.00310; 3 steps n=31 mean $0.00458; 4 steps n=14 mean $0.00646; 5 steps n=25 mean $0.00903; 6 steps n=12 mean $0.01132; 7 steps n=6 mean $0.01371; 8 steps n=2 mean $0.01717; 9 steps n=6 mean $0.02025; 10 steps n=5 mean $0.02377; 12 steps n=1 mean $0.03171; 14 steps n=1 mean $0.04090; 16 steps n=13 mean $0.04915
+status: cap=13, no_tool=1, submitted=106

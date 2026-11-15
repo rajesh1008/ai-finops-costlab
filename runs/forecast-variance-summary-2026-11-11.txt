@@ -1,0 +1,23 @@
+calls 400 api_errors 0 hit max_tokens {'h45': 0, 'h55': 34}
+
+h45: mean out 238 tokens, overall CV 0.47, mean within-prompt CV 0.09, mean cost/call $0.001213
+  mean output by type: {'explain': 279, 'reply': 256, 'summarise': 233, 'steps': 326, 'compare': 351, 'classify': 33, 'rewrite': 106, 'plan': 318}
+  p50/p95 cost per call ratio: 1.36
+  history  5 calls, point only    : covered 0.002, width/actual 0.000
+  history  5 calls, normal 90%    : covered 0.452, width/actual 0.093
+  history  5 calls, bootstrap 90% : covered 0.453, width/actual 0.093
+  history 10 calls, point only    : covered 0.001, width/actual 0.000
+  history 10 calls, normal 90%    : covered 0.631, width/actual 0.117
+  history 10 calls, bootstrap 90% : covered 0.635, width/actual 0.117
+  mix shift: equal-weight mean $0.001213/call vs mix weighted 3x toward explain/plan/compare $0.001381/call (+13.8%)
+
+h55: mean out 348 tokens, overall CV 0.57, mean within-prompt CV 0.15, mean cost/call $0.000177
+  mean output by type: {'explain': 401, 'reply': 364, 'summarise': 406, 'steps': 491, 'compare': 404, 'classify': 94, 'rewrite': 33, 'plan': 590}
+  p50/p95 cost per call ratio: 1.56
+  history  5 calls, point only    : covered 0.003, width/actual 0.000
+  history  5 calls, normal 90%    : covered 0.426, width/actual 0.159
+  history  5 calls, bootstrap 90% : covered 0.434, width/actual 0.159
+  history 10 calls, point only    : covered 0.000, width/actual 0.000
+  history 10 calls, normal 90%    : covered 0.622, width/actual 0.205
+  history 10 calls, bootstrap 90% : covered 0.621, width/actual 0.204
+  mix shift: equal-weight mean $0.000177/call vs mix weighted 3x toward explain/plan/compare $0.000202/call (+14.1%)

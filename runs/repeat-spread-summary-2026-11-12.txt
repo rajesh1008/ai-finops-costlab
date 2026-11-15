@@ -1,0 +1,27 @@
+errors: 0 of 120
+claude-haiku-4-5-20251001 {'cells': 12, 'median_cv': 0.074, 'max_cv': 0.385, 'median_ratio': 1.218, 'max_ratio': 2.353}
+   arith 0 n 5 mean 91 cv 0.385 max/min 2.35
+   summary 0 n 5 mean 36 cv 0.198 max/min 1.88
+   classify 0 n 5 mean 5 cv 0.106 max/min 1.25
+   judgement 0 n 5 mean 115 cv 0.106 max/min 1.33
+   judgement 1 n 5 mean 119 cv 0.097 max/min 1.3
+   short_explain 0 n 5 mean 81 cv 0.084 max/min 1.25
+   summary 1 n 5 mean 36 cv 0.064 max/min 1.18
+   short_explain 1 n 5 mean 88 cv 0.063 max/min 1.19
+   arith 1 n 5 mean 52 cv 0.057 max/min 1.16
+   classify 1 n 5 mean 4 cv 0.0 max/min 1.0
+   extract 0 n 5 mean 8 cv 0.0 max/min 1.0
+   extract 1 n 5 mean 5 cv 0.0 max/min 1.0
+claude-haiku-5-5 {'cells': 12, 'median_cv': 0.049, 'max_cv': 0.47, 'median_ratio': 1.151, 'max_ratio': 3.057}
+   judgement 1 n 5 mean 609 cv 0.47 max/min 3.06
+   short_explain 0 n 5 mean 157 cv 0.287 max/min 1.95
+   judgement 0 n 5 mean 273 cv 0.225 max/min 2.11
+   arith 1 n 5 mean 235 cv 0.1 max/min 1.34
+   short_explain 1 n 5 mean 115 cv 0.089 max/min 1.25
+   extract 1 n 5 mean 71 cv 0.081 max/min 1.27
+   arith 0 n 5 mean 169 cv 0.017 max/min 1.05
+   summary 1 n 5 mean 56 cv 0.014 max/min 1.04
+   classify 0 n 5 mean 5 cv 0.0 max/min 1.0
+   classify 1 n 5 mean 5 cv 0.0 max/min 1.0
+   extract 0 n 5 mean 7 cv 0.0 max/min 1.0
+   summary 0 n 5 mean 56 cv 0.0 max/min 1.0

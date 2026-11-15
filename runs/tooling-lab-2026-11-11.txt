@@ -1,0 +1,36 @@
+REAL token records 1800; exact total $0.302299; mean per call $0.000168; smallest $0.0000447; largest $0.000866
+
+Per-row rounding, each recorded call standing for 1 calls (row cost = exact x 1):
+  round each row to 0 decimals: total $0.0000 vs exact $0.3023  error -100.00%   rows rounded to zero: 1800
+  round each row to 2 decimals: total $0.0000 vs exact $0.3023  error -100.00%   rows rounded to zero: 1800
+  round each row to 3 decimals: total $0.0040 vs exact $0.3023  error  -98.68%   rows rounded to zero: 1796
+  round each row to 4 decimals: total $0.2790 vs exact $0.3023  error   -7.71%   rows rounded to zero: 679
+
+Per-row rounding, each recorded call standing for 2000 calls (row cost = exact x 2000):
+  round each row to 0 decimals: total $543.0000 vs exact $604.5970  error  -10.19%   rows rounded to zero: 1260
+  round each row to 2 decimals: total $606.2900 vs exact $604.5970  error   +0.28%   rows rounded to zero: 0
+  round each row to 3 decimals: total $604.8190 vs exact $604.5970  error   +0.04%   rows rounded to zero: 0
+  round each row to 4 decimals: total $604.5970 vs exact $604.5970  error   -0.00%   rows rounded to zero: 0
+
+Unscaled, rows rounded to 2 decimals, by team: (untagged) -100.0%; extraction -100.0%; handbook-assistant -100.0%; support-agent -100.0%
+
+Unscaled, rows rounded to 4 decimals, by team: (untagged) -5.2%; extraction -5.7%; handbook-assistant -9.2%; support-agent -1.2%
+
+Three meter sources, SYNTHETIC month, total $215,500
+  invoice only (keys)          wrong-team share  22.2%   unexplained $0, but per-team error up to $23,667 (135%)
+  traces only (SDK), bypass 0 to 35%  covers $206,905 = 96.0% of the invoice; $8,595 unseen; sales-email understated 35%
+  gateway meter, 3% untagged   covers $209,035 tagged + $6,465 untagged pool = 100.0% of the invoice; untagged is a named line
+
+Build versus buy per month (fees as reported by a third-party post; infra, hours and rate ASSUMED, R=$90/h, build amortised over 24 months)
+   runs a month      SaaS  self-host     build
+        100,000       219      1,845     4,225
+      1,000,000       601      2,160     4,360
+     10,000,000     4,081      5,310     5,710
+  sensitivity: at 40 h a month of self-host operation the 1M-run self-host cost is $4,500
+
+Self-hosted inference, usage cost $1.00 per million tokens against an API at $2.00 (the arithmetic an infrastructure post states):
+  utilisation  90%: allocation-based $ 1.11 per million -> self-host cheaper
+  utilisation  50%: allocation-based $ 2.00 per million -> API cheaper
+  utilisation  25%: allocation-based $ 4.00 per million -> API cheaper
+  utilisation  10%: allocation-based $10.00 per million -> API cheaper
+  can it answer cost per resolved ticket? invoice only: no (no tickets); traces only: yes for traced calls; gateway: yes if the outcome id is on the record

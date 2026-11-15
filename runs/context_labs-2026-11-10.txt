@@ -1,0 +1,12 @@
+== output constraint (Haiku 5.5, 30 problems)
+variant   n  correct  avg_out  avg_usd_call  total_usd
+sentence  30  30/30    191.2  0.000104   0.00311
+steps     30  30/30    374.2  0.000196   0.00588
+number    30  30/30    123.4  0.000070   0.00209
+
+== prompt diet (Haiku 4.5, 60 tickets, no caching)
+hard tickets: 19
+variant    n  correct  hard_correct  avg_input  usd_per_call  usd_per_1000_calls
+lean       60  59/60   18/19           45   0.000065     0.065
+plus800    60  60/60   19/19          964   0.000984     0.984
+plus3000   60  60/60   19/19         3446   0.003466     3.466

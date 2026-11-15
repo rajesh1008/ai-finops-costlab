@@ -1,0 +1,11 @@
+assumed: observation 300 tokens/step, reasoning 500 tokens/step, c=1, beta=0.0005
+P* = c/beta = 2000 tokens (the toy's exchange rate)
+steps  reuse       keep       drop  drop/keep
+    5   True       8000       9675       1.21
+   10   True      24000      34912       1.45
+   20   True      80000     154575       1.93
+   40   True     288000     828150       2.88
+    5  False      20800       9675       0.47
+   10  False     105600      34912       0.33
+   20  False     627200     154575       0.25
+   40  False    4198400     828150       0.20

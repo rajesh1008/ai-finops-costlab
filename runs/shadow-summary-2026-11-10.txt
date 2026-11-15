@@ -1,0 +1,40 @@
+Part 1: paired comparison, 300 SYNTHETIC questions (A 40%, B 30%, C 30% by design), one call each
+  incumbent haiku-4-5: correct 201/300 = 0.670 (Wilson 0.615 to 0.721); mean cost $0.000414; mean in 259 out 31.2 tokens
+  candidate haiku-5-5: correct 206/300 = 0.687 (Wilson 0.632 to 0.737); mean cost $0.000069; mean in 348 out 68.6 tokens
+  paired diff (candidate minus incumbent) +0.0167 (SE 0.0074); candidate-only right 5, incumbent-only right 0; 95% CI +0.0022 to +0.0312; cost ratio incumbent/candidate 6.0x
+   template A (n=105): incumbent 100, candidate 100, diff +0.000 (SE 0.000), candidate-only 0, incumbent-only 0
+   template B (n=99): incumbent 99, candidate 99, diff +0.000 (SE 0.000), candidate-only 0, incumbent-only 0
+   template C (n=96): incumbent 2, candidate 7, diff +0.052 (SE 0.023), candidate-only 5, incumbent-only 0
+  disagreement between the two answers' correctness: 5 of 300
+
+Part 2: SYNTHETIC programs. Assistant volume 3000/day (ILLUSTRATIVE). Non-inferiority margin 0.03. Decision each day on the cumulative sample: promote if the lower 95% bound of (candidate - incumbent) exceeds -0.03; reject if the upper bound is below -0.03; undecided at 30 days.
+  label cost per shadowed request: exact scorer $0 (golden-set style) or LLM judge $0.000030 (measured ctx_h5 mean at haiku-5-5 rates)
+  switching saves $1.04 a day at 3000/day (inference only, placeholder rates); incumbent inference $1.24/day, candidate $0.21/day
+  (the decision day is at least 7 and at least 200 samples; labels from the exact scorer)
+ candidate as measured
+   overall gate   f=  1%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.01; judge labels $0.01; total $0.02
+   overall gate   f=  5%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   overall gate   f= 10%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   overall gate   f=100%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08
+   segment gate on f=  1%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.01; judge labels $0.01; total $0.02
+   segment gate on f=  5%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   segment gate on f= 10%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   segment gate on f=100%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08
+ INJECTED regression A: candidate loses 25% of its right answers on template A, true overall change about -0.067 (SYNTHETIC)
+   overall gate   f=  1%: promote 0.00 reject 0.97 undecided 0.03; median decision day 9; shadow inference $0.02; judge labels $0.01; total $0.03
+   overall gate   f=  5%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   overall gate   f= 10%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   overall gate   f=100%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08
+   segment gate on f=  1%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $0.01; judge labels $0.01; total $0.02
+   segment gate on f=  5%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   segment gate on f= 10%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   segment gate on f=100%: promote 0.00 reject 1.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08
+ INJECTED regression B: loses 10% of its right answers on template A, true overall change about -0.017, inside the margin, so promote is the right decision (SYNTHETIC)
+   overall gate   f=  1%: promote 0.64 reject 0.00 undecided 0.36; median decision day 12; shadow inference $0.02; judge labels $0.01; total $0.04
+   overall gate   f=  5%: promote 0.99 reject 0.00 undecided 0.01; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   overall gate   f= 10%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   overall gate   f=100%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08
+   segment gate on f=  1%: promote 0.64 reject 0.02 undecided 0.33; median decision day 12; shadow inference $0.02; judge labels $0.01; total $0.04
+   segment gate on f=  5%: promote 0.98 reject 0.02 undecided 0.00; median decision day 7; shadow inference $0.07; judge labels $0.03; total $0.10
+   segment gate on f= 10%: promote 0.99 reject 0.01 undecided 0.00; median decision day 7; shadow inference $0.15; judge labels $0.06; total $0.21
+   segment gate on f=100%: promote 1.00 reject 0.00 undecided 0.00; median decision day 7; shadow inference $1.45; judge labels $0.63; total $2.08

@@ -1,0 +1,14 @@
+rows 40 errors 0 calls 120
+claude-haiku-4-5-20251001 n 20 direct ok 20 rerank-path ok 20 gold kept 20
+  mean in direct 671.5 rerank call in 686.5 final in 87.2
+  $/1000 direct 0.6965 rerank path (2 calls) 0.8237 answer step alone 0.1123
+  pos 1 n 7 direct 7 path 7 kept 7
+  pos 6 n 7 direct 7 path 7 kept 7
+  pos 12 n 6 direct 6 path 6 kept 6
+claude-haiku-5-5 n 20 direct ok 20 rerank-path ok 20 gold kept 20
+  mean in direct 887.0 rerank call in 909.0 final in 155.9
+  $/1000 direct 0.0906 rerank path (2 calls) 0.2139 answer step alone 0.0171
+  pos 1 n 7 direct 7 path 7 kept 7
+  pos 6 n 7 direct 7 path 7 kept 7
+  pos 12 n 6 direct 6 path 6 kept 6
+misses: []

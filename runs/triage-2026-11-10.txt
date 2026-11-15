@@ -1,0 +1,19 @@
+tickets=100 avg_input_tokens=45 avg_output_tokens=4.0 measured_cost_per_call=$0.000065
+rules fired on 64/100; fired and wrong 1
+A rules only      accuracy 63.0%  (unrouted count 36)  cost per ticket $0
+B model always    accuracy 99.0%  cost per ticket $0.000065  calls 100
+C rules then model accuracy 98.0%  cost per ticket $0.000023  calls 36
+errors A: 37
+    ('Is there a mobile app', 'other', 'unrouted')
+    ('The number at the bottom of the email you sent looks higher ', 'billing', 'unrouted')
+    ('Do you have a dark mode', 'other', 'unrouted')
+    ('Is there a mobile app', 'other', 'unrouted')
+    ('I keep getting locked out and typing my old credentials does', 'password', 'unrouted')
+    ('I keep getting locked out and typing my old credentials does', 'password', 'unrouted')
+errors B: 1
+    ('I would rather not pay you any more after this month', 'cancel', 'billing')
+errors C: 2
+    ('I would rather not pay you any more after this month', 'cancel', 'billing')
+    ('I cancelled my order but you still charged me on the invoice', 'billing', 'shipping')
+at 100,000 tickets/month (ASSUMED volume): B $7  C $2
+at 1,000,000 tickets/month (ASSUMED volume): B $65  C $23

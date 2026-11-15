@@ -1,0 +1,6 @@
+english_prose  chars   4399 h45    807 h55   1168 ratio 1.447 chars/token h45 5.45
+python_code    chars   4280 h45   1526 h55   1727 ratio 1.132 chars/token h45 2.80
+json_records   chars  10777 h45   5237 h55   5538 ratio 1.057 chars/token h45 2.06
+digits         chars   2999 h45   1207 h55   1207 ratio 1.000 chars/token h45 2.48
+german_prose   chars   4599 h45   1527 h55   2048 ratio 1.341 chars/token h45 3.01
+hindi_prose    chars   3479 h45   2127 h55   2128 ratio 1.000 chars/token h45 1.64

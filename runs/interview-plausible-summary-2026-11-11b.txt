@@ -1,0 +1,15 @@
+h45-written weak: items 40 (with a weak answer: 40); median words strong (those items) 84.5 weak 94.0
+  grader h45: picked strong 72/80 (strong first 37/40, strong second 35/40); chose position A 42/80
+  grader h55: picked strong 79/80 (strong first 40/40, strong second 39/40); chose position A 41/80
+  longer-wins picks strong in 11/40 items
+  items where all four gradings picked the weak answer: 0
+h55-written weak: items 40 (with a weak answer: 40); median words strong (those items) 84.5 weak 142.0
+  grader h45: picked strong 11/80 (strong first 6/40, strong second 5/40); chose position A 41/80
+  grader h55: picked strong 21/80 (strong first 11/40, strong second 10/40); chose position A 41/80
+  longer-wins picks strong in 0/40 items
+  items where all four gradings picked the weak answer: 24
+h55-written weak, length-gated: items 40 (with a weak answer: 17); median words strong (those items) 82 weak 93
+  grader h45: picked strong 9/34 (strong first 5/17, strong second 4/17); chose position A 18/34
+  grader h55: picked strong 18/34 (strong first 10/17, strong second 8/17); chose position A 19/34
+  longer-wins picks strong in 0/17 items
+  items where all four gradings picked the weak answer: 5

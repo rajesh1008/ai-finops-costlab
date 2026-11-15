@@ -1,0 +1,18 @@
+[
+ {
+  "model": "claude-haiku-4-5",
+  "no_tools": 31,
+  "one_tool_auto": 589,
+  "one_tool_forced": 688,
+  "auto_minus_base": 558,
+  "forced_minus_base": 657
+ },
+ {
+  "model": "claude-haiku-5-5",
+  "no_tools": 45,
+  "one_tool_auto": 416,
+  "one_tool_forced": 546,
+  "auto_minus_base": 371,
+  "forced_minus_base": 501
+ }
+]

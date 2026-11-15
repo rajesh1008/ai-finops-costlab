@@ -1,0 +1,13 @@
+('claude-haiku-4-5', 'A', 80) correct 10 stale 0 near 0 of 10
+('claude-haiku-4-5', 'A', 320) correct 10 stale 0 near 0 of 10
+('claude-haiku-4-5', 'A', 960) correct 10 stale 0 near 0 of 10
+('claude-haiku-4-5', 'B', 80) correct 10 stale 0 near 0 of 10
+('claude-haiku-4-5', 'B', 320) correct 10 stale 0 near 0 of 10
+('claude-haiku-4-5', 'B', 960) correct 6 stale 4 near 0 of 10
+('claude-haiku-5-5', 'A', 80) correct 10 stale 0 near 0 of 10
+('claude-haiku-5-5', 'A', 320) correct 10 stale 0 near 0 of 10
+('claude-haiku-5-5', 'A', 960) correct 10 stale 0 near 0 of 10
+('claude-haiku-5-5', 'B', 80) correct 5 stale 5 near 0 of 10
+('claude-haiku-5-5', 'B', 320) correct 9 stale 1 near 0 of 10
+('claude-haiku-5-5', 'B', 960) correct 7 stale 3 near 0 of 10
+other wrong []

@@ -1,0 +1,2 @@
+1600 hit 0 decision 10 mean out 1016 mean text chars 1926 types ['text', 'thinking']
+4000 hit 0 decision 10 mean out 1059 mean text chars 1968 types ['text', 'thinking']

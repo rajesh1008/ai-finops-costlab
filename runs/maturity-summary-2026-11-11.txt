@@ -1,0 +1,18 @@
+calls 192 errors 0 unparsed 0
+h45 prompt F: exact 32/48 (66.7%) | plain 17/24 | decoys exact 15/24, inflated 5/24 | deflated overall 10 | unparsed 0
+h45 prompt G: exact 44/48 (91.7%) | plain 24/24 | decoys exact 20/24, inflated 0/24 | deflated overall 4 | unparsed 0
+h55 prompt F: exact 37/48 (77.1%) | plain 20/24 | decoys exact 17/24, inflated 6/24 | deflated overall 4 | unparsed 0
+h55 prompt G: exact 37/48 (77.1%) | plain 19/24 | decoys exact 18/24, inflated 0/24 | deflated overall 11 | unparsed 0
+decoys prompt F, (true, judged) counts pooled over both models: crawl->crawl:11, crawl->walk:11, walk->crawl:5, walk->walk:21
+decoys prompt G, (true, judged) counts pooled over both models: crawl->crawl:22, walk->crawl:10, walk->walk:16
+decoys inflated under F by most runs (max 2 models):
+  2: We have best-in-class attribution; everyone knows which team owns whic
+  2: We have full observability of our AI stack with a modern tracing platf
+  2: We forecast by driver and variance is explained every month, though we
+  1: We use advanced predictive analytics for AI spend forecasting.
+  1: We have robust budget controls across the organisation.
+  1: Our AI-powered anomaly detection catches issues before they affect the
+
+Score arithmetic (equal weights): a team at walk on all eight capabilities scores 50.0; run on all eight 100.0; walk on four and crawl on four 25.0.
+Fieldstone (composed, author-assigned) levels: allocation walk, metering walk, unit_economics crawl, forecasting walk, anomaly walk, budgets crawl, commitments crawl, governance walk -> score 31.2; weakest: unit_economics, budgets, commitments
+Gaming example: coverage 38% -> 100% by dumping 62 of 100 dollars into a shared bucket; owned spend share stays 38%

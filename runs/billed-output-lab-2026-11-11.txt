@@ -1,0 +1,8 @@
+classify | haiku-4-5 out 4 chars 5 thinking 0/6 | haiku-5-5 out 5 chars 5 thinking 0/6
+extract | haiku-4-5 out 6 chars 6 thinking 0/6 | haiku-5-5 out 44 chars 6 thinking 3/6
+arith | haiku-4-5 out 64 chars 101 thinking 0/6 | haiku-5-5 out 213 chars 122 thinking 6/6
+short_explain | haiku-4-5 out 85 chars 435 thinking 0/6 | haiku-5-5 out 117 chars 400 thinking 0/6
+judgement | haiku-4-5 out 122 chars 506 thinking 0/6 | haiku-5-5 out 386 chars 438 thinking 6/6
+summary | haiku-4-5 out 35 chars 152 thinking 0/6 | haiku-5-5 out 56 chars 159 thinking 0/6
+claude-haiku-4-5-20251001 mean out 53 mean in 42 stops ['end_turn']
+claude-haiku-5-5 mean out 137 mean in 55 stops ['end_turn']

@@ -1,0 +1,24 @@
+break-even reads: 5-minute write 1  1-hour write 2
+
+20k-token prefix, 300-token suffix, Haiku 4.5 rates
+  none     $0.02030
+  write5   $0.02530
+  write1h  $0.04030
+  read     $0.00230
+
+Ten calls, gap in minutes between calls, 20k prefix (cost of the ten calls)
+gap  no-cache   5m-cache  (writes/reads)   1h-cache (writes/reads)
+   1  $0.2030   $0.0460  (1/9)      $0.0610  (1/9)
+   3  $0.2030   $0.0460  (1/9)      $0.0610  (1/9)
+ 4.9  $0.2030   $0.0460  (1/9)      $0.0610  (1/9)
+ 5.1  $0.2030   $0.2530  (10/0)      $0.0610  (1/9)
+   8  $0.2030   $0.2530  (10/0)      $0.0610  (1/9)
+  20  $0.2030   $0.2530  (10/0)      $0.0610  (1/9)
+  50  $0.2030   $0.2530  (10/0)      $0.0610  (1/9)
+  70  $0.2030   $0.2530  (10/0)      $0.4030  (10/0)
+
+Keepalive paper formulas: I_max = tau*(w/r-1)
+  5-minute tier, tau=4: I_max = 46.0 min
+  1-hour tier, tau=50: I_max = 950.0 min
+
+Holding a 100k prefix 60 minutes at tau=4:  1.60 x input price per token vs re-write 1.25

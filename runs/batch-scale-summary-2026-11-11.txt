@@ -1,0 +1,5 @@
+sync: 100 requests, 17.3 s wall with 6 workers, cost $0.00533, correct 73/100, mean in 320.5 out 42.4
+batch  10: status ended counts {'canceled': 0, 'errored': 0, 'expired': 0, 'processing': 0, 'succeeded': 10} wall 156.994053 s; cost at 0.5x $0.00025 (sync price $0.00051); correct 8/10; mean in 318.0 out 37.5
+batch 100: status ended counts {'canceled': 0, 'errored': 0, 'expired': 0, 'processing': 0, 'succeeded': 100} wall 141.378412 s; cost at 0.5x $0.00266 (sync price $0.00532); correct 73/100; mean in 320.5 out 42.3
+batch 400: status ended counts {'canceled': 0, 'errored': 0, 'expired': 0, 'processing': 0, 'succeeded': 400} wall 176.15566 s; cost at 0.5x $0.01055 (sync price $0.02111); correct 297/400; mean in 320.4 out 41.5
+identical text between sync and batch on the same 100 requests: 40/100; tokens identical: 41/100

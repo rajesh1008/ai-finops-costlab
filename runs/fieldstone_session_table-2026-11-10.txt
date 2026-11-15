@@ -1,0 +1,14 @@
+SYNTHETIC session table (hand-built traces; placeholder rates; not a Fieldstone measurement)
+session                  calls retry subruns      cost  vs s01
+s01 order status             2     0       0 $  0.0096    1.0x
+s02 refund small             4     0       0 $  0.0181    1.9x
+s03 refund, one retry        6     1       0 $  0.0266    2.8x
+s04 account question         6     0       0 $  0.0270    2.8x
+s05 two subagents           17     0       2 $  0.0668    6.9x
+s06 approval, lunch          6     0       0 $  0.0494    5.1x
+s07 loop to cap             58    18       0 $  0.3727   38.6x
+s08 loop, big registry      58    18       0 $  1.1998  124.3x
+
+Eight sessions: total $1.7700; median $0.0382; mean $0.2212; max $1.1998
+s07 plus s08 = 88.8% of the table's spend
+billed retry calls: $0.4957 = 28.0% of spend; in s07 31.5% of that session

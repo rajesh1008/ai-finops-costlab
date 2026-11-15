@@ -1,0 +1,12 @@
+claude-haiku-4-5-20251001: calls 120 correct 107 cost $0.2094 cost per correct $0.00196
+  items 3 of 3 correct 32, 2 of 3 5, 1 of 3 1, 0 of 3 2
+  resample  5 items (x3 repeats): cost per correct 5th $0.00149  median $0.00192  95th $0.00277  width/median 0.66
+  resample 10 items (x3 repeats): cost per correct 5th $0.00160  median $0.00194  95th $0.00247  width/median 0.45
+  resample 20 items (x3 repeats): cost per correct 5th $0.00170  median $0.00195  95th $0.00230  width/median 0.30
+  resample 40 items (x3 repeats): cost per correct 5th $0.00177  median $0.00195  95th $0.00218  width/median 0.21
+claude-haiku-5-5: calls 120 correct 120 cost $0.0308 cost per correct $0.00026
+  items 3 of 3 correct 40, 2 of 3 0, 1 of 3 0, 0 of 3 0
+  resample  5 items (x3 repeats): cost per correct 5th $0.00020  median $0.00026  95th $0.00031  width/median 0.44
+  resample 10 items (x3 repeats): cost per correct 5th $0.00022  median $0.00026  95th $0.00030  width/median 0.31
+  resample 20 items (x3 repeats): cost per correct 5th $0.00023  median $0.00026  95th $0.00028  width/median 0.22
+  resample 40 items (x3 repeats): cost per correct 5th $0.00024  median $0.00026  95th $0.00028  width/median 0.15

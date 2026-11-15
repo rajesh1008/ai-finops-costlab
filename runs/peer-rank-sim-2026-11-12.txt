@@ -1,0 +1,15 @@
+true percentile 25  peers   5  reported rank 5th 0 median 20 95th 60  width 60
+true percentile 25  peers  10  reported rank 5th 0 median 20 95th 50  width 50
+true percentile 25  peers  20  reported rank 5th 10 median 25 95th 40  width 30
+true percentile 25  peers  50  reported rank 5th 16 median 24 95th 36  width 20
+true percentile 25  peers 200  reported rank 5th 20 median 25 95th 30  width 10
+true percentile 50  peers   5  reported rank 5th 20 median 60 95th 80  width 60
+true percentile 50  peers  10  reported rank 5th 20 median 50 95th 80  width 60
+true percentile 50  peers  20  reported rank 5th 30 median 50 95th 70  width 40
+true percentile 50  peers  50  reported rank 5th 38 median 50 95th 62  width 24
+true percentile 50  peers 200  reported rank 5th 44 median 50 95th 56  width 12
+true percentile 75  peers   5  reported rank 5th 40 median 80 95th 100  width 60
+true percentile 75  peers  10  reported rank 5th 50 median 80 95th 100  width 50
+true percentile 75  peers  20  reported rank 5th 60 median 75 95th 90  width 30
+true percentile 75  peers  50  reported rank 5th 64 median 76 95th 84  width 20
+true percentile 75  peers 200  reported rank 5th 70 median 75 95th 80  width 10

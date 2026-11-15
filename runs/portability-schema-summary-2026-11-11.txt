@@ -1,0 +1,5 @@
+saved portability-schema-2026-11-11.json errors 0
+claude-haiku-4-5  n=60 parsed 20 correct 19 confident-wrong 0 declines 1 unparsed 40; on type C (n=22): confident-wrong 0 declines 0; also declined on answerable A or B: 1
+claude-haiku-5-5  n=60 parsed 55 correct 37 confident-wrong 0 declines 18 unparsed 5; on type C (n=22): confident-wrong 0 declines 17; also declined on answerable A or B: 1
+claude-haiku-4-5-20251001    strict-parsed 20/60  fenced 39  lenient: correct 38 declined 6 (on type C 5) confident-wrong 15 still-unparsed 1  $/1000 0.4758
+claude-haiku-5-5             strict-parsed 55/60  fenced 0  lenient: correct 37 declined 18 (on type C 17) confident-wrong 0 still-unparsed 5  $/1000 0.0544

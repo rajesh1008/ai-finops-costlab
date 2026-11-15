@@ -1,0 +1,8 @@
+median words strong 84.5 weak 94.0
+weak longer than strong in 29 of 40
+{'h45': [72, 80], 'h55': [79, 80]} {'h45': {'A': 42, 'B': 38}, 'h55': {'A': 41, 'B': 39}}
+h45 strong in A 37 40
+h45 strong in B 35 40
+h55 strong in A 40 40
+h55 strong in B 39 40
+longer-wins picks strong in 11 of 40

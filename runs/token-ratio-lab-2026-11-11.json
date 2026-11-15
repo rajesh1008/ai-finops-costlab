@@ -1,0 +1,32 @@
+{
+ "english_prose": {
+  "chars": 4399,
+  "claude-haiku-4-5-20251001": 807,
+  "claude-haiku-5-5": 1168
+ },
+ "python_code": {
+  "chars": 4280,
+  "claude-haiku-4-5-20251001": 1526,
+  "claude-haiku-5-5": 1727
+ },
+ "json_records": {
+  "chars": 10777,
+  "claude-haiku-4-5-20251001": 5237,
+  "claude-haiku-5-5": 5538
+ },
+ "digits": {
+  "chars": 2999,
+  "claude-haiku-4-5-20251001": 1207,
+  "claude-haiku-5-5": 1207
+ },
+ "german_prose": {
+  "chars": 4599,
+  "claude-haiku-4-5-20251001": 1527,
+  "claude-haiku-5-5": 2048
+ },
+ "hindi_prose": {
+  "chars": 3479,
+  "claude-haiku-4-5-20251001": 2127,
+  "claude-haiku-5-5": 2128
+ }
+}

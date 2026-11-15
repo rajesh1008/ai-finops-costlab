@@ -1,0 +1,6 @@
+sessions 10 errors 0 calls 125
+plain n 5 input/session 7476.8 output/session 859.8 cost/session $ 0.01178 mean recalled of 6: 5.8 per session [5, 6, 6, 6, 6]
+  turn-12 input plain: [1108, 1170, 1185, 1184, 1131]
+folded n 5 input/session 5318.4 output/session 1031.4 cost/session $ 0.01048 mean recalled of 6: 5.6 per session [5, 6, 6, 5, 6]
+  summary kept facts of 6: [5, 6, 6, 5, 6] summary output tokens: [150, 150, 150, 133, 150] summary truncated: 4
+  turn-12 input folded: [724, 724, 723, 659, 724]

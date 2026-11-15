@@ -1,0 +1,22 @@
+SYNTHETIC history, seed 13. Events built in: agent launch in month 9 (tasks x1.6, cost per task x1.25); vendor price cut of 35% from month 13.
+month  users   tasks/user  $/task   spend
+    1    2113      22.7    0.297     14,805
+    4    2537      24.8    0.288     18,153
+    7    3165      27.1    0.280     24,602
+   10    3947      47.3    0.339     62,409
+   13    4965      51.7    0.214     53,390
+   16    6120      56.5    0.208     70,065
+   18    6950      59.9    0.203     89,146
+
+Backtest, three-month horizon, forecast made at the end of month `at`:
+at   horizon  trend MAPE  driver(naive) MAPE  driver(told about the event) MAPE
+  6  7-9       18.7%            18.7%                 18.7%
+  8  9-11       47.3%            49.4%                 49.4%
+ 11  12-14      124.8%            43.1%                  5.6%
+ 14  15-17       16.3%             3.5%                  3.5%
+
+Month 9 launch is not an input to any of these forecasts unless the model is told: the driver model with cost per task and tasks per user held at last values is wrong at month 8 for that reason.
+
+Six months after month 18 (SYNTHETIC ranges: users +4 to +10% a month, tasks per user 0 to +6%, cost per task -3 to +2%):
+  month 18 spend $89,146; month 24 spend p10 $118,113  median $147,505  p90 $183,212
+  p90 / p10 = 1.55

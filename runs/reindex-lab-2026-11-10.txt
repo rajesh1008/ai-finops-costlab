@@ -1,0 +1,21 @@
+corpus: 2000 documents, 20000 chunks at the start, 30 nightly runs
+full        chunks embedded over 30 nights:   673,124   per night    22,437   share of full 1.0000
+doc_hash    chunks embedded over 30 nights:    19,814   per night       660   share of full 0.0294
+chunk_hash  chunks embedded over 30 nights:    15,588   per night       520   share of full 0.0232
+ghost documents left in the store after 30 nights without a deletion step: 180 of 2180 (with reconciliation: 0)
+chunk count: reconciled 24,581  unreconciled 26,570
+
+Priced at ASSUMED 120 tokens per chunk and embedding prices per million tokens (illustrative, three price points):
+  $0.02/M:  full $1.6155  doc_hash $0.0476  chunk_hash $0.0374
+  $0.08/M:  full $6.4620  doc_hash $0.1902  chunk_hash $0.1496
+  $0.13/M:  full $10.5007  doc_hash $0.3091  chunk_hash $0.2432
+
+Scaled linearly to 500,000 documents with the same shape (assuming 10 chunks per document and 500 tokens per chunk, as in the sources' examples):
+  full        share of full 1.0000
+  doc_hash    share of full 0.0294
+  chunk_hash  share of full 0.0232
+
+Vector footprint, ASSUMED 5M documents x 8 chunks, 1024 dimensions float32; and the same with 256 dimensions; and binary quantisation (1 bit per dimension):
+  1024 dims float32  raw    163.8 GB  index in memory    245.8 to    491.5 GB
+  256 dims float32   raw     41.0 GB  index in memory     61.4 to    122.9 GB
+  1024 dims binary   raw      5.1 GB  index in memory      7.7 to     15.4 GB

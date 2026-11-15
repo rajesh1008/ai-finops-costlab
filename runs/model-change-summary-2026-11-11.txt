@@ -1,0 +1,57 @@
+=== reading 1: strict json.loads on the raw reply (no shim) ===
+calls 1440 errors 0 answerable questions 79 of 120
+A   claude-haiku-4-5-20251 n=360 correct  30 correct_decline   1 wrong_decline   0 wrong   0 unparsed 329 (max_tokens 0, empty 0) good   8.6% [6.1-12.0]  mean out   25.9  $/1000 calls 0.4301  $/1000 good 4.9948  p50 s 0.58
+B0  claude-haiku-5-5       n=360 correct 237 correct_decline 123 wrong_decline   0 wrong   0 unparsed   0 (max_tokens 0, empty 0) good 100.0% [98.9-100.0]  mean out   42.5  $/1000 calls 0.0604  $/1000 good 0.0604  p50 s 0.74
+B1  claude-haiku-5-5       n=360 correct 229 correct_decline  32 wrong_decline   1 wrong   8 unparsed  90 (max_tokens 0, empty 0) good  72.5% [67.7-76.9]  mean out   30.6  $/1000 calls 0.0543  $/1000 good 0.0750  p50 s 0.67
+B2  claude-haiku-5-5       n=360 correct 237 correct_decline 123 wrong_decline   0 wrong   0 unparsed   0 (max_tokens 0, empty 0) good 100.0% [98.9-100.0]  mean out   42.2  $/1000 calls 0.0603  $/1000 good 0.0603  p50 s 0.74
+B0: price per call vs A 7.12x cheaper; per good outcome 82.65x; failure rate A 91.4% B 0.0%; break-even failure cost per failure $0.000000
+B1: price per call vs A 7.92x cheaper; per good outcome 66.64x; failure rate A 91.4% B 27.2%; break-even failure cost per failure $0.000000
+B2: price per call vs A 7.14x cheaper; per good outcome 82.87x; failure rate A 91.4% B 0.0%; break-even failure cost per failure $0.000000
+B1 against B0: saving per call $0.0000061 (10.1%); extra format failures 25.0% of calls; break-even cost per format failure $0.0000244
+
+Item level (good outcomes out of 3 per question)
+  A to B0: questions where A good in >=2 of 3 and B0 in <=1: 0; the reverse: 111
+  A to B1: questions where A good in >=2 of 3 and B1 in <=1: 1; the reverse: 78
+  A to B2: questions where A good in >=2 of 3 and B2 in <=1: 0; the reverse: 111
+
+Where the B0 failures sit by template and answerability
+  template A: calls 144 unparsed 0 (0%)
+  template B: calls 96 unparsed 0 (0%)
+  template C: calls 120 unparsed 0 (0%)
+
+=== reading 2: the incumbent's fence-stripping shim applied to every arm ===
+calls 1440 errors 0 answerable questions 79 of 120
+A   claude-haiku-4-5-20251 n=360 correct 234 correct_decline  31 wrong_decline   3 wrong  89 unparsed   3 (max_tokens 0, empty 0) good  73.6% [68.8-77.9]  mean out   25.9  $/1000 calls 0.4301  $/1000 good 0.5843  p50 s 0.58
+B0  claude-haiku-5-5       n=360 correct 237 correct_decline 123 wrong_decline   0 wrong   0 unparsed   0 (max_tokens 0, empty 0) good 100.0% [98.9-100.0]  mean out   42.5  $/1000 calls 0.0604  $/1000 good 0.0604  p50 s 0.74
+B1  claude-haiku-5-5       n=360 correct 229 correct_decline  32 wrong_decline   1 wrong   8 unparsed  90 (max_tokens 0, empty 0) good  72.5% [67.7-76.9]  mean out   30.6  $/1000 calls 0.0543  $/1000 good 0.0750  p50 s 0.67
+B2  claude-haiku-5-5       n=360 correct 237 correct_decline 123 wrong_decline   0 wrong   0 unparsed   0 (max_tokens 0, empty 0) good 100.0% [98.9-100.0]  mean out   42.2  $/1000 calls 0.0603  $/1000 good 0.0603  p50 s 0.74
+B0: price per call vs A 7.12x cheaper; per good outcome 9.67x; failure rate A 25.6% B 0.0%; break-even failure cost per failure $0.000000
+B1: price per call vs A 7.92x cheaper; per good outcome 7.80x; failure rate A 25.6% B 27.2%; break-even failure cost per failure $0.022546
+B2: price per call vs A 7.14x cheaper; per good outcome 9.69x; failure rate A 25.6% B 0.0%; break-even failure cost per failure $0.000000
+B1 against B0: saving per call $0.0000061 (10.1%); extra format failures 25.0% of calls; break-even cost per format failure $0.0000244
+
+Item level (good outcomes out of 3 per question)
+  A to B0: questions where A good in >=2 of 3 and B0 in <=1: 0; the reverse: 33
+  A to B1: questions where A good in >=2 of 3 and B1 in <=1: 6; the reverse: 5
+  A to B2: questions where A good in >=2 of 3 and B2 in <=1: 0; the reverse: 33
+
+Where the B0 failures sit by template and answerability
+  template A: calls 144 unparsed 0 (0%)
+  template B: calls 96 unparsed 0 (0%)
+  template C: calls 120 unparsed 0 (0%)
+
+Canary replay, one gate per failure class (ASSUMED: alpha 0.01, baseline p0 = max(A rate for the class, 1%), 1,200,000 requests a month, 5% canary = 60,000 a month)
+  gate on format failures (unparsed): baseline from A = 0.8%, p0 used 1.0%
+    B0: rate 0.0%, gate does not fire
+    B1: rate 25.0%; requests to detect median 7, p90 15, not detected within 600: 0 of 1500
+    B2: rate 0.0%, gate does not fire
+  gate on confident wrong (wrong + wrong_decline): baseline from A = 25.6%, p0 used 25.6%
+    B0: rate 0.0%, gate does not fire
+    B1: rate 2.5%; requests to detect median 601, p90 601, not detected within 600: 1500 of 1500
+    B2: rate 0.0%, gate does not fire
+
+Risk-adjusted cost per 1000 calls: cost + unparsed x F_loud + (wrong + wrong_decline) x F_silent (ASSUMED values)
+  F_loud $0.000, F_silent $0.00: A    0.430  B0    0.060  B1    0.054  B2    0.060
+  F_loud $0.002, F_silent $0.05: A   13.225  B0    0.060  B1    1.804  B2    0.060
+  F_loud $0.010, F_silent $0.25: A   64.402  B0    0.060  B1    8.804  B2    0.060
+  F_loud $0.050, F_silent $1.00: A  256.402  B0    0.060  B1   37.554  B2    0.060

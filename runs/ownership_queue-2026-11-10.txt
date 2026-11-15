@@ -1,0 +1,9 @@
+lines 10  tagged lines 5 (50% of lines)
+total $180,000  tagged $72,000 (40% of dollars)
+
+ # vendor                 class                 usd   cum%  reason
+ 1 openai                 mixed_unsplit      43,400  40.2%  mixed line: names more than one model
+ 2 eval-vendor            evaluation         25,200  63.5%  no product tag
+ 3 google-vertex          output_tokens      18,000  80.2%  no product tag
+ 4 aws                    hosted_capacity    16,000  95.0%  no product tag
+ 5 observability-vendor   observability       5,400 100.0%  no product tag

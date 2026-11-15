@@ -1,0 +1,28 @@
+claude-haiku-4-5-20251001 300 total 436 write 0 read 0
+claude-haiku-4-5-20251001 500 total 712 write 0 read 0
+claude-haiku-4-5-20251001 800 total 1079 write 0 read 0
+claude-haiku-4-5-20251001 1100 total 1505 write 0 read 0
+claude-haiku-4-5-20251001 1500 total 2019 write 0 read 0
+claude-haiku-4-5-20251001 2100 total 2829 write 0 read 0
+claude-haiku-4-5-20251001 3000 total 4023 write 0 read 0
+claude-haiku-4-5-20251001 4200 total 5660 write 5647 read 0
+claude-haiku-4-5-20251001 5000 total 6709 write 6696 read 0
+claude-haiku-5-5 300 total 651 write 635 read 0
+claude-haiku-5-5 500 total 1070 write 1054 read 0
+claude-haiku-5-5 800 total 1656 write 1640 read 0
+claude-haiku-5-5 1100 total 2296 write 2280 read 0
+claude-haiku-5-5 1500 total 3101 write 3085 read 0
+claude-haiku-5-5 2100 total 4312 write 4296 read 0
+claude-haiku-5-5 3000 total 6146 write 6130 read 0
+claude-haiku-5-5 4200 total 8610 write 8594 read 0
+claude-haiku-5-5 5000 total 10195 write 10179 read 0
+{
+ "claude-haiku-5-5": {
+  "smallest_cached": 651,
+  "largest_uncached": null
+ },
+ "claude-haiku-4-5-20251001": {
+  "smallest_cached": 5660,
+  "largest_uncached": 4023
+ }
+}

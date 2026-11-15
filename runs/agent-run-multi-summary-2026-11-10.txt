@@ -1,0 +1,22 @@
+runs 120 (api errors excluded: 0); status counts: submitted=120
+correct 119/120 = 0.992
+cost per run: mean $0.00444 p50 $0.00451 p90 $0.00574 max $0.00601 min $0.00305
+spread across all runs: max/min 2.0x, p90/p50 1.27x, mean/median 0.98x
+steps per run: 2:120
+input tokens share of total tokens 0.845; input share of dollars 0.522
+mean share of billed input that re-reads the previous step: 0.407
+correct runs n=119: mean $0.00443 mean steps 2.00
+wrong   runs n=1: mean $0.00493 mean steps 2.00
+repeat spread (same question, 3 runs): median max/min 1.02x, p90 1.05x, worst 1.16x
+question-mean cost: cheapest $0.00315 dearest $0.00583 ratio 1.9x
+single-call RAG at k=4 (Chapter 23, one combination): $0.00032; agent mean is 13.9x, agent p90 is 18.0x
+per-step input tokens (mean over runs that reached the step): s1=738, s2=1577
+cap $0.00451: runs cut 60, of which would have been correct 59; spend $0.4890 vs $0.5324 (8.2% saved)
+cap $0.00570: runs cut 24, of which would have been correct 24; spend $0.5309 vs $0.5324 (0.3% saved)
+cap $0.00577: runs cut 6, of which would have been correct 6; spend $0.5320 vs $0.5324 (0.1% saved)
+2 combinations: runs 42 correct 1.000 mean steps 2.00 mean cost $0.00328 p90 $0.00337 max $0.00350
+4 combinations: runs 42 correct 1.000 mean steps 2.00 mean cost $0.00452 p90 $0.00456 max $0.00479
+6 combinations: runs 36 correct 0.972 mean steps 2.00 mean cost $0.00569 p90 $0.00579 max $0.00601
+cost per correct answer: $0.00447
+by step count: 2 steps n=120 mean $0.00444
+status: submitted=120

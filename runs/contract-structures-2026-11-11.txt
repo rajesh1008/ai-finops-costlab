@@ -1,0 +1,6 @@
+forecast usage at list over 12 months $3,033,222
+S2 commit $2,320,415 (discounted dollars); S3 commit $1,868,465
+scenario                                                                               S1 PAYG          S2   S2 old-model-only          S3
+A base (6% growth, no price move)                                                    3,033,222   2,578,239                 nan   2,669,235   S2/S1  0.85  S3/S1  0.88
+B price move (work moves to the newer model in month 5, 0.167 per task)              1,158,966   2,320,415           2,696,017   1,019,890   S2/S1  2.00  S3/S1  0.88  S2b/S1  2.33
+C growth stalls (flat from month 4, a lever removes 20% of volume in month 7)        2,288,347   2,320,415                 nan   2,013,746   S2/S1  1.01  S3/S1  0.88

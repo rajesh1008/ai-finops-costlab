@@ -1,0 +1,7 @@
+sessions 6 errors 0
+plain n 3 mean input tokens/session 8411.3 output 960.0 cost $/session 0.01321
+  mean input by turn: [57, 174, 292, 409, 528, 645, 762, 878, 994, 1109, 1225, 1341]
+  truncated replies: 35
+folded n 3 mean input tokens/session 4435.0 output 941.7 cost $/session 0.00914
+  mean input by turn: [57, 173, 290, 407, 525, 642, 108, 224, 338, 447, 558, 668]
+  truncated replies: 25

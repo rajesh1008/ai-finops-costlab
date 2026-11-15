@@ -1,0 +1,17 @@
+SYNTHETIC: 400 customers, seed 12; median 40 tasks per seat per month, lognormal sigma 1.1; about $0.55 per task (an agent task, not a single call).
+seats 8335, tasks 676,271, serving cost $362,212
+
+model                                         revenue   gross margin  negative-margin customers  p10 margin  top-decile cost share  top-decile revenue share  loss $
+flat seat $50                                  416,750       13.1%                 23.5%        -87.1%       52.0%           18.7%    133,525
+seat $50 + 50 tasks per seat, $1.20 over       867,849       58.3%                  0.0%         38.6%       52.0%           46.6%          0
+per task $1.50                               1,014,406       64.3%                  0.0%         51.5%       52.0%           51.7%          0
+
+Sensitivity: cost per task drops 40 percent while median usage per seat doubles (flat seat price)
+flat seat $50                                margin  -4.3%  negative-margin 29.8%
+seat $50 + 50 tasks per seat, $1.20 over     margin  72.9%  negative-margin  0.0%
+per task $1.50                               margin  78.6%  negative-margin  0.0%
+
+Same, with usage doubled and cost unchanged:
+flat seat $50                                margin -73.9%  negative-margin 46.0%
+seat $50 + 50 tasks per seat, $1.20 over     margin  54.8%  negative-margin  0.2%
+per task $1.50                               margin  64.3%  negative-margin  0.0%

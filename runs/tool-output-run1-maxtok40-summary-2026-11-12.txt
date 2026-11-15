@@ -1,0 +1,8 @@
+claude-haiku-4-5-20251001 pretty_full n 9 mean_input 29306 correct 2 / 9 by_q [0, 2, 0]
+claude-haiku-4-5-20251001 compact_full n 9 mean_input 18448 correct 4 / 9 by_q [1, 3, 0]
+claude-haiku-4-5-20251001 projected n 9 mean_input 4162 correct 6 / 9 by_q [3, 3, 0]
+claude-haiku-4-5-20251001 top20_projected n 9 mean_input 1200 correct 0 / 9 by_q [0, 0, 0]
+claude-haiku-5-5 pretty_full n 9 mean_input 32573 correct 3 / 9 by_q [0, 3, 0]
+claude-haiku-5-5 compact_full n 9 mean_input 23974 correct 3 / 9 by_q [0, 3, 0]
+claude-haiku-5-5 projected n 9 mean_input 5357 correct 3 / 9 by_q [0, 3, 0]
+claude-haiku-5-5 top20_projected n 9 mean_input 1227 correct 0 / 9 by_q [0, 0, 0]

@@ -1,0 +1,6 @@
+chains 15 errors 0
+gap30 n 3 final-call cache hits 3 of 3 mean final call $0.00051 mean total $0.00642
+gap240 n 3 final-call cache hits 3 of 3 mean final call $0.00051 mean total $0.00643
+gap330 n 3 final-call cache hits 0 of 3 mean final call $0.00592 mean total $0.01183
+gap600 n 3 final-call cache hits 0 of 3 mean final call $0.00592 mean total $0.01184
+keepwarm600 n 3 final-call cache hits 3 of 3 mean final call $0.00050 mean total $0.00742

@@ -1,0 +1,8 @@
+claude-haiku-4-5-20251001 100 n 30 hit-ceiling 30 has-decision 0 mean out 100
+claude-haiku-4-5-20251001 200 n 30 hit-ceiling 30 has-decision 0 mean out 200
+claude-haiku-4-5-20251001 400 n 30 hit-ceiling 0 has-decision 30 mean out 283
+claude-haiku-4-5-20251001 800 n 30 hit-ceiling 0 has-decision 30 mean out 291
+claude-haiku-5-5 100 n 30 hit-ceiling 30 has-decision 0 mean out 100
+claude-haiku-5-5 200 n 30 hit-ceiling 30 has-decision 0 mean out 200
+claude-haiku-5-5 400 n 30 hit-ceiling 30 has-decision 0 mean out 400
+claude-haiku-5-5 800 n 30 hit-ceiling 30 has-decision 0 mean out 800

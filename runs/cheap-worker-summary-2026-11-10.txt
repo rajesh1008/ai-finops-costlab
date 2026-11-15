@@ -1,0 +1,18 @@
+W api_error 0
+S single (haiku-4-5): runs 60 correct 60 mean cost $0.00442 max $0.00583 mean calls 2.00
+   2 combinations: runs 30 correct 30 mean cost $0.00328 max $0.00338 mean calls 2.00
+   6 combinations: runs 30 correct 30 mean cost $0.00556 max $0.00583 mean calls 2.00
+M all haiku-4-5: runs 60 correct 60 mean cost $0.00948 max $0.01384 mean calls 7.05
+   2 combinations: runs 30 correct 30 mean cost $0.00657 max $0.00788 mean calls 6.03
+   6 combinations: runs 30 correct 30 mean cost $0.01238 max $0.01384 mean calls 8.07
+W cheap workers: runs 60 correct 60 mean cost $0.00278 max $0.00429 mean calls 7.20
+   2 combinations: runs 30 correct 30 mean cost $0.00221 max $0.00262 mean calls 6.13
+   6 combinations: runs 30 correct 30 mean cost $0.00334 max $0.00429 mean calls 8.27
+W/M cost ratio 0.293; W/S cost ratio 0.629; worker share of W cost 0.305
+status W: {'submitted': 60}
+wrong runs: 0 []
+S single (haiku-5-5, thinking off): runs 60 correct 59 mean cost $0.00048 max $0.00071 mean calls 2.02
+   2 combinations: runs 30 correct 30 mean cost $0.00033 max $0.00057 mean calls 2.03
+   6 combinations: runs 30 correct 29 mean cost $0.00063 max $0.00071 mean calls 2.00
+S5/S4 0.108; W / S5 5.84; M / S5 19.9; status S5: {'submitted': 60}
+S5 wrong: [(23, 6, 'submitted')]

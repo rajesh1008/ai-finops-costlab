@@ -1,0 +1,4 @@
+calls in follow-up 360 errors 0
+B0 default thinking: n=360 good 360 (100.0%) correct 237 correct_decline 123 wrong 0 wrong_decline 0 unparsed 0; template C good 120/120; mean out 42.5; $/1000 calls 0.0604; $/1000 good 0.0604
+B1 thinking off: n=360 good 261 (72.5%) correct 229 correct_decline 32 wrong 8 wrong_decline 1 unparsed 90; template C good 23/120; mean out 30.6; $/1000 calls 0.0543; $/1000 good 0.0750
+B3 thinking off + object-only instruction: n=360 good 344 (95.6%) correct 232 correct_decline 112 wrong 6 wrong_decline 3 unparsed 7; template C good 104/120; mean out 19.0; $/1000 calls 0.0531; $/1000 good 0.0555

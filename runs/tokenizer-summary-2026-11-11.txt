@@ -1,0 +1,6 @@
+prompts counted on both models: 300 of 300
+count_tokens ratio haiku-5-5 / haiku-4-5: mean 1.3472 min 1.3425 max 1.3540; total 104550 vs 77595
+billed (shadow run, 300 paired): input mean 258.6 vs 348.5; output mean 31.2 vs 68.6
+cost per call at placeholder rates: haiku-4-5 $0.000414, haiku-5-5 $0.000069; ratio 5.99x; list price ratio input 10.0x output 10.0x
+share of the 90 percent list cut that reaches the task bill: 83.3 percent cut per task against 90.0 percent per token
+tasks per dollar: haiku-4-5 2,413; haiku-5-5 14,459

@@ -1,0 +1,22 @@
+clean      n=120 correct=0.100 mean_in=  65.0 mean_out= 82.0 cost_per_call=$0.000475 repeated_the_wrong_number=0
+same       n=120 correct=0.575 mean_in= 137.3 mean_out= 80.0 cost_per_call=$0.000537 repeated_the_wrong_number=0
+same_log   n=120 correct=0.508 mean_in=1442.3 mean_out= 76.7 cost_per_call=$0.001826 repeated_the_wrong_number=13
+same_nofb  n=120 correct=0.925 mean_in= 137.3 mean_out= 96.5 cost_per_call=$0.000620 repeated_the_wrong_number=0
+clean_hint n=120 correct=0.400 mean_in=  88.1 mean_out= 95.4 cost_per_call=$0.000565 repeated_the_wrong_number=4
+
+Measured p0 (clean) 0.100; p1 (same-context retry after a wrong attempt) 0.575; p1 with failed log 0.508; no feedback 0.925; clean with hint 0.400
+pass@k   clean-restart   CCRM(same context)
+  k=1   0.100           0.100
+  k=2   0.190           0.617
+  k=3   0.271           0.837
+  k=5   0.410           0.971
+
+Paper check (arXiv 2605.08563 inputs: p0=0.761, pass@3=0.812):  p1 = 0.113  IID pass@3 = 0.986  CCRM pass@3 = 0.812
+Monte Carlo check of the formula (p0=0.7, p1=0.2, k=3): formula 0.808  simulation 0.802
+
+Expected spend per success at the measured per-call costs, k=3 (attempt 1 is the clean call; retries cost what that condition's calls cost, history not re-priced beyond that):
+  clean restart                        p_retry=0.100  attempts used 2.71  success within 3 0.271  cost per success $0.004749
+  rejected, same context               p_retry=0.575  attempts used 2.28  success within 3 0.837  cost per success $0.001390
+  double-check, same context           p_retry=0.925  attempts used 1.97  success within 3 0.995  cost per success $0.001080
+  rejected, same context + failed log  p_retry=0.508  attempts used 2.34  success within 3 0.782  cost per success $0.003740
+  clean restart with hint              p_retry=0.400  attempts used 2.44  success within 3 0.676  cost per success $0.001906

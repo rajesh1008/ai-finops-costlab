@@ -1,0 +1,4 @@
+name only       correct 9 of 30 (30%)
+control only    correct 9 of 30 (30%)
+name + control  correct 12 of 30 (40%)
+  misses: A01->A02, A04->A24, A05->A26, A07->A30, A09->A02, A13->A09, A15->A24, A17->A14, A18->A08, A19->A22, A20->A24, A21->A08, A23->A17, A25->A24, A26->A03, A28->A01, A29->A04, A30->A26

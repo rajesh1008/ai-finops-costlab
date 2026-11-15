@@ -1,0 +1,40 @@
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 0, "in": 1581, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 0, "in": 2648, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 1, "in": 1574, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 1, "in": 2641, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 2, "in": 1597, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 2, "in": 2664, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 3, "in": 1607, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 3, "in": 2674, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 4, "in": 1578, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 4, "in": 2645, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 5, "in": 1546, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 5, "in": 2613, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 6, "in": 1580, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 6, "in": 2647, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 7, "in": 1571, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 7, "in": 2638, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 8, "in": 1599, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 8, "in": 2666, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-4-5-20251001", "rep": 9, "in": 1553, "out": 27, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-4-5-20251001", "rep": 9, "in": 2620, "out": 36, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 0, "in": 2333, "out": 156, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 0, "in": 3861, "out": 58, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 1, "in": 2302, "out": 143, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 1, "in": 3830, "out": 56, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 2, "in": 2329, "out": 197, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 2, "in": 3857, "out": 57, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 3, "in": 2359, "out": 204, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 3, "in": 3887, "out": 56, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 4, "in": 2354, "out": 189, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 4, "in": 3882, "out": 57, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 5, "in": 2250, "out": 88, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 5, "in": 3778, "out": 94, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 6, "in": 2336, "out": 208, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 6, "in": 3864, "out": 56, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 7, "in": 2295, "out": 135, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 7, "in": 3823, "out": 57, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 8, "in": 2355, "out": 187, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 8, "in": 3883, "out": 56, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}
+{"cond": "S", "model": "claude-haiku-5-5", "rep": 9, "in": 2253, "out": 190, "calls": 1, "ok": true, "docs_ok": 6}
+{"cond": "F", "model": "claude-haiku-5-5", "rep": 9, "in": 3781, "out": 59, "calls": 7, "ok": true, "docs_ok": 6, "empty_worker_texts": 0, "empty_merge": false}

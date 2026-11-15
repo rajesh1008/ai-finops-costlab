@@ -1,0 +1,38 @@
+weekly total spend ($): 32k 33k 46k 44k 34k 34k 36k 36k 40k 44k 43k 43k 42k
+planted events:
+  week 3: search - tenant spike (one tenant's script)
+  week 5: support-agent - price change on the dear model
+  week 7: handbook - cache hit rate falls (prompt reordered)
+  week 9: extraction - retry loop re-sends context
+  week 10: support-agent - router sends more to the dear model
+  week 12: reports - new feature ships untagged
+
+Weeks 2 to 13 (12 reviews). Event caught in the week it happened? (total review = flags the company total only)
+  week  3 search         volume           total caught  by product caught  by driver caught 
+  week  5 support-agent  price            total missed  by product missed  by driver caught 
+  week  7 handbook       cache            total missed  by product caught  by driver caught 
+  week  9 extraction     tokens_per_call  total missed  by product caught  by driver caught 
+  week 10 support-agent  mix              total caught  by product caught  by driver caught 
+  week 12 reports        untagged         total missed  by product missed  by driver caught 
+
+Caught of 6: {'total': 2, 'product': 4, 'driver': 6}  flags with no planted event (false alarms): {'total': 0, 'product': 0, 'driver': 0}
+
+Driver review: what it says (week, product, driver, $ change)
+  week  3 search         volume                 12,534
+  week  5 support-agent  price                   1,609
+  week  5 search         volume                -13,400
+  week  7 handbook       cache                   1,800
+  week  9 extraction     tokens_per_call         3,303
+  week 10 support-agent  mix                     3,863
+  week 12 reports        untagged share 0.50
+  week 13 reports        untagged share 0.50
+
+flags raised by driver review over the quarter: 8
+
+Size of each event against the week's company total
+  week  3 search         product spend     9,787 ->    22,321  (+38.0% of last week's company total)
+  week  5 support-agent  product spend     5,380 ->     6,970  ( +3.6% of last week's company total)
+  week  7 handbook       product spend     1,845 ->     3,679  ( +5.4% of last week's company total)
+  week  9 extraction     product spend     7,990 ->    11,123  ( +8.6% of last week's company total)
+  week 10 support-agent  product spend     7,172 ->    11,590  (+11.1% of last week's company total)
+  week 12 reports        product spend     3,581 ->     3,522  ( -0.1% of last week's company total)

@@ -1,0 +1,6 @@
+h45 none: steps median 30.0 min 30 max 30; mean cost $0.09208; max $0.09244; reasons {'ceiling': 8}
+h45 breaker: steps median 30.0 min 30 max 30; mean cost $0.09335; max $0.09652; reasons {'ceiling': 8}
+h45 cap: steps median 10.0 min 10 max 10; mean cost $0.01716; max $0.01756; reasons {'cap': 8}
+h55 none: steps median 30.0 min 30 max 30; mean cost $0.00924; max $0.00927; reasons {'ceiling': 8}
+h55 breaker: steps median 30.0 min 30 max 30; mean cost $0.00925; max $0.00929; reasons {'ceiling': 8}
+h55 cap: steps median 30.0 min 30 max 30; mean cost $0.00925; max $0.00930; reasons {'ceiling': 8}

@@ -1,0 +1,18 @@
+h45 view S: n=160 acc=1.000 wrong_share=0.000 unknown_share=0.000 misattributed=$0.0000 of $0.4426 classifier_cost=$0.0405 errors=0
+h45 view U: n=160 acc=0.838 wrong_share=0.054 unknown_share=0.000 misattributed=$0.0238 of $0.4426 classifier_cost=$0.0357 errors=0
+    support_assistant {'support_assistant': 40}
+    report_summariser {'report_summariser': 40}
+    sql_helper {'report_summariser': 26, 'sql_helper': 14}
+    onboarding_emailer {'onboarding_emailer': 40}
+h55 view S: n=160 acc=1.000 wrong_share=0.000 unknown_share=0.000 misattributed=$0.0000 of $0.4426 classifier_cost=$0.0051 errors=0
+h55 view U: n=160 acc=1.000 wrong_share=0.000 unknown_share=0.000 misattributed=$0.0000 of $0.4426 classifier_cost=$0.0044 errors=0
+    support_assistant {'support_assistant': 40}
+    report_summariser {'report_summariser': 40}
+    sql_helper {'sql_helper': 40}
+    onboarding_emailer {'onboarding_emailer': 40}
+coverage trajectory (ASSUMED): [0.38, 0.4405, 0.4943, 0.5423, 0.5849, 0.6229, 0.6567, 0.6867, 0.7135, 0.7373, 0.7585, 0.7774, 0.7942]
+residual (COMPOSED month 3): invoice 214000 vs gateway ledger 196000: {'residual_usd': 18000.0, 'residual_share': 0.08411214953271028}
+first honest number (COMPOSED support assistant): spend incl. untagged 98200, tagged to it 52000, signed outcomes 18500: {'coverage': 0.5295315682281059, 'cost_per_outcome': 2.810810810810811, 'untagged_usd': 46200.0, 'upper_bound_per_outcome': 5.308108108108108}
+untagged $46,200 at lab mean $0.00277 per call = 16,701,310 calls
+  classify all with h45 U: $3,726 at $0.0002231 per call
+  classify all with h55 U: $459 at $0.0000275 per call

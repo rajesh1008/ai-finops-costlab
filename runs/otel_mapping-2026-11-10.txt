@@ -1,0 +1,7 @@
+SYNTHETIC rows. Columns: OTel-style input (incl cache), cache read, cache write, output -> cr-2 uncached input; correct USD; naive USD
+  first call, writes prefix         21500      0  20000  400 ->   1500  $0.02850  $0.04850  naive/correct 1.70
+  later call, reads prefix          21800  20000      0  300 ->   1800  $0.00530  $0.02530  naive/correct 4.77
+  late call, reads bigger prefix    60000  58000      0  500 ->   2000  $0.01030  $0.06830  naive/correct 6.63
+  no cache in use                    3000      0      0  200 ->   3000  $0.00400  $0.00400  naive/correct 1.00
+  total correct $0.04810, naive $0.14610, naive overstates by 203.7%
+  impossible row refused: cache subsets exceed total input: producer bug

@@ -1,0 +1,4 @@
+chains 9 errors 0
+burst8 {'chains': 3, 'calls': 24, 'calls_with_read': 0, 'calls_with_write': 24, 'mean_cost_per_chain': 0.047357}
+primed8 {'chains': 3, 'calls': 24, 'calls_with_read': 21, 'calls_with_write': 3, 'mean_cost_per_chain': 0.009454800000000001}
+ttl1h_600 {'chains': 3, 'calls': 6, 'calls_with_read': 3, 'calls_with_write': 3, 'mean_cost_per_chain': 0.009973266666666666}

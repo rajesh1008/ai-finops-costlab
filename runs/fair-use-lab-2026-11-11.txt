@@ -1,0 +1,14 @@
+real run costs n=120: cheapest half mean $0.00569, dearest half mean $0.02223, overall mean $0.01396, max $0.05052
+customers {'normal': 4505, 'heavy_task': 409, 'automated': 86}; cost share by type normal 44.2%, heavy_task 5.9%, automated 49.9%; total cost $11,532.53 against plan revenue $15,000
+   normal: mean monthly cost per customer $1.132; share over the $3.00 plan price 5.7%
+   heavy_task: mean monthly cost per customer $1.655; share over the $3.00 plan price 13.7%
+   automated: mean monthly cost per customer $66.927; share over the $3.00 plan price 100.0%
+none       0: normal hit   0.0% lost   0.0%  heavy_ hit   0.0% lost   0.0%  automa hit   0.0% lost   0.0%  | cost admitted $11,533 margin  23.1% | customers over plan price 399
+runs     100: normal hit  25.4% lost  24.2%  heavy_ hit  23.5% lost  19.9%  automa hit 100.0% lost  99.2%  | cost admitted $4,455 margin  70.3% | customers over plan price 0
+runs     200: normal hit   6.6% lost   7.8%  heavy_ hit   3.9% lost   5.2%  automa hit 100.0% lost  98.3%  | cost admitted $5,442 margin  63.7% | customers over plan price 96
+runs     400: normal hit   0.8% lost   1.5%  heavy_ hit   0.7% lost   1.0%  automa hit 100.0% lost  96.6%  | cost admitted $5,889 margin  60.7% | customers over plan price 313
+runs    1000: normal hit   0.0% lost   0.2%  heavy_ hit   0.0% lost   0.0%  automa hit 100.0% lost  91.5%  | cost admitted $6,259 margin  58.3% | customers over plan price 399
+cost     0.5: normal hit  72.3% lost  60.2%  heavy_ hit  86.8% lost  71.4%  automa hit 100.0% lost  99.3%  | cost admitted $2,221 margin  85.2% | customers over plan price 0
+cost     1.0: normal hit  40.9% lost  35.7%  heavy_ hit  59.4% lost  48.9%  automa hit 100.0% lost  98.5%  | cost admitted $3,686 margin  75.4% | customers over plan price 0
+cost     2.0: normal hit  12.9% lost  14.4%  heavy_ hit  28.4% lost  23.6%  automa hit 100.0% lost  97.0%  | cost admitted $5,046 margin  66.4% | customers over plan price 0
+cost     3.0: normal hit   5.7% lost   6.7%  heavy_ hit  13.7% lost  11.6%  automa hit 100.0% lost  95.5%  | cost admitted $5,608 margin  62.6% | customers over plan price 0

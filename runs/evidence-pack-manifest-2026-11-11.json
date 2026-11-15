@@ -1,0 +1,24 @@
+{
+ "as_of": "2026-11-11",
+ "chain_head": "1016bdfd6b852aa5bbd68a40307a8316ea97d534e6a0c6c28a3f7f3df542ca6c",
+ "files": {
+  "coverage.json": {
+   "bytes": 183,
+   "sha256": "9efd179ee5f56b3a134582637b02927e5abb313fc93c5de6b22682e0a1e5716b"
+  },
+  "ledger.jsonl": {
+   "bytes": 502059,
+   "sha256": "31af07f3ddd8704eb8a09444aba0edde71fbdae5a3a6ab684a8c2c692efff7b7"
+  },
+  "price-table.json": {
+   "bytes": 418,
+   "sha256": "d68252f855195ac6d21162ab5fefa3c794cb1ebcffb13f2b5f8f0bafcb45a013"
+  },
+  "reconciliation.json": {
+   "bytes": 6775,
+   "sha256": "be2298edcc3537db189f5d40097874840d8f932978de8510aa031ebf61cde0b2"
+  }
+ },
+ "notes": "usage real, tags/days/invoice synthetic",
+ "price_table": "costlab.prices PLACEHOLDER_USD_PER_MTIOK as of 2026-11-09"
+}

@@ -1,0 +1,14 @@
+C31 Dollar cap that does not travel with the mode h45 {'A09': 5}
+C31 Dollar cap that does not travel with the mode h55 {'A05': 3, 'NONE': 2}
+C32 Breaker keyed on identical calls only h45 {'A05': 5}
+C32 Breaker keyed on identical calls only h55 {'NONE': 5}
+C33 Coverage as the only health check of the mete h45 {'A03': 5}
+C33 Coverage as the only health check of the mete h55 {'A24': 4, 'A03': 1}
+C34 Model-assigned owners counted as coverage h45 {'A18': 5}
+C34 Model-assigned owners counted as coverage h55 {'A03': 5}
+C35 Quality sampled without sizing the sample h45 {'A23': 1, 'A12': 4}
+C35 Quality sampled without sizing the sample h55 {'A09': 4, 'NONE': 1}
+C36 Short-history interval presented as 90 percen h45 {'A27': 5}
+C36 Short-history interval presented as 90 percen h55 {'A27': 5}
+tfidf nearest: {'C31': ('A09', 'Model swap on a list-price estimate'), 'C32': ('A20', 'Buy the tool, skip the meter'), 'C33': ('A24', 'Coverage by percent, not by dollars'), 'C34': ('A24', 'Coverage by percent, not by dollars'), 'C35': ('A01', 'Reporting the mean'), 'C36': ('A27', 'Forecast as one number')}
+NONE count by model: {'h45': 0, 'h55': 8} of 30 each

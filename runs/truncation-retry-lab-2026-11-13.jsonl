@@ -1,0 +1,96 @@
+{"topic": 0, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 50, "stop": "max_tokens", "tail": "nsparent practices.\n\n---\n\n## Eligibility"}
+{"topic": 0, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 0, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 100, "stop": "max_tokens", "tail": "unds are available within **14 days** of"}
+{"topic": 0, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 0, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 200, "stop": "max_tokens", "tail": " any paid subscription begins\n- **Refund"}
+{"topic": 0, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 0, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 400, "stop": "max_tokens", "tail": "ate to **Billing** \u2192 **Subscription**\n3."}
+{"topic": 0, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 400, "stop": "max_tokens", "tail": "*Audience:** Support, Billing, Sales Ops"}
+{"topic": 1, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 50, "stop": "max_tokens", "tail": " online\n- [ ] Confirm replication lag is"}
+{"topic": 1, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 1, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 100, "stop": "max_tokens", "tail": "ase status and metrics for post-incident"}
+{"topic": 1, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 1, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 200, "stop": "max_tokens", "tail": " into monitoring server:**\n   ```\n   ssh"}
+{"topic": 1, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 200, "stop": "max_tokens", "tail": "# Runb"}
+{"topic": 1, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 400, "stop": "max_tokens", "tail": "itional replicas/standby instances\n\n### "}
+{"topic": 1, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 400, "stop": "max_tokens", "tail": " or degraded beyond SLO and not expected"}
+{"topic": 2, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 50, "stop": "max_tokens", "tail": "- [ ] Provision laptop and equipment\n- ["}
+{"topic": 2, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 39, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 2, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 100, "stop": "max_tokens", "tail": "ommunication channels (Slack, Teams, etc"}
+{"topic": 2, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 39, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 2, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 200, "stop": "max_tokens", "tail": "] Security and compliance overview\n  - ["}
+{"topic": 2, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 39, "out": 200, "stop": "max_tokens", "tail": "nager** is the new hire's direct manager"}
+{"topic": 2, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 28, "out": 400, "stop": "max_tokens", "tail": "correctly\n- [ ] Get walkthrough of CI/CD"}
+{"topic": 2, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 39, "out": 400, "stop": "max_tokens", "tail": "Name]` | **Buddy:** `[Name]` | **Team:**"}
+{"topic": 3, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 50, "stop": "max_tokens", "tail": " operation fails, instead of immediately"}
+{"topic": 3, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 3, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 100, "stop": "max_tokens", "tail": "tributed systems, temporary failures are"}
+{"topic": 3, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 3, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 200, "stop": "max_tokens", "tail": "atters\n\n### Problem: The Thundering Herd"}
+{"topic": 3, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 3, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 400, "stop": "max_tokens", "tail": "       attempt += 1\n\nraise PermanentFail"}
+{"topic": 3, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 36, "out": 400, "stop": "max_tokens", "tail": " dependency restarts:\n\n- **No retries:**"}
+{"topic": 4, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 27, "out": 50, "stop": "max_tokens", "tail": "e information every time, cached content"}
+{"topic": 4, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 38, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 4, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 27, "out": 100, "stop": "max_tokens", "tail": "aude), prompt caching automatically:\n\n1."}
+{"topic": 4, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 38, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 4, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 27, "out": 200, "stop": "max_tokens", "tail": "# Pricing Structure\n\nPrompt caching uses"}
+{"topic": 4, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 38, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 4, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 27, "out": 400, "stop": "max_tokens", "tail": "mplate\n- Batch processing where the same"}
+{"topic": 4, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 38, "out": 400, "stop": "max_tokens", "tail": ""}
+{"topic": 5, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 50, "stop": "max_tokens", "tail": "accountability and transparency\n- Inform"}
+{"topic": 5, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 5, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 100, "stop": "max_tokens", "tail": "ng accuracy for future quarters\n\n---\n\n##"}
+{"topic": 5, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 5, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 200, "stop": "max_tokens", "tail": " Weeks Before Review\n- **Finance Team**:"}
+{"topic": 5, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 200, "stop": "max_tokens", "tail": "Draft / Active\n**Applies to:** All cloud"}
+{"topic": 5, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 400, "stop": "max_tokens", "tail": "ources:**\n- Accounting system/ERP export"}
+{"topic": 5, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 400, "stop": "max_tokens", "tail": "nd turns findings into owned, time-bound"}
+{"topic": 6, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 50, "stop": "max_tokens", "tail": "lures and temporarily blocks requests to"}
+{"topic": 6, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 35, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 6, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 100, "stop": "max_tokens", "tail": "en a fault is detected to prevent damage"}
+{"topic": 6, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 35, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 6, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 200, "stop": "max_tokens", "tail": "# 1. **Closed State** (Normal Operation)"}
+{"topic": 6, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 35, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 6, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 25, "out": 400, "stop": "max_tokens", "tail": " Parameters\n\n| Parameter | Description |"}
+{"topic": 6, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 35, "out": 400, "stop": "max_tokens", "tail": ""}
+{"topic": 7, "cap": 50, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 50, "stop": "max_tokens", "tail": "ould be lost\n- Version history and audit"}
+{"topic": 7, "cap": 50, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 50, "stop": "max_tokens", "tail": ""}
+{"topic": 7, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 100, "stop": "max_tokens", "tail": "ption**: Increased computational demands"}
+{"topic": 7, "cap": 100, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 7, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 200, "stop": "max_tokens", "tail": "t integrate properly\n- **Orphaned Access"}
+{"topic": 7, "cap": 200, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 200, "stop": "max_tokens", "tail": "uction model, including version changes,"}
+{"topic": 7, "cap": 400, "model": "claude-haiku-4-5-20251001", "rep": 0, "input": 26, "out": 400, "stop": "max_tokens", "tail": "em Conflicts**: SSO, LDAP, or other auth"}
+{"topic": 7, "cap": 400, "model": "claude-haiku-5-5", "rep": 0, "input": 37, "out": 400, "stop": "max_tokens", "tail": "en.\n- **Regression masked by averages:**"}
+{"topic": 0, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 26, "out": 100, "stop": "max_tokens", "tail": "onality (see Service Credits below)\n- **"}
+{"topic": 0, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 0, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 26, "out": 200, "stop": "max_tokens", "tail": "l, not the subscription activation date."}
+{"topic": 0, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 1, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 28, "out": 100, "stop": "max_tokens", "tail": "l\n- [ ] Create incident ticket with fail"}
+{"topic": 1, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 1, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 28, "out": 200, "stop": "max_tokens", "tail": "he failover\n\n### 3. Communicate Status\n-"}
+{"topic": 1, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 2, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 28, "out": 100, "stop": "max_tokens", "tail": "- [ ] VPN and network access provisioned"}
+{"topic": 2, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 39, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 2, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 28, "out": 200, "stop": "max_tokens", "tail": "tials provisioned\n\n- [ ] **Documentation"}
+{"topic": 2, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 39, "out": 200, "stop": "max_tokens", "tail": " suggested owner. Replace bracketed plac"}
+{"topic": 3, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 100, "stop": "max_tokens", "tail": "diate retry attempts can:\n\n- **Overwhelm"}
+{"topic": 3, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 3, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 200, "stop": "max_tokens", "tail": "l backoff addresses these issues by:\n\n1."}
+{"topic": 3, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 36, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 4, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 27, "out": 100, "stop": "max_tokens", "tail": "epositories, knowledge bases, etc.), the"}
+{"topic": 4, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 38, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 4, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 27, "out": 200, "stop": "max_tokens", "tail": "- Cached input: $0.30 per million tokens"}
+{"topic": 4, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 38, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 5, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 100, "stop": "max_tokens", "tail": " areas and implement corrective measures"}
+{"topic": 5, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 37, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 5, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 200, "stop": "max_tokens", "tail": "|\n|------|-----------|-----------------|"}
+{"topic": 5, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 37, "out": 200, "stop": "max_tokens", "tail": "# Quarterly Cost"}
+{"topic": 6, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 100, "stop": "max_tokens", "tail": "rent flow to prevent damage.\n\n## Purpose"}
+{"topic": 6, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 35, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 6, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 25, "out": 200, "stop": "max_tokens", "tail": "- Allow external systems time to recover"}
+{"topic": 6, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 35, "out": 200, "stop": "max_tokens", "tail": ""}
+{"topic": 7, "cap": 100, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 26, "out": 100, "stop": "max_tokens", "tail": "e cases\n- **Regression on Specific Tasks"}
+{"topic": 7, "cap": 100, "model": "claude-haiku-5-5", "rep": 1, "input": 37, "out": 100, "stop": "max_tokens", "tail": ""}
+{"topic": 7, "cap": 200, "model": "claude-haiku-4-5-20251001", "rep": 1, "input": 26, "out": 200, "stop": "max_tokens", "tail": "y conflicts**: New model may have incomp"}
+{"topic": 7, "cap": 200, "model": "claude-haiku-5-5", "rep": 1, "input": 37, "out": 200, "stop": "max_tokens", "tail": "'s a version bump, a swap to a different"}

@@ -1,0 +1,28 @@
+pool n=120 mean $0.01396 p99 $0.04973; tail pool n=13 mean $0.04914; ordinary month spend about $1,256
+
+No incident: months with at least one alert, and alerts per month (first-alert only counted)
+  daily median+50%           months with a false alert 0/400 (0.0%)
+  hourly 1.5x 168h median    months with a false alert 44/400 (11.0%)
+  hot runs >=8 an hour       months with a false alert 254/400 (63.5%)
+  hot runs >=15 an hour      months with a false alert 0/400 (0.0%)
+
+Incident from hour 480: extra tail share 2 percent of runs
+  daily median+50%           detected 0/400
+  hourly 1.5x 168h median    detected 51/400  median delay    73 h  p90   200 h  extra spend before alert median $   5.77
+  hot runs >=8 an hour       detected 214/400  median delay    93 h  p90   205 h  extra spend before alert median $   8.00
+  hot runs >=15 an hour      detected 0/400
+  (the incident left unstopped to the end of the month costs about $26 extra on a baseline of $1,262)
+
+Incident from hour 480: extra tail share 5 percent of runs
+  daily median+50%           detected 0/400
+  hourly 1.5x 168h median    detected 133/400  median delay    31 h  p90   107 h  extra spend before alert median $   7.13
+  hot runs >=8 an hour       detected 364/400  median delay    57 h  p90   164 h  extra spend before alert median $  12.23
+  hot runs >=15 an hour      detected 0/400
+  (the incident left unstopped to the end of the month costs about $54 extra on a baseline of $1,262)
+
+Incident from hour 480: extra tail share 10 percent of runs
+  daily median+50%           detected 0/400
+  hourly 1.5x 168h median    detected 371/400  median delay    10 h  p90    35 h  extra spend before alert median $   4.66
+  hot runs >=8 an hour       detected 400/400  median delay    16 h  p90    57 h  extra spend before alert median $   7.27
+  hot runs >=15 an hour      detected 0/400
+  (the incident left unstopped to the end of the month costs about $107 extra on a baseline of $1,262)

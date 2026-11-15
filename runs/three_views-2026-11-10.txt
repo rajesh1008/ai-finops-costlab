@@ -1,0 +1,30 @@
+SYNTHETIC dataset: 32878 call rows, 12001 sessions, 30 days, seed 21
+
+Finance view: total $79.88; attribution coverage 92.4%
+  support    $   39.50  49.5%
+  platform   $   18.26  22.9%
+  analytics  $   16.03  20.1%
+  UNOWNED    $    6.09  7.6%
+
+Board view (cost per accepted outcome; coverage on the same page: 92.4%)
+  support-agent        spend $   42.63 outcomes  4846 cost per outcome $0.0088
+  knowledge-assistant  spend $   19.92 outcomes  2426 cost per outcome $0.0082
+  nl-query             spend $   17.33 outcomes  2034 cost per outcome $0.0085
+
+Engineer view: top three sessions by cost
+  s7601    $1.7518 steps 90
+  s5743    $0.0309 steps 12
+  s11752   $0.0306 steps 12
+Decomposition of s7601 (first 3 and last step; columns: input, output, cache read, cache write, total USD)
+  step  1  0.0025 0.0030 0.0000 0.0019  0.0074
+  step  2  0.0025 0.0030 0.0005 0.0000  0.0060
+  step  3  0.0025 0.0030 0.0008 0.0000  0.0063
+  step 90  0.0025 0.0030 0.0277 0.0000  0.0332
+  cache read is 71.6% of this session's cost
+
+Injection: invoice-built daily view versus meter-built daily view (spike injected on day 19)
+  meter day 19 $4.28; median day $2.62; ratio 1.64
+  invoice view shows $2.66 every day; day-19 error 37.9%
+  largest single-day gap between views: day 19 $1.62
+  without the runaway session the meter would read $78.13; with it $79.88
+  runaway session share of the month: 2.2%

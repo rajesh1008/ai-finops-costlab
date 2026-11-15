@@ -1,0 +1,12 @@
+REAL lab sessions (n=10, too few for any percentile claim):
+  mean $0.00197 median $0.00193 max $0.00435 max/median 2.3x
+
+Nested rollup example (SYNTHETIC trace: parent run, two subagent runs, one retry):
+  root  $0.090
+  sub1  $0.040
+  sub2  $0.040
+  session total $0.090; root rollup equals session total: True
+
+SYNTHETIC day, 4,000 sessions, seed 7 (shape check only, not a Fieldstone measurement):
+  no runaway sessions: median $0.091 mean $0.132 p95 $0.382 p99 $0.667 max $2.72; top 3 percent of sessions = 15.5% of spend; mean/median 1.46
+  1 percent runaway at about 60x: median $0.092 mean $0.206 p95 $0.420 p99 $1.495 max $27.76; top 3 percent of sessions = 43.7% of spend; mean/median 2.25
