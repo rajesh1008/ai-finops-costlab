@@ -1,0 +1,134 @@
+{
+  "mode": "simulated",
+  "priced_as": "claude-haiku-4-5",
+  "pricing_date": "2026-11-16",
+  "pricing_source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+  "note": "Pure calculation from published Anthropic list prices and stated assumptions. No model was called.",
+  "lab": "bursty traffic TTL choice",
+  "run_date": "2026-11-16",
+  "assumptions": {
+    "prefix": 20000,
+    "question": 300,
+    "answer": 400,
+    "calls": 200,
+    "trials": 200,
+    "burst_gap_min": [
+      0.2,
+      2.0
+    ]
+  },
+  "rows": [
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.0,
+      "none": 4.4600000000000115,
+      "5m": 0.8830000000000001,
+      "1h": 0.8979999999999967,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.02,
+      "none": 4.4600000000000115,
+      "5m": 0.9822449999999984,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.05,
+      "none": 4.4600000000000115,
+      "5m": 1.1101249999999983,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.1,
+      "none": 4.4600000000000115,
+      "5m": 1.3463349999999965,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.2,
+      "none": 4.4600000000000115,
+      "5m": 1.7863249999999977,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.35,
+      "none": 4.4600000000000115,
+      "5m": 2.480465000000003,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "short idle (6-30 min)",
+      "idle_share": 0.5,
+      "none": 4.4600000000000115,
+      "5m": 3.1828850000000033,
+      "1h": 0.8979999999999967,
+      "cheapest": "1h"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.0,
+      "none": 4.4600000000000115,
+      "5m": 0.8830000000000001,
+      "1h": 0.8979999999999967,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.02,
+      "none": 4.4600000000000115,
+      "5m": 0.9822449999999984,
+      "1h": 1.0218799999999992,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.05,
+      "none": 4.4600000000000115,
+      "5m": 1.1101249999999983,
+      "1h": 1.1867999999999985,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.1,
+      "none": 4.4600000000000115,
+      "5m": 1.3463349999999965,
+      "1h": 1.4926999999999973,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.2,
+      "none": 4.4600000000000115,
+      "5m": 1.7863249999999977,
+      "1h": 2.05168,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.35,
+      "none": 4.4600000000000115,
+      "5m": 2.480465000000003,
+      "1h": 2.925680000000006,
+      "cheapest": "5m"
+    },
+    {
+      "idle_range": "long idle (6-240 min)",
+      "idle_share": 0.5,
+      "none": 4.4600000000000115,
+      "5m": 3.1828850000000033,
+      "1h": 3.8236200000000093,
+      "cheapest": "5m"
+    }
+  ]
+}

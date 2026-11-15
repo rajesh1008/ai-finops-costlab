@@ -66,7 +66,7 @@ curl -L -o qwen2.5-1.5b-instruct-q4_k_m.gguf \
 python3 scripts/local_prefix_cache_lab.py --priced-as claude-haiku-4-5
 ```
 
-Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs nothing: `python3 scripts/sim_cache_gap_economics.py`.
+Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs nothing: `python3 scripts/sim_cache_gap_economics.py`. A bursty-traffic version (which cache lifetime wins when most gaps are short and some are long): `python3 scripts/sim_bursty_ttl_lab.py`.
 
 ## Recorded outputs
 
