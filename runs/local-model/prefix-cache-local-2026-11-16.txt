@@ -1,0 +1,10 @@
+mode: local-model | local model: qwen2.5-1.5b-instruct-q4_k_m.gguf | priced as: claude-haiku-4-5 list prices dated 2026-11-16 (https://docs.anthropic.com/en/docs/about-claude/pricing)
+Token counts, latency and prefix-cache hits measured on a small open model run locally; dollars calculated from published Anthropic list prices. Not an Anthropic invoice measurement.
+
+call what                             prompt cached   new  out prompt_ms   gen_ms         USD
+   1 policy prefix + question            467      0   467    8      5923     2370   0.0006210
+   2 policy prefix + question            467    458     9    8       511     2604   0.0000948
+   3 policy prefix + question            465    458     7    8       409     2022   0.0000928
+   4 unrelated prompt (slot test)         17     16     1    8       341     1892   0.0000570
+   5 policy prefix + question            465    458     7    8       565     2162   0.0000928
+   6 policy prefix + question            466    458     8    8       551     2680   0.0000938

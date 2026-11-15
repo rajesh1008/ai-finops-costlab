@@ -1,0 +1,87 @@
+{
+  "mode": "simulated",
+  "priced_as": "claude-haiku-4-5",
+  "pricing_date": "2026-11-16",
+  "pricing_source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+  "note": "Pure calculation from published Anthropic list prices and stated assumptions. No model was called.",
+  "lab": "cache TTL gap economics",
+  "run_date": "2026-11-16",
+  "assumptions": {
+    "prefix_tokens": 20000,
+    "question_tokens": 300,
+    "answer_tokens": 400,
+    "calls": 100
+  },
+  "rows": [
+    {
+      "gap_min": 0.5,
+      "none": 2.229999999999999,
+      "5m": 0.4530000000000012,
+      "1h": 0.46800000000000125,
+      "cheapest": "5m"
+    },
+    {
+      "gap_min": 2,
+      "none": 2.229999999999999,
+      "5m": 0.4530000000000012,
+      "1h": 0.46800000000000125,
+      "cheapest": "5m"
+    },
+    {
+      "gap_min": 4,
+      "none": 2.229999999999999,
+      "5m": 0.4530000000000012,
+      "1h": 0.46800000000000125,
+      "cheapest": "5m"
+    },
+    {
+      "gap_min": 5,
+      "none": 2.229999999999999,
+      "5m": 0.4530000000000012,
+      "1h": 0.46800000000000125,
+      "cheapest": "5m"
+    },
+    {
+      "gap_min": 6,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 0.46800000000000125,
+      "cheapest": "1h"
+    },
+    {
+      "gap_min": 10,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 0.46800000000000125,
+      "cheapest": "1h"
+    },
+    {
+      "gap_min": 30,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 0.46800000000000125,
+      "cheapest": "1h"
+    },
+    {
+      "gap_min": 59,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 0.46800000000000125,
+      "cheapest": "1h"
+    },
+    {
+      "gap_min": 61,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 4.23,
+      "cheapest": "none"
+    },
+    {
+      "gap_min": 120,
+      "none": 2.229999999999999,
+      "5m": 2.7300000000000004,
+      "1h": 4.23,
+      "cheapest": "none"
+    }
+  ]
+}

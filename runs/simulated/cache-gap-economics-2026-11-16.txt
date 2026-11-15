@@ -1,0 +1,15 @@
+mode: simulated | priced as: claude-haiku-4-5 list prices dated 2026-11-16 (https://docs.anthropic.com/en/docs/about-claude/pricing)
+Pure calculation from published Anthropic list prices and stated assumptions. No model was called.
+Assumed: 20,000-token prefix, 300-token question, 400-token answer, 100 calls at a steady gap.
+
+gap (min)  no cache $   5m TTL $   1h TTL $  cheapest
+      0.5      2.2300     0.4530     0.4680  5m
+        2      2.2300     0.4530     0.4680  5m
+        4      2.2300     0.4530     0.4680  5m
+        5      2.2300     0.4530     0.4680  5m
+        6      2.2300     2.7300     0.4680  1h
+       10      2.2300     2.7300     0.4680  1h
+       30      2.2300     2.7300     0.4680  1h
+       59      2.2300     2.7300     0.4680  1h
+       61      2.2300     2.7300     4.2300  none
+      120      2.2300     2.7300     4.2300  none

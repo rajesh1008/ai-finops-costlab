@@ -27,7 +27,7 @@ The `dev` extra installs pytest plus numpy, scipy, DuckDB and pandas, which some
 python3 -m pytest
 ```
 
-On 15 November 2026 the suite ran 399 tests, all passing, with no API key set.
+On 16 November 2026 the suite ran 426 tests, all passing, with no API key set.
 
 ## Run the labs with your own key
 
@@ -42,6 +42,31 @@ python3 scripts/cache_experiment.py         # example: the Chapter 18 cache writ
 Scripts that call the API stop with `ANTHROPIC_API_KEY is not set` when the variable is missing. Most labs make tens to a few hundred short calls on Haiku-class models; check the docstring at the top of each script for the call count before you run it, and remember that you pay for those calls.
 
 Rerunning a lab writes its output over the recorded file in `runs/`. Use `git diff runs/` to compare your results with the book's, and `git checkout runs/` to restore the originals.
+
+## Keyless lab modes (no API credit needed)
+
+From 16 November 2026 the Anthropic account behind the book had no API credit, so new labs run in one of two keyless modes. Every output they write starts with a `mode:` line and lives in its own folder, never mixed with the real-API recordings in `runs/`.
+
+| Mode | Folder | What is measured | What is calculated |
+|---|---|---|---|
+| `local-model` | `runs/local-model/` | Token counts, latency and prefix-cache hits on a small open-weights model (Qwen2.5-1.5B-Instruct, GGUF Q4_K_M) served on CPU by llama.cpp's `llama-server` | Dollars, from Anthropic's published list prices in `costlab/price_table.py` |
+| `simulated` | `runs/simulated/` | Nothing; no model is called | Dollars from the same price table and the token counts the lab states as assumptions |
+
+`costlab/price_table.py` holds Anthropic's per-million-token prices (input, 5-minute and 1-hour cache writes, cache reads, output, the 50% batch discount and Haiku 5.5's long-prompt tier) with the date they were read and the source URL. `costlab/backends/local.py` talks to the local server and maps its numbers onto Anthropic's billing lines: tokens served from the local prefix cache are priced as cache reads, the uncached part of a declared prefix as a cache write, other prompt tokens as input and generated tokens as output. `costlab/backends/simulated.py` prices sessions under a 5-minute or 1-hour cache TTL with no model at all.
+
+Read these outputs for what they are. A local-model figure is a measurement on a small open model with its own tokenizer, priced as if Anthropic had billed those tokens; a simulated figure is arithmetic. Neither is an Anthropic invoice measurement.
+
+To run the local-model mode:
+
+```bash
+# download a llama.cpp release build (llama-*-bin-ubuntu-x64.tar.gz) and the model file
+curl -L -o qwen2.5-1.5b-instruct-q4_k_m.gguf \
+  https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf
+./llama-server -m qwen2.5-1.5b-instruct-q4_k_m.gguf --host 127.0.0.1 --port 8088 -t 4 -c 4096 --parallel 1
+python3 scripts/local_prefix_cache_lab.py --priced-as claude-haiku-4-5
+```
+
+Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs nothing: `python3 scripts/sim_cache_gap_economics.py`.
 
 ## Recorded outputs
 

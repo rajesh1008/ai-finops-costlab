@@ -1,0 +1,127 @@
+{
+  "mode": "local-model",
+  "priced_as": "claude-haiku-4-5",
+  "pricing_date": "2026-11-16",
+  "pricing_source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+  "note": "Token counts, latency and prefix-cache hits measured on a small open model run locally; dollars calculated from published Anthropic list prices. Not an Anthropic invoice measurement.",
+  "local_model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "lab": "prefix-cache reuse and eviction",
+  "run_date": "2026-11-16",
+  "mapping": "local cached tokens -> cache read; uncached prefix -> 5m cache write; rest -> input; generated -> output",
+  "calls": [
+    {
+      "call": 1,
+      "what": "policy prefix + question",
+      "text": " The budget owner owns the request's cost",
+      "prompt_tokens": 467,
+      "cached_tokens": 0,
+      "evaluated_tokens": 467,
+      "output_tokens": 8,
+      "prompt_ms": 5923.156,
+      "gen_ms": 2369.512,
+      "wall_ms": 8311.54252199849,
+      "priced": {
+        "input": 1.1e-05,
+        "cache_write": 0.00057,
+        "cache_read": 0.0,
+        "output": 4e-05,
+        "total": 0.000621
+      }
+    },
+    {
+      "call": 2,
+      "what": "policy prefix + question",
+      "text": " Requests above the daily cap for the feature",
+      "prompt_tokens": 467,
+      "cached_tokens": 458,
+      "evaluated_tokens": 9,
+      "output_tokens": 8,
+      "prompt_ms": 511.053,
+      "gen_ms": 2603.793,
+      "wall_ms": 3124.926417000097,
+      "priced": {
+        "input": 9e-06,
+        "cache_write": 0.0,
+        "cache_read": 4.58e-05,
+        "output": 4e-05,
+        "total": 9.48e-05
+      }
+    },
+    {
+      "call": 3,
+      "what": "policy prefix + question",
+      "text": " Every request to a hosted model must carry",
+      "prompt_tokens": 465,
+      "cached_tokens": 458,
+      "evaluated_tokens": 7,
+      "output_tokens": 8,
+      "prompt_ms": 409.09,
+      "gen_ms": 2021.899,
+      "wall_ms": 2433.1231969990768,
+      "priced": {
+        "input": 7e-06,
+        "cache_write": 0.0,
+        "cache_read": 4.58e-05,
+        "output": 4e-05,
+        "total": 9.28e-05
+      }
+    },
+    {
+      "call": 4,
+      "what": "unrelated prompt (slot test)",
+      "text": "Autumn's gentle rain,\nOver the",
+      "prompt_tokens": 17,
+      "cached_tokens": 16,
+      "evaluated_tokens": 1,
+      "output_tokens": 8,
+      "prompt_ms": 340.562,
+      "gen_ms": 1891.942,
+      "wall_ms": 2268.9988349993655,
+      "priced": {
+        "input": 1.7e-05,
+        "cache_write": 0.0,
+        "cache_read": 0.0,
+        "output": 4e-05,
+        "total": 5.7e-05
+      }
+    },
+    {
+      "call": 5,
+      "what": "policy prefix + question",
+      "text": " Yes, batch processing is used to handle",
+      "prompt_tokens": 465,
+      "cached_tokens": 458,
+      "evaluated_tokens": 7,
+      "output_tokens": 8,
+      "prompt_ms": 564.719,
+      "gen_ms": 2161.8,
+      "wall_ms": 2737.904292996973,
+      "priced": {
+        "input": 7e-06,
+        "cache_write": 0.0,
+        "cache_read": 4.58e-05,
+        "output": 4e-05,
+        "total": 9.28e-05
+      }
+    },
+    {
+      "call": 6,
+      "what": "policy prefix + question",
+      "text": " Rule 3: every request to a",
+      "prompt_tokens": 466,
+      "cached_tokens": 458,
+      "evaluated_tokens": 8,
+      "output_tokens": 8,
+      "prompt_ms": 551.322,
+      "gen_ms": 2679.768,
+      "wall_ms": 3233.2214409980224,
+      "priced": {
+        "input": 8e-06,
+        "cache_write": 0.0,
+        "cache_read": 4.58e-05,
+        "output": 4e-05,
+        "total": 9.38e-05
+      }
+    }
+  ]
+}
