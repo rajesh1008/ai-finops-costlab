@@ -84,11 +84,11 @@ The table lists the package modules and scripts each chapter refers to. Tests fo
 | 15 | Pricing Agents | shared modules only | `ch44_run_sims.py`, `pricing_outcomes.py` |
 | 16 | The Autonomy Decision as a Cost Decision | shared modules only | `ch44_run_sims.py`, `rule_first_lab.py`, `rule_first_summary.py`, `triage_breakeven.py`, `triage_rules_vs_llm.py` |
 | 17 | Routing and Cascades | `cascade.py`, `cascade_hard.py` | `billed_output_lab.py`, `cascade_hard_lab.py`, `cascade_policies.py`, `ch48_run_sims2.py`, `confidence_cascade_lab.py` |
-| 18 | Caching | `cachelab.py` | `cache_economics.py`, `cache_floor_repeats_lab.py`, `cache_health.py`, `cache_hierarchy_gap_lab.py`, `cache_hierarchy_lab.py`, `cache_hierarchy_sizes_lab.py`, `cache_layout_lab.py`, `cache_min_prefix_lab.py`, `cache_pause_lab.py`, `cache_stagger_lab.py`, `cache_substagger_lab.py`, `cache_longreply_lab.py`, `cache_write_burst.py`, `history_cache_lab.py`, `semantic_cache_false_hits.py` |
+| 18 | Caching | `cachelab.py` | `cache_economics.py`, `cache_floor_repeats_lab.py`, `cache_health.py`, `cache_hierarchy_gap_lab.py`, `cache_hierarchy_lab.py`, `cache_hierarchy_sizes_lab.py`, `cache_layout_lab.py`, `cache_min_prefix_lab.py`, `cache_bigprefix_lab.py`, `cache_pause_lab.py`, `cache_stagger_lab.py`, `cache_substagger_lab.py`, `cache_longreply_lab.py`, `cache_write_burst.py`, `history_cache_lab.py`, `semantic_cache_false_hits.py` |
 | 19 | Context Diet | `context.py`, `prices.py` | `compaction_cache_cost.py`, `compaction_lab.py`, `context_lab_summary.py`, `exchange_rate_toy.py`, `output_constraint_lab.py`, `prompt_diet_lab.py`, `tool_index_lab.py`, `tool_output_lab.py` |
 | 20 | Batch, Async and Serving Modes | `serving.py` | `batch_scale_lab.py`, `batch_scale_summary.py`, `batch_summary.py`, `serving_economics.py` |
 | 21 | Small Models, Fine-Tuning and Distillation | `smallmodels.py` | `small_model_lab.py`, `small_model_summary.py` |
-| 22 | Retries, Loops and Waste | `retries.py` | `contamination_lab.py`, `contamination_summary.py`, `truncation_retry_lab.py` |
+| 22 | Retries, Loops and Waste | `retries.py` | `contamination_lab.py`, `contamination_summary.py`, `short_reply_lab.py`, `truncation_retry_lab.py` |
 | 23 | The Retrieval Bill | `retrieval.py` | `reindex_lab.py`, `retrieval_k_summary.py`, `selector_answerer_lab.py` |
 | 24 | What an Agent Run Costs and Why It Is Not a Call | `prices.py` | `agent_run_summary.py`, `run_forecast_replay.py` |
 | 25 | Multi-Agent Cost | shared modules only | `cache_race_lab.py`, `ch36_run_sims.py`, `ch44_run_sims.py`, `ch48_run_sims.py`, `fanout_lab.py`, `multi_agent_lab.py`, `multi_agent_summary.py` |
