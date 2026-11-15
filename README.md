@@ -27,7 +27,7 @@ The `dev` extra installs pytest plus numpy, scipy, DuckDB and pandas, which some
 python3 -m pytest
 ```
 
-On 16 November 2026 the suite ran 426 tests, all passing, with no API key set.
+On 16 November 2026 the suite ran 445 tests, all passing, with no API key set.
 
 ## Run the labs with your own key
 
@@ -42,6 +42,29 @@ python3 scripts/cache_experiment.py         # example: the Chapter 18 cache writ
 Scripts that call the API stop with `ANTHROPIC_API_KEY is not set` when the variable is missing. Most labs make tens to a few hundred short calls on Haiku-class models; check the docstring at the top of each script for the call count before you run it, and remember that you pay for those calls.
 
 Rerunning a lab writes its output over the recorded file in `runs/`. Use `git diff runs/` to compare your results with the book's, and `git checkout runs/` to restore the originals.
+
+## Real-API lab mode on xAI's Grok API (`xai-api`)
+
+From 16 November 2026 new labs prefer real calls to xAI's Grok API over the keyless modes. `costlab/backends/xai.py` calls xAI's OpenAI-compatible Chat Completions endpoint (`https://api.x.ai/v1/chat/completions`) and records, for every call, what the response reports: prompt tokens, cached prompt tokens (`usage.prompt_tokens_details.cached_tokens`), completion tokens, reasoning tokens, xAI's own billed cost (`cost_in_usd_ticks`, 1 tick = 10^-10 USD) and wall-clock latency. It also prices the call itself at xAI's list prices (dated 16 November 2026, from https://docs.x.ai/docs/models and `GET /v1/models`); on the runs so far the two agree to the tick.
+
+| Model | Input | Cached input | Output | Long-context rate (prompt of 200k tokens or more) |
+|---|---:|---:|---:|---|
+| `grok-4.20-0309-non-reasoning` (lab default) | $1.25 | $0.20 | $2.50 | $2.50 / $0.40 / $5.00 |
+| `grok-4.3` | $1.25 | $0.20 | $2.50 | $2.50 / $0.40 / $5.00 |
+| `grok-4.7` | $2.00 | $0.50 | $6.00 | $4.00 / $1.00 / $12.00 |
+
+USD per million tokens. The `/v1/models` endpoint gives the same prices as integers in units of 10^-10 USD per token (12500 = $1.25 per million).
+
+Outputs go to `runs/xai/` and start with a `mode: xai-api` line naming the model and the pricing date and source. A figure from this mode is a measurement on xAI's Grok API at xAI's prices. It is not a Claude measurement. Where an output has an "as-if Anthropic" column, that column re-prices the same xAI token counts at Anthropic list prices from `costlab/price_table.py` (cached tokens as cache reads). It is a comparison calculation only, because the tokenizer and model are different.
+
+```bash
+export XAI_API_KEY=your-xai-key-here
+python3 scripts/xai_prompt_cache_lab.py      # 19 calls, $0.046 on the 16 November run, about 20 minutes because of the gaps
+```
+
+xAI caches matching prompt prefixes automatically. Setting the `x-grok-conv-id` header (the backend's `conv_id=` argument) sends calls to the same server, which makes a hit likelier but never certain. If the xAI call fails, labs fall back to the keyless modes below.
+
+Before any commit, run `python3 scripts/secret_scan.py . --staged`. It looks for Anthropic and xAI keys, GitHub tokens and box-local paths.
 
 ## Keyless lab modes (no API credit needed)
 
@@ -71,6 +94,8 @@ Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs not
 ## Recorded outputs
 
 The files in `runs/` are the outputs printed in the book. The lab outputs were recorded from real Anthropic API calls made between 9 and 15 November 2026 (Asia/Calcutta time), mainly on `claude-haiku-4-5-20251001` and `claude-haiku-5-5`, with a few calls on `claude-sonnet-4-6`. Each file name carries its run date, and each script's docstring names the model it used. Simulation scripts (names ending in `_sim.py` and the `chNN_run_sims*.py` files) make no API calls; their outputs are deterministic and seeded.
+
+Files in `runs/xai/` were recorded from real calls to xAI's Grok API on 16 November 2026 and priced at xAI's list prices; they are not Anthropic measurements. The first, `prompt-cache-gaps-2026-11-16.txt`, shows warm calls reusing 3,584 of about 3,695 prompt tokens at $0.00089 against $0.00450 for a cold call, one miss at a 30-second gap while a 10-minute gap still hit, and no reuse at all when the varying question comes before the shared text.
 
 Two files, `runs/api-blocked-2026-11-10.txt` and `runs/api-blocked-2026-11-11.txt`, record the periods when the account had no API credit. Labs that could not run were left unrun; no output was invented to fill the gap.
 

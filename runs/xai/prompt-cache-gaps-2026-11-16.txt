@@ -1,0 +1,29 @@
+mode: xai-api | model: grok-4.20-0309-non-reasoning | priced at xAI list prices dated 2026-11-16 (https://docs.x.ai/docs/models (and GET https://api.x.ai/v1/models))
+Measured on xAI's Grok API (real calls); dollars at xAI's published list prices. Not a Claude call and not an Anthropic invoice figure.
+as-if column: same tokens at claude-haiku-4-5 Anthropic list prices dated 2026-11-16 (a calculation, not a measurement)
+
+arm call conv    layout  gap_s prompt cached  hit%     ms    xAI USD  as-if USD
+  B    1   no prefix1st      -   3695    128   3.5    401   0.004502   0.003615
+  B    2   no prefix1st      -   3695    128   3.5    410   0.004519   0.003650
+  B    3   no prefix1st      -   3693   3584  97.0    604   0.000893   0.000547
+  B    4   no prefix1st      -   3694   3584  97.0    393   0.000894   0.000548
+  B    5   no prefix1st      -   3694   3584  97.0    420   0.000894   0.000548
+  B    6   no prefix1st      -   3694   3584  97.0    396   0.000894   0.000548
+  C    1  yes   q-first      -   3696    128   3.5   1078   0.004526   0.003661
+  C    2  yes   q-first      -   3696    128   3.5    421   0.004523   0.003656
+  C    3  yes   q-first      -   3694    128   3.5    489   0.004516   0.003644
+  C    4  yes   q-first      -   3695    128   3.5    992   0.004524   0.003660
+  A    1  yes prefix1st      -   3697    128   3.5    346   0.004502   0.003612
+  A    2  yes prefix1st      -   3697   3584  96.9    497   0.000893   0.000541
+  A    3  yes prefix1st    5.0   3695   3584  97.0    729   0.000886   0.000529
+  A    4  yes prefix1st   15.0   3696   3584  97.0    395   0.000897   0.000550
+  A    5  yes prefix1st   30.0   3696    128   3.5    745   0.004526   0.003661
+  A    6  yes prefix1st   60.0   3696   3584  97.0    741   0.000897   0.000550
+  A    7  yes prefix1st  120.0   3694   3584  97.0    543   0.000872   0.000503
+  A    8  yes prefix1st  300.0   3695   3584  97.0    692   0.000888   0.000534
+  A    9  yes prefix1st  600.0   3697   3584  96.9    517   0.000876   0.000506
+
+summary:
+  A: {"calls": 9, "prompt_tokens": 33263, "cached_tokens": 25344, "cache_hit_rate_all": 0.7619, "cache_hit_rate_after_first": 0.8529, "usd_xai_total": 0.015235, "usd_xai_reported_total": 0.015235, "usd_as_if_anthropic_total": 0.010988, "usd_first_call": 0.004502, "median_ms": 543.0647380017035}
+  B: {"calls": 6, "prompt_tokens": 22165, "cached_tokens": 14592, "cache_hit_rate_all": 0.6583, "cache_hit_rate_after_first": 0.7831, "usd_xai_total": 0.012597, "usd_xai_reported_total": 0.012597, "usd_as_if_anthropic_total": 0.009457, "usd_first_call": 0.004502, "median_ms": 410.334584001248}
+  C: {"calls": 4, "prompt_tokens": 14781, "cached_tokens": 512, "cache_hit_rate_all": 0.0346, "cache_hit_rate_after_first": 0.0346, "usd_xai_total": 0.018089, "usd_xai_reported_total": 0.018089, "usd_as_if_anthropic_total": 0.01462, "usd_first_call": 0.004526, "median_ms": 991.8657749985869}
