@@ -1,0 +1,45 @@
+mode: xai-api | priced at xAI list prices dated 2026-11-16 (https://docs.x.ai/docs/models (and GET https://api.x.ai/v1/models))
+Measured on xAI's Grok API (real calls); dollars at xAI's published list prices. Not a Claude call and not an Anthropic invoice figure.
+
+model                            task  ok        got     want  compl reason     ms       USD
+plain-direct                        1   N      48.08    49.66      6      0    435  0.000072
+plain-direct                        2   N      38640    37920      5      0    426  0.000173
+plain-direct                        3   N    0.04500    0.043      7      0    484  0.000087
+plain-direct                        4   N       -4.5      0.2      6      0    489  0.000191
+plain-direct                        5   y      0.004    0.004      6      0    426  0.000191
+plain-direct                        6   y        0.6      0.6      6      0    414  0.000174
+plain-direct                        7   y       1000     1000      5      0    455  0.000148
+plain-direct                        8   N      1.248     1.24      6      0    407  0.000181
+plain-direct                        9   N    Tuesday   Sunday      3      0    498  0.000167
+plain-direct                       10   y        BUG      BUG      3      0    429  0.000163
+plain-direct                       11   y    BILLING  BILLING      4      0    600  0.000162
+plain-direct                       12   N         10       11      4      0    445  0.000183
+plain-written-working               1   y      49.66    49.66    127      0   1200  0.000389
+plain-written-working               2   y      37920    37920     68      0    867  0.000344
+plain-written-working               3   y    0.04300    0.043    107      0   1171  0.000486
+plain-written-working               4   y       +0.2      0.2     72      0    913  0.000235
+plain-written-working               5   y      0.004    0.004     96      0    918  0.000295
+plain-written-working               6   y        0.6      0.6     32      0    707  0.000253
+plain-written-working               7   y       1000     1000     45      0    616  0.000262
+plain-written-working               8   y      1.240     1.24     91      0    980  0.000407
+plain-written-working               9   y     Sunday   Sunday     42      0    690  0.000278
+plain-written-working              10   y        BUG      BUG     66      0   1242  0.000334
+plain-written-working              11   y    BILLING  BILLING     30      0    558  0.000241
+plain-written-working              12   N         10       11    206      0   1748  0.000567
+reasoning-direct                    1   y      49.66    49.66      6    937   5993  0.002417
+reasoning-direct                    2   y      37920    37920     87   1061   8079  0.003033
+reasoning-direct                    3   y    0.04300    0.043    209   1048   8857  0.003349
+reasoning-direct                    4   y       +0.2      0.2    146    843   6408  0.002651
+reasoning-direct                    5   y      0.004    0.004      6    471   3676  0.001371
+reasoning-direct                    6   y        0.6      0.6    120    719   5375  0.002259
+reasoning-direct                    7   y       1000     1000     36    584   4378  0.001688
+reasoning-direct                    8   y      1.240     1.24    317   1564  14287  0.004871
+reasoning-direct                    9   y     Sunday   Sunday    129    692   5812  0.002214
+reasoning-direct                   10   y        BUG      BUG     37    472   3900  0.001431
+reasoning-direct                   11   y    BILLING  BILLING      4    144   1576  0.000524
+reasoning-direct                   12   y         11       11    178   1342  10979  0.003976
+
+summary:
+  plain-direct: {"tasks": 12, "correct": 5, "completion_tokens": 61, "reasoning_tokens": 0, "median_completion_tokens": 6, "max_completion_tokens": 7, "usd_xai_total": 0.001892, "median_ms": 444.72441600373713}
+  plain-written-working: {"tasks": 12, "correct": 11, "completion_tokens": 982, "reasoning_tokens": 0, "median_completion_tokens": 72, "max_completion_tokens": 206, "usd_xai_total": 0.004091, "median_ms": 918.3088979989407}
+  reasoning-direct: {"tasks": 12, "correct": 12, "completion_tokens": 1275, "reasoning_tokens": 9877, "median_completion_tokens": 120, "max_completion_tokens": 317, "usd_xai_total": 0.029784, "median_ms": 5993.102079999517}

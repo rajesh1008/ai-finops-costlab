@@ -60,6 +60,7 @@ Outputs go to `runs/xai/` and start with a `mode: xai-api` line naming the model
 ```bash
 export XAI_API_KEY=your-xai-key-here
 python3 scripts/xai_prompt_cache_lab.py      # 19 calls, $0.046 on the 16 November run, about 20 minutes because of the gaps
+python3 scripts/xai_reasoning_lab.py         # 36 calls, about $0.036 on the 16 November run: direct answer, written working and hidden reasoning on 12 tasks
 ```
 
 xAI caches matching prompt prefixes automatically. Setting the `x-grok-conv-id` header (the backend's `conv_id=` argument) sends calls to the same server, which makes a hit likelier but never certain. If the xAI call fails, labs fall back to the keyless modes below.
@@ -95,7 +96,7 @@ Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs not
 
 The files in `runs/` are the outputs printed in the book. The lab outputs were recorded from real Anthropic API calls made between 9 and 15 November 2026 (Asia/Calcutta time), mainly on `claude-haiku-4-5-20251001` and `claude-haiku-5-5`, with a few calls on `claude-sonnet-4-6`. Each file name carries its run date, and each script's docstring names the model it used. Simulation scripts (names ending in `_sim.py` and the `chNN_run_sims*.py` files) make no API calls; their outputs are deterministic and seeded.
 
-Files in `runs/xai/` were recorded from real calls to xAI's Grok API on 16 November 2026 and priced at xAI's list prices; they are not Anthropic measurements. The first, `prompt-cache-gaps-2026-11-16.txt`, shows warm calls reusing 3,584 of about 3,695 prompt tokens at $0.00089 against $0.00450 for a cold call, one miss at a 30-second gap while a 10-minute gap still hit, and no reuse at all when the varying question comes before the shared text.
+Files in `runs/xai/` were recorded from real calls to xAI's Grok API on 16 November 2026 and priced at xAI's list prices; they are not Anthropic measurements. The first, `prompt-cache-gaps-2026-11-16.txt`, shows warm calls reusing 3,584 of about 3,695 prompt tokens at $0.00089 against $0.00450 for a cold call, one miss at a 30-second gap while a 10-minute gap still hit, and no reuse at all when the varying question comes before the shared text. The second, `thinking-three-ways-2026-11-16.txt`, runs 12 tasks three ways: the non-reasoning model answering directly (5 of 12 right, $0.0019), the same model writing short working (11 of 12, $0.0041) and the reasoning model (12 of 12, $0.0298, of which 9,877 output tokens were hidden reasoning billed at the output rate).
 
 Two files, `runs/api-blocked-2026-11-10.txt` and `runs/api-blocked-2026-11-11.txt`, record the periods when the account had no API credit. Labs that could not run were left unrun; no output was invented to fill the gap.
 
@@ -133,8 +134,8 @@ The table lists the package modules and scripts each chapter refers to. Tests fo
 | 14 | Benchmarking Spend | shared modules only | `peer_rank_sim.py`, `price_decay_migration.py` |
 | 15 | Pricing Agents | shared modules only | `ch44_run_sims.py`, `pricing_outcomes.py` |
 | 16 | The Autonomy Decision as a Cost Decision | shared modules only | `ch44_run_sims.py`, `rule_first_lab.py`, `rule_first_summary.py`, `triage_breakeven.py`, `triage_rules_vs_llm.py` |
-| 17 | Routing and Cascades | `cascade.py`, `cascade_hard.py` | `billed_output_lab.py`, `cascade_hard_lab.py`, `cascade_policies.py`, `ch48_run_sims2.py`, `confidence_cascade_lab.py` |
-| 18 | Caching | `cachelab.py` | `cache_economics.py`, `cache_floor_repeats_lab.py`, `cache_health.py`, `cache_hierarchy_gap_lab.py`, `cache_hierarchy_lab.py`, `cache_hierarchy_sizes_lab.py`, `cache_layout_lab.py`, `cache_min_prefix_lab.py`, `cache_bigprefix_lab.py`, `ttl_bigprefix_lab.py`, `cache_pause_lab.py`, `cache_stagger_lab.py`, `cache_substagger_lab.py`, `cache_longreply_lab.py`, `cache_write_burst.py`, `history_cache_lab.py`, `semantic_cache_false_hits.py` |
+| 17 | Routing and Cascades | `cascade.py`, `cascade_hard.py` | `billed_output_lab.py`, `xai_reasoning_lab.py`, `cascade_hard_lab.py`, `cascade_policies.py`, `ch48_run_sims2.py`, `confidence_cascade_lab.py` |
+| 18 | Caching | `cachelab.py` | `cache_economics.py`, `cache_floor_repeats_lab.py`, `cache_health.py`, `cache_hierarchy_gap_lab.py`, `cache_hierarchy_lab.py`, `cache_hierarchy_sizes_lab.py`, `cache_layout_lab.py`, `cache_min_prefix_lab.py`, `cache_bigprefix_lab.py`, `ttl_bigprefix_lab.py`, `cache_pause_lab.py`, `cache_stagger_lab.py`, `cache_substagger_lab.py`, `cache_longreply_lab.py`, `cache_write_burst.py`, `history_cache_lab.py`, `semantic_cache_false_hits.py`, `xai_prompt_cache_lab.py` |
 | 19 | Context Diet | `context.py`, `prices.py` | `compaction_cache_cost.py`, `compaction_lab.py`, `context_lab_summary.py`, `exchange_rate_toy.py`, `output_constraint_lab.py`, `prompt_diet_lab.py`, `tool_index_lab.py`, `tool_output_lab.py` |
 | 20 | Batch, Async and Serving Modes | `serving.py` | `batch_scale_lab.py`, `batch_scale_summary.py`, `batch_summary.py`, `serving_economics.py` |
 | 21 | Small Models, Fine-Tuning and Distillation | `smallmodels.py` | `small_model_lab.py`, `small_model_summary.py` |

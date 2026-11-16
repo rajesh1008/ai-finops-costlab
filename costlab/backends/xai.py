@@ -200,7 +200,7 @@ class XaiBackend:
         wall = (time.perf_counter() - t0) * 1000
         c = parse_usage(resp)
         cost = xai_cost_usd(self.model, prompt_tokens=c["prompt_tokens"], cached_tokens=c["cached_tokens"],
-                            completion_tokens=c["completion_tokens"], price=self.price)
+                            completion_tokens=c["completion_tokens"] + c["reasoning_tokens"], price=self.price)
         alt = as_if_anthropic(c, self.as_if) if self.as_if else None
         return XaiResult(wall_ms=wall, cost_xai=cost, cost_as_if_anthropic=alt, **c)
 
