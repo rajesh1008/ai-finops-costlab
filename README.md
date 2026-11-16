@@ -60,6 +60,7 @@ Outputs go to `runs/xai/` and start with a `mode: xai-api` line naming the model
 ```bash
 export XAI_API_KEY=your-xai-key-here
 python3 scripts/xai_prompt_cache_lab.py      # 19 calls, $0.046 on the 16 November run, about 20 minutes because of the gaps
+python3 scripts/xai_output_cap_lab.py         # 40 calls, about $0.039 on the 16 November run: four max_tokens caps on 10 open questions; only the 1,200 cap finished any reply
 python3 scripts/xai_reasoning_lab.py         # 36 calls, about $0.036 on the 16 November run: direct answer, written working and hidden reasoning on 12 tasks
 ```
 
@@ -96,7 +97,7 @@ Set `COSTLAB_LOCAL_URL` if the server is elsewhere. The simulated mode needs not
 
 The files in `runs/` are the outputs printed in the book. The lab outputs were recorded from real Anthropic API calls made between 9 and 15 November 2026 (Asia/Calcutta time), mainly on `claude-haiku-4-5-20251001` and `claude-haiku-5-5`, with a few calls on `claude-sonnet-4-6`. Each file name carries its run date, and each script's docstring names the model it used. Simulation scripts (names ending in `_sim.py` and the `chNN_run_sims*.py` files) make no API calls; their outputs are deterministic and seeded.
 
-Files in `runs/xai/` were recorded from real calls to xAI's Grok API on 16 November 2026 and priced at xAI's list prices; they are not Anthropic measurements. The first, `prompt-cache-gaps-2026-11-16.txt`, shows warm calls reusing 3,584 of about 3,695 prompt tokens at $0.00089 against $0.00450 for a cold call, one miss at a 30-second gap while a 10-minute gap still hit, and no reuse at all when the varying question comes before the shared text. The second, `thinking-three-ways-2026-11-16.txt`, runs 12 tasks three ways: the non-reasoning model answering directly (5 of 12 right, $0.0019), the same model writing short working (11 of 12, $0.0041) and the reasoning model (12 of 12, $0.0298, of which 9,877 output tokens were hidden reasoning billed at the output rate).
+Files in `runs/xai/` were recorded from real calls to xAI's Grok API on 16 November 2026 and priced at xAI's list prices; they are not Anthropic measurements. The first, `prompt-cache-gaps-2026-11-16.txt`, shows warm calls reusing 3,584 of about 3,695 prompt tokens at $0.00089 against $0.00450 for a cold call, one miss at a 30-second gap while a 10-minute gap still hit, and no reuse at all when the varying question comes before the shared text. The second, `thinking-three-ways-2026-11-16.txt`, runs 12 tasks three ways: the non-reasoning model answering directly (5 of 12 right, $0.0019), the same model writing short working (11 of 12, $0.0041) and the reasoning model (12 of 12, $0.0298, of which 9,877 output tokens were hidden reasoning billed at the output rate). The third, `output-caps-2026-11-16.txt`, sends 10 open questions with `max_tokens` of 60, 150, 400 and 1,200: caps up to 400 cut every reply (finish reason `length`, $0.0111 billed at the 400 cap for nothing finished), while at 1,200 all ten finished at a mean of 782 tokens and $0.0207.
 
 Two files, `runs/api-blocked-2026-11-10.txt` and `runs/api-blocked-2026-11-11.txt`, record the periods when the account had no API credit. Labs that could not run were left unrun; no output was invented to fill the gap.
 
@@ -139,7 +140,7 @@ The table lists the package modules and scripts each chapter refers to. Tests fo
 | 19 | Context Diet | `context.py`, `prices.py` | `compaction_cache_cost.py`, `compaction_lab.py`, `context_lab_summary.py`, `exchange_rate_toy.py`, `output_constraint_lab.py`, `prompt_diet_lab.py`, `tool_index_lab.py`, `tool_output_lab.py` |
 | 20 | Batch, Async and Serving Modes | `serving.py` | `batch_scale_lab.py`, `batch_scale_summary.py`, `batch_summary.py`, `serving_economics.py` |
 | 21 | Small Models, Fine-Tuning and Distillation | `smallmodels.py` | `small_model_lab.py`, `small_model_summary.py` |
-| 22 | Retries, Loops and Waste | `retries.py` | `contamination_lab.py`, `contamination_summary.py`, `short_reply_lab.py`, `truncation_retry_lab.py` |
+| 22 | Retries, Loops and Waste | `retries.py` | `contamination_lab.py`, `contamination_summary.py`, `short_reply_lab.py`, `truncation_retry_lab.py`, `xai_output_cap_lab.py` |
 | 23 | The Retrieval Bill | `retrieval.py` | `reindex_lab.py`, `retrieval_k_summary.py`, `selector_answerer_lab.py` |
 | 24 | What an Agent Run Costs and Why It Is Not a Call | `prices.py` | `agent_run_summary.py`, `run_forecast_replay.py` |
 | 25 | Multi-Agent Cost | shared modules only | `cache_race_lab.py`, `ch36_run_sims.py`, `ch44_run_sims.py`, `ch48_run_sims.py`, `fanout_lab.py`, `multi_agent_lab.py`, `multi_agent_summary.py` |
