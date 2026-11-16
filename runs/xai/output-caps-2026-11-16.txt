@@ -1,0 +1,7 @@
+mode: xai-api | priced at xAI list prices dated 2026-11-16 (https://docs.x.ai/docs/models (and GET https://api.x.ai/v1/models))
+Measured on xAI's Grok API (real calls); dollars at xAI's published list prices. Not a Claude call and not an Anthropic invoice figure.
+
+cap 60: {"calls": 10, "complete": 0, "cut": 10, "completion_tokens": 600, "usd_xai_total": 0.002613, "usd_spent_on_cut_replies": 0.002613, "median_ms": 1008.5857560043223}
+cap 150: {"calls": 10, "complete": 0, "cut": 10, "completion_tokens": 1500, "usd_xai_total": 0.004864, "usd_spent_on_cut_replies": 0.004864, "median_ms": 1806.2873099988792}
+cap 400: {"calls": 10, "complete": 0, "cut": 10, "completion_tokens": 4000, "usd_xai_total": 0.011114, "usd_spent_on_cut_replies": 0.011114, "median_ms": 3946.6640460013878}
+cap 1200: {"calls": 10, "complete": 10, "cut": 0, "completion_tokens": 7818, "usd_xai_total": 0.020658, "usd_spent_on_cut_replies": 0, "median_ms": 6916.408468001464}
